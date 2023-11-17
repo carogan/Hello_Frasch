@@ -71,3 +71,17 @@
   - Java or Kotlin for plugin
   - YouTrack integration REST API
   - OpenAI <--> details in Discord: send mail to get key
+
+## Munich
+
+- e government, open government, smart city
+- mobility, density of population, climate change (tackle all 3?)
+- create somehting helpful for city or citizens to cope with extrmee weather
+- use (open) data 
+- solution is smart, new, innovative, attractive and useful
+- check for already existing idea
+- prototype website/ click dummy (live demo, visualize usability)
+- add value every day
+- prices: ass and "City Hero Kit"-> "cool" giveaway
+
+
