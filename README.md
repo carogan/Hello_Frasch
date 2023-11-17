@@ -46,3 +46,28 @@
 - MVP: xx <--> emphasize next steps in demo
 - mocked recipes in dc
 - registration/login/setup preferences *not part of the challenge*
+
+## JetBrains
+
+- format free (not necessarily plugin for IDEs, can be standalone)
+- constraints:
+  - live demo sunday
+  - ideas on how to extend
+  - AI-based features
+  - nice-to-have integration with jetbrains tools
+- ideas: :lion:
+  - how to improve developer life by getting rid of repetitive tasks?
+  - learn new tech?
+  - motivate to explore new things?
+  - feeling/well-being of developers?
+  - information flows in org? closer collaboration?
+  - knowledge sharing? connect knowledge sources and code? (<--> keep up-to-date?) motivate people to share knowledge?
+  - integrate separate data sources (VCS history, issues, ...) into coding process
+  - planning process (keep eye on bigger picture of sys)
+
+- tech stack
+  - IntelliJ platform plugin (works for all IDEs)
+  - https://github.com/JetBrains/intellij-platform-plugin-template (**working template**)
+  - Java or Kotlin for plugin
+  - YouTrack integration REST API
+  - OpenAI <--> details in Discord: send mail to get key
