@@ -2,9 +2,9 @@
 
 ## Hubert Burda Media
 
-Wenige Leute\\
-video traffic most important but very difficult to produce, timeconsuming and expensive\\
-Their tool:\\
+Wenige Leute\
+video traffic most important but very difficult to produce, timeconsuming and expensive\
+Their tool:\
 put in headline, select presenter(avatar), select brands for which video should be produced\\
 put in main text(summarized), voice is also text to speech\\ 
 select images and videos to be presented in the background\\
@@ -20,3 +20,6 @@ already pointed other teams to strategy 1 source- 10 videos\\
 First price 300€ coupon cyberport\\
 Second 150€\\
 
+## Cisco
+
+What does cisco: 
