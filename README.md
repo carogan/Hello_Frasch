@@ -43,6 +43,7 @@
 - focus on enjoyable UX, customer experience
 - data: focus create recipes/payloads - can provide dummy-data -> discord
 - ML, Text2Speech, interactive/assistant, voice commands??
+- tiktok style recipe videos(food porn)
 - MVP: xx <--> emphasize next steps in demo
 - mocked recipes in dc
 - registration/login/setup preferences *not part of the challenge*
@@ -83,5 +84,3 @@
 - prototype website/ click dummy (live demo, visualize usability)
 - add value every day
 - prices: ass and "City Hero Kit"-> "cool" giveaway
-
-
