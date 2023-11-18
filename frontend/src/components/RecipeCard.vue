@@ -90,21 +90,26 @@ export default {
 }
 
 .emoji-container {
-  position: absolute;
-  top: 5px; /* Adjust the top position as needed */
-  right: 5px; /* Adjust the right position as needed */
-  padding: 5px; /* Adjust padding as needed */
-  z-index: 2; /* Set a z-index value higher than the image */
-}
-.emoji-container img {
     position: absolute;
-    top: -6px; /* dont change */
-    right: 7px; /* dont change */
-    max-width: 500%; /* Ensure the animated emoji fits within the container */
-    max-height: 500%; /* Ensure the animated emoji fits within the container */
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    padding: 5px; /* Adjust padding as needed */
+    z-index: 2; /* Set a z-index value higher than the image */
+    width: 50px; /* Set a fixed width for the emoji container */
+    height: 50px; /* Set a fixed height for the emoji container */
     border-radius: 10%;
     background-color: #85e459;
     object-fit: contain;
+}
+
+.emoji-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Set a maximum width for the image */
+    max-height: 80%; /* Set a maximum height for the image */
+
 }
 
 @media (max-width: 768px) {
