@@ -6,24 +6,18 @@ import re
 
 openai.api_key = OPENAI_API_KEY
 content = None
-with open('backend/mockedRecipes.js','r') as f:
-   content = f.readlines()
+with open('backend/mockedRecipes.json','r') as f:
+   content = json.load(f)
 
 #content = json.load("backend/mockedRecipes.js")
 completion = openai.chat.completions.create(
   model="gpt-4",
   messages=[
     {"role": "system", "content": "Food lover"},
-    {"role": "user", "content": "Replace in this receipe list the ingredient Pfeffer with Jasminreis where it appears and return just the new js file:" + str(content)}
+    {"role": "user", "content": "The user does not like pork, Replace in this receipe all ingredients with pork where they appears with the right amount of a similar ingedrient which is used in another dish of the list (with the exact same title) and return just the new json object thus the response should start with [{\"index\": 1,... and end with}]:" + json.dumps(content)}
   ]
 )
 response = str(completion.choices[0].message.content)
-cs_file = None
-index=response.find("[")
-if index !=-1:
-    cs_file = response[index:] 
-else:
-    raise Exception('Sub string not found!')
-f = open("backend/output.txt", "a")
-f.write(cs_file)
+f = open("backend/output.json", "a")
+f.write(response)
 f.close()
