@@ -21,7 +21,21 @@
           "energy": 2534,
           "calories": 606,
           "carbohydrate": 52.4,
-          "protein": 38.4
+          "protein": 38.4,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
@@ -40,13 +54,16 @@
             "name": "onion",
             "type": "onions",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "230"
           },
           {
             "name": "garlic clove",
             "type": "garlic-cloves",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "60"
+
           },
           {
             "name": "coriander",
@@ -64,13 +81,15 @@
             "name": "lemon",
             "type": "lemon",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "130"
           },
           {
             "name": "carrot",
             "type": "carrot",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "50"
           },
           {
             "name": "chicken broth",
@@ -114,20 +133,36 @@
         "nutrition": {
           "calories": 760,
           "carbohydrate": 81,
-          "protein": 29
+          "protein": 29,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
             "name": "Scallions",
             "type": "scallions",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "30"
           },
           {
             "name": "Lime",
             "type": "lime",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "60"
           },
           {
             "name": "Ground Pork",
@@ -192,7 +227,21 @@
         "nutrition": {
           "calories": 620,
           "carbohydrate": 57,
-          "protein": 33
+          "protein": 33,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
@@ -211,13 +260,15 @@
             "name": "Apple",
             "type": "apple",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "200"
           },
           {
             "name": "Scallions",
             "type": "scallion",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "30"
           },
           {
             "name": "Pork Chops",
@@ -235,7 +286,8 @@
             "name": "Chicken Stock Concentrate",
             "type": "chicken-stock-concentrate",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "9.6"
           },
           {
             "name": "Sour Cream",
@@ -266,14 +318,29 @@
           "nutrition": {
             "calories": 950,
             "carbohydrate": 77,
-            "protein": 33
+            "protein": 33,
+            "Vitamin A": {"value":0,"unit": "mcg"},
+            "Vitamin B6": {"value":0,"unit": "mg"},
+            "Vitamin B9": {"value":0,"unit": "mcg"},
+            "Vitamin B12": {"value":0,"unit": "mcg"},
+            "Vitamin C": {"value":0,"unit": "mg"},
+            "Vitamin D": {"value":0,"unit": "mcg"},
+            "Vitamin E": {"value":0,"unit": "mg"},
+            "Vitamin K": {"value":0,"unit": "mcg"},
+            "Calcium": {"value":0,"unit": "mg"},
+            "Magnesium": {"value":0,"unit": "mg"},
+            "Potassium": {"value":0,"unit": "mg"},
+            "Selenium": {"value":0,"unit": "mcg"},
+            "Zinc": {"value":0,"unit": "mg"},
+            "Iron": {"value":0,"unit": "mg"}
           },
           "ingredients": [
             {
               "name": "Limes",
               "type": "lime",
               "imageLink": "not found",
-              "amount_units": "1"
+              "amount_units": "1",
+              "amount_gram": "60"
             },
             {
               "name": "Cilantro",
@@ -321,7 +388,8 @@
               "name": "Flour Tortillas",
               "type": "flour-tortillas",
               "imageLink": "not found",
-              "amount_units": "6"
+              "amount_units": "6",
+              "amount_gram": "180"
             },
             {
               "name": "Cashews",
@@ -352,14 +420,29 @@
             "nutrition": {
               "calories": 680,
               "carbohydrate": 98,
-              "protein": 18
+              "protein": 18,
+              "Vitamin A": {"value":0,"unit": "mcg"},
+              "Vitamin B6": {"value":0,"unit": "mg"},
+              "Vitamin B9": {"value":0,"unit": "mcg"},
+              "Vitamin B12": {"value":0,"unit": "mcg"},
+              "Vitamin C": {"value":0,"unit": "mg"},
+              "Vitamin D": {"value":0,"unit": "mcg"},
+              "Vitamin E": {"value":0,"unit": "mg"},
+              "Vitamin K": {"value":0,"unit": "mcg"},
+              "Calcium": {"value":0,"unit": "mg"},
+              "Magnesium": {"value":0,"unit": "mg"},
+              "Potassium": {"value":0,"unit": "mg"},
+              "Selenium": {"value":0,"unit": "mcg"},
+              "Zinc": {"value":0,"unit": "mg"},
+              "Iron": {"value":0,"unit": "mg"}
             },
             "ingredients": [
               {
                 "name": "Yellow Onion",
                 "type": "yellow-onion",
                 "imageLink": "not found",
-                "amount_units": "1"
+                "amount_units": "1",
+                "amount_gram": "170"
               },
               {
                 "name": "Carrots",
@@ -371,7 +454,8 @@
                 "name": "Garlic",
                 "type": "garlic",
                 "imageLink": "not found",
-                "amount_units": "1"
+                "amount_units": "1",
+                "amount_gram": "30"
               },
               {
                 "name": "Kale",
@@ -395,7 +479,8 @@
                 "name": "Veggie Stock Concentrate",
                 "type": "veggie-stock-concentrate",
                 "imageLink": "not found",
-                "amount_units": "3"
+                "amount_units": "3",
+                "amount_gram": "9.6"
               },
               {
                 "name": "Israeli Couscous",
@@ -413,7 +498,8 @@
                 "name": "Demi-Baguette",
                 "type": "bread",
                 "imageLink": "not found",
-                "amount_units": "1"
+                "amount_units": "1",
+                "amount_gram": "115"
               },
               {
                 "name": "Parmesan Cheese",
@@ -425,7 +511,7 @@
                 "name": "Chili Flakes",
                 "type": "chili-flakes",
                 "imageLink": "not found",
-                "amount_teaspoon": "1"
+                "amount_tablespoon": "0.2"
               }
             ]
           }
