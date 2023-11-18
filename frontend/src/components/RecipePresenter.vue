@@ -224,7 +224,7 @@ export default {
                 datasets: [
                     {
                         data: [percentage, remainingPercentage],
-                        backgroundColor: [percentage >= 100 ? "green" : "green", "red"],
+                        backgroundColor: [percentage >= 100 ? "#4caf50" : "#4caf50", "#dc3545"],
                     },
                 ],
             };

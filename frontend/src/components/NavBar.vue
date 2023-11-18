@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1">
-                <strong style="color: darkgreen">🍲 Select Recipe</strong>
+                <strong style="color: darkgreen">🍲 Select Menu</strong>
               </a>
             </li>
           </ul>
