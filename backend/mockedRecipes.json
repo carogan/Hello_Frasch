@@ -21,17 +21,31 @@
           "energy": 2534,
           "calories": 606,
           "carbohydrate": 52.4,
-          "protein": 38.4
+          "protein": 38.4,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
-            "name": "green olives",
+            "name": "green_olives",
             "type": "green-olives",
             "imageLink": "not found",
             "amount_gram": "70"
           },
           {
-            "name": "quinoa tricolor",
+            "name": "quinoa_tricolor",
             "type": "quinoa-tricolor",
             "imageLink": "not found",
             "amount_gram": "100"
@@ -40,13 +54,16 @@
             "name": "onion",
             "type": "onions",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "230"
           },
           {
-            "name": "garlic clove",
+            "name": "garlic_clove",
             "type": "garlic-cloves",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "60"
+
           },
           {
             "name": "coriander",
@@ -55,7 +72,7 @@
             "amount_gram": "10"
           },
           {
-            "name": "spice mix hello harissa",
+            "name": "spice_mix_hello_harissa",
             "type": "spice-mix-hello-harissa",
             "imageLink": "not found",
             "amount_gram": "2"
@@ -64,22 +81,24 @@
             "name": "lemon",
             "type": "lemon",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "130"
           },
           {
             "name": "carrot",
             "type": "carrot",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "50"
           },
           {
-            "name": "chicken broth",
+            "name": "chicken_broth",
             "type": "chicken-broth",
             "imageLink": "not found",
             "amount_gram": "4"
           },
           {
-            "name": "chopped chicken",
+            "name": "chopped_chicken",
             "type": "chopped-chicken",
             "imageLink": "not found",
             "amount_gram": "250"
@@ -114,59 +133,75 @@
         "nutrition": {
           "calories": 760,
           "carbohydrate": 81,
-          "protein": 29
+          "protein": 29,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
-            "name": "Scallions",
+            "name": "scallions",
             "type": "scallions",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "30"
           },
           {
-            "name": "Lime",
+            "name": "lime",
             "type": "lime",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "60"
           },
           {
-            "name": "Ground Pork",
+            "name": "ground_pork",
             "type": "ground-pork",
             "imageLink": "not found",
             "amount_ounce": "10"
           },
           {
-            "name": "Shredded Red Cabbage",
+            "name": "shredded_red_cabbage",
             "type": "shredded-red-cabbage",
             "imageLink": "not found",
             "amount_ounce": "4"
           },
           {
-            "name": "Hoisin Sauce",
+            "name": "hoisin_sauce",
             "type": "hoisin-sauce",
             "imageLink": "not found",
             "amount_tablespoon": "2"
           },
           {
-            "name": "Sweet Thai Chili Sauce",
+            "name": "sweet_thai_chili_sauce",
             "type": "sweet-thai-chili-sauce",
             "imageLink": "not found",
             "amount_ounce": "1"
           },
           {
-            "name": "Sweet Soy Glaze",
+            "name": "sweet_soy_glaze",
             "type": "sweet-soy-glaze",
             "imageLink": "not found",
             "amount_tablespoon": "4"
           },
           {
-            "name": "Jasmine Rice",
+            "name": "jasmine_rice",
             "type": "jasmine-rice",
             "imageLink": "not found",
             "amount_cup": "0.5"
           },
           {
-            "name": "Sesame Seeds",
+            "name": "sesame_seeds",
             "type": "sesame-seeds",
             "imageLink": "not found",
             "amount_tablespoon": "1"
@@ -192,53 +227,70 @@
         "nutrition": {
           "calories": 620,
           "carbohydrate": 57,
-          "protein": 33
+          "protein": 33,
+          "Vitamin A": {"value":0,"unit": "mcg"},
+          "Vitamin B6": {"value":0,"unit": "mg"},
+          "Vitamin B9": {"value":0,"unit": "mcg"},
+          "Vitamin B12": {"value":0,"unit": "mcg"},
+          "Vitamin C": {"value":0,"unit": "mg"},
+          "Vitamin D": {"value":0,"unit": "mcg"},
+          "Vitamin E": {"value":0,"unit": "mg"},
+          "Vitamin K": {"value":0,"unit": "mcg"},
+          "Calcium": {"value":0,"unit": "mg"},
+          "Magnesium": {"value":0,"unit": "mg"},
+          "Potassium": {"value":0,"unit": "mg"},
+          "Selenium": {"value":0,"unit": "mcg"},
+          "Zinc": {"value":0,"unit": "mg"},
+          "Iron": {"value":0,"unit": "mg"}
         },
         "ingredients": [
           {
-            "name": "Potatoes",
+            "name": "potatoes",
             "type": "potatoes",
             "imageLink": "not found",
             "amount_ounce": "12"
           },
           {
-            "name": "Broccoli Florets",
+            "name": "broccoli_florets",
             "type": "broccoli",
             "imageLink": "not found",
             "amount_ounce": "8"
           },
           {
-            "name": "Apple",
+            "name": "apple",
             "type": "apple",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "200"
           },
           {
-            "name": "Scallions",
+            "name": "scallions",
             "type": "scallion",
             "imageLink": "not found",
-            "amount_units": "2"
+            "amount_units": "2",
+            "amount_gram": "30"
           },
           {
-            "name": "Pork Chops",
+            "name": "pork_chops",
             "type": "pork-chops",
             "imageLink": "not found",
             "amount_ounce": "10"
           },
           {
-            "name": "Brown Sugar Bourbon Seasoning",
+            "name": "brown_sugar_bourbon_seasoning",
             "type": "sugar-bourbon-seasoning",
             "imageLink": "not found",
             "amount_grams": "10.8"
           },
           {
-            "name": "Chicken Stock Concentrate",
+            "name": "chicken_stock_concentrate",
             "type": "chicken-stock-concentrate",
             "imageLink": "not found",
-            "amount_units": "1"
+            "amount_units": "1",
+            "amount_gram": "9.6"
           },
           {
-            "name": "Sour Cream",
+            "name": "sour_cream",
             "type": "sour-cream",
             "imageLink": "not found",
             "amount_tablespoon": "1.5"
@@ -266,14 +318,29 @@
           "nutrition": {
             "calories": 950,
             "carbohydrate": 77,
-            "protein": 33
+            "protein": 33,
+            "Vitamin A": {"value":0,"unit": "mcg"},
+            "Vitamin B6": {"value":0,"unit": "mg"},
+            "Vitamin B9": {"value":0,"unit": "mcg"},
+            "Vitamin B12": {"value":0,"unit": "mcg"},
+            "Vitamin C": {"value":0,"unit": "mg"},
+            "Vitamin D": {"value":0,"unit": "mcg"},
+            "Vitamin E": {"value":0,"unit": "mg"},
+            "Vitamin K": {"value":0,"unit": "mcg"},
+            "Calcium": {"value":0,"unit": "mg"},
+            "Magnesium": {"value":0,"unit": "mg"},
+            "Potassium": {"value":0,"unit": "mg"},
+            "Selenium": {"value":0,"unit": "mcg"},
+            "Zinc": {"value":0,"unit": "mg"},
+            "Iron": {"value":0,"unit": "mg"}
           },
           "ingredients": [
             {
               "name": "Limes",
               "type": "lime",
               "imageLink": "not found",
-              "amount_units": "1"
+              "amount_units": "1",
+              "amount_gram": "60"
             },
             {
               "name": "Cilantro",
@@ -321,7 +388,8 @@
               "name": "Flour Tortillas",
               "type": "flour-tortillas",
               "imageLink": "not found",
-              "amount_units": "6"
+              "amount_units": "6",
+              "amount_gram": "180"
             },
             {
               "name": "Cashews",
@@ -331,6 +399,122 @@
             }
           ]
         }
-      }
+      },
+      {
+          "index": 5,
+          "recipe": {
+            "id": "652ea1b4a5e6013831e9c411",
+            "name": "One-Pot Italian Vegetable Soup with Kale, Israeli Couscous & Garlic Bread",
+            "headline": "After all, good taste is always in fashion!",
+            "prepTime": "PT35M",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/6447d3165b773e366f0f87c3-a3fa52d9.jpg",
+            "websiteURL": "https://www.hellofresh.com/recipes/one-pot-italian-vegetable-soup-652ea1b4a5e6013831e9c411",
+            "tags": [
+              {
+                "name": "Seasonal"
+              },
+              {
+                "name": "Veggie"
+              }
+            ],
+            "nutrition": {
+              "calories": 680,
+              "carbohydrate": 98,
+              "protein": 18,
+              "Vitamin A": {"value":0,"unit": "mcg"},
+              "Vitamin B6": {"value":0,"unit": "mg"},
+              "Vitamin B9": {"value":0,"unit": "mcg"},
+              "Vitamin B12": {"value":0,"unit": "mcg"},
+              "Vitamin C": {"value":0,"unit": "mg"},
+              "Vitamin D": {"value":0,"unit": "mcg"},
+              "Vitamin E": {"value":0,"unit": "mg"},
+              "Vitamin K": {"value":0,"unit": "mcg"},
+              "Calcium": {"value":0,"unit": "mg"},
+              "Magnesium": {"value":0,"unit": "mg"},
+              "Potassium": {"value":0,"unit": "mg"},
+              "Selenium": {"value":0,"unit": "mcg"},
+              "Zinc": {"value":0,"unit": "mg"},
+              "Iron": {"value":0,"unit": "mg"}
+            },
+            "ingredients": [
+              {
+                "name": "Yellow Onion",
+                "type": "yellow-onion",
+                "imageLink": "not found",
+                "amount_units": "1",
+                "amount_gram": "170"
+              },
+              {
+                "name": "Carrots",
+                "type": "carrot",
+                "imageLink": "not found",
+                "amount_ounce": "6"
+              },
+              {
+                "name": "Garlic",
+                "type": "garlic",
+                "imageLink": "not found",
+                "amount_units": "1",
+                "amount_gram": "30"
+              },
+              {
+                "name": "Kale",
+                "type": "kale",
+                "imageLink": "not found",
+                "amount_ounce": "4"
+              },
+              {
+                "name": "Italian Seasoning",
+                "type": "italien-seasoning",
+                "imageLink": "not found",
+                "amount_tablespoon": "1"
+              },
+              {
+                "name": "Crushed Tomatoes",
+                "type": "tomatoes",
+                "imageLink": "not found",
+                "amount_ounce": "13.76"
+              },
+              {
+                "name": "Veggie Stock Concentrate",
+                "type": "veggie-stock-concentrate",
+                "imageLink": "not found",
+                "amount_units": "3",
+                "amount_gram": "9.6"
+              },
+              {
+                "name": "Israeli Couscous",
+                "type": "couscous",
+                "imageLink": "not found",
+                "amount_ounce": "2.5"
+              },
+              {
+                "name": "Garlic Powder",
+                "type": "garlic-powder",
+                "imageLink": "not found",
+                "amount_tablespoon": "1"
+              },
+              {
+                "name": "Demi-Baguette",
+                "type": "bread",
+                "imageLink": "not found",
+                "amount_units": "1",
+                "amount_gram": "115"
+              },
+              {
+                "name": "Parmesan Cheese",
+                "type": "parmesan-cheese",
+                "imageLink": "not found",
+                "amount_tablespoon": "3"
+              },
+              {
+                "name": "Chili Flakes",
+                "type": "chili-flakes",
+                "imageLink": "not found",
+                "amount_tablespoon": "0.2"
+              }
+            ]
+          }
+        }
   ]
   

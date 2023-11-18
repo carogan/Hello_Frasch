@@ -1,0 +1,2744 @@
+{
+    "fdcId": 167823,
+    "description": "Pork, fresh, loin, blade (chops), bone-in, separable lean and fat, cooked, braised",
+    "publicationDate": "4/1/2019",
+    "foodNutrients": [
+        {
+            "nutrient": {
+                "id": 2045,
+                "number": "951",
+                "name": "Proximates",
+                "rank": 50,
+                "unitName": "g"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1051,
+                "number": "255",
+                "name": "Water",
+                "rank": 100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307473,
+            "amount": 57.32,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307472,
+            "amount": 255.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1062,
+                "number": "268",
+                "name": "Energy",
+                "rank": 400,
+                "unitName": "kJ"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307526,
+            "amount": 1067.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307523,
+            "amount": 26.54,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307470,
+            "amount": 15.71,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1007,
+                "number": "207",
+                "name": "Ash",
+                "rank": 1000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307524,
+            "amount": 1.13,
+            "dataPoints": 0
+        },
+        {
+            "nutrient": {
+                "id": 2039,
+                "number": "956",
+                "name": "Carbohydrates",
+                "rank": 1100,
+                "unitName": "g"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307471,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307527,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307476,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "nutrient": {
+                "id": 2043,
+                "number": "300",
+                "name": "Minerals",
+                "rank": 5200,
+                "unitName": "mg"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307477,
+            "amount": 51.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307528,
+            "amount": 0.81,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1090,
+                "number": "304",
+                "name": "Magnesium, Mg",
+                "rank": 5500,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307529,
+            "amount": 19.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1091,
+                "number": "305",
+                "name": "Phosphorus, P",
+                "rank": 5600,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307530,
+            "amount": 213.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307478,
+            "amount": 259.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307531,
+            "amount": 69.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1095,
+                "number": "309",
+                "name": "Zinc, Zn",
+                "rank": 5900,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307479,
+            "amount": 3.11,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1098,
+                "number": "312",
+                "name": "Copper, Cu",
+                "rank": 6000,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307532,
+            "amount": 0.098,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1101,
+                "number": "315",
+                "name": "Manganese, Mn",
+                "rank": 6100,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307533,
+            "amount": 0.011,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1103,
+                "number": "317",
+                "name": "Selenium, Se",
+                "rank": 6200,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307480,
+            "amount": 41.8,
+            "dataPoints": 0
+        },
+        {
+            "nutrient": {
+                "id": 2046,
+                "number": "952",
+                "name": "Vitamins and Other Components",
+                "rank": 6250,
+                "unitName": "g"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307543,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1165,
+                "number": "404",
+                "name": "Thiamin",
+                "rank": 6400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307544,
+            "amount": 0.486,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1166,
+                "number": "405",
+                "name": "Riboflavin",
+                "rank": 6500,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307545,
+            "amount": 0.316,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1167,
+                "number": "406",
+                "name": "Niacin",
+                "rank": 6600,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307484,
+            "amount": 7.381,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1170,
+                "number": "410",
+                "name": "Pantothenic acid",
+                "rank": 6700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307485,
+            "amount": 0.944,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1175,
+                "number": "415",
+                "name": "Vitamin B-6",
+                "rank": 6800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307486,
+            "amount": 0.488,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1177,
+                "number": "417",
+                "name": "Folate, total",
+                "rank": 6900,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307546,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1186,
+                "number": "431",
+                "name": "Folic acid",
+                "rank": 7000,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307488,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1187,
+                "number": "432",
+                "name": "Folate, food",
+                "rank": 7100,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307550,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1190,
+                "number": "435",
+                "name": "Folate, DFE",
+                "rank": 7200,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 49,
+                "code": "NC",
+                "description": "Calculated",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307489,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1180,
+                "number": "421",
+                "name": "Choline, total",
+                "rank": 7220,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307487,
+            "amount": 81.4,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1198,
+                "number": "454",
+                "name": "Betaine",
+                "rank": 7290,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307490,
+            "amount": 3.2,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1178,
+                "number": "418",
+                "name": "Vitamin B-12",
+                "rank": 7300,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307547,
+            "amount": 0.62,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1246,
+                "number": "578",
+                "name": "Vitamin B-12, added",
+                "rank": 7340,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307561,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1106,
+                "number": "320",
+                "name": "Vitamin A, RAE",
+                "rank": 7420,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307536,
+            "amount": 4.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1105,
+                "number": "319",
+                "name": "Retinol",
+                "rank": 7430,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307535,
+            "amount": 4.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1107,
+                "number": "321",
+                "name": "Carotene, beta",
+                "rank": 7440,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307537,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1108,
+                "number": "322",
+                "name": "Carotene, alpha",
+                "rank": 7450,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307538,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1120,
+                "number": "334",
+                "name": "Cryptoxanthin, beta",
+                "rank": 7460,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307541,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1104,
+                "number": "318",
+                "name": "Vitamin A, IU",
+                "rank": 7500,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307534,
+            "amount": 13.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1122,
+                "number": "337",
+                "name": "Lycopene",
+                "rank": 7530,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307542,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1123,
+                "number": "338",
+                "name": "Lutein + zeaxanthin",
+                "rank": 7560,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307483,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1109,
+                "number": "323",
+                "name": "Vitamin E (alpha-tocopherol)",
+                "rank": 7905,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307481,
+            "amount": 0.2,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1242,
+                "number": "573",
+                "name": "Vitamin E, added",
+                "rank": 7920,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307500,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307482,
+            "amount": 39.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1114,
+                "number": "328",
+                "name": "Vitamin D (D2 + D3)",
+                "rank": 8700,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307540,
+            "amount": 1.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1112,
+                "number": "326",
+                "name": "Vitamin D3 (cholecalciferol)",
+                "rank": 8720,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307539,
+            "amount": 1.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1185,
+                "number": "430",
+                "name": "Vitamin K (phylloquinone)",
+                "rank": 8800,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307549,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1184,
+                "number": "429",
+                "name": "Vitamin K (Dihydrophylloquinone)",
+                "rank": 8900,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307548,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "nutrient": {
+                "id": 2044,
+                "number": "950",
+                "name": "Lipids",
+                "rank": 9600,
+                "unitName": "g"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307564,
+            "amount": 4.487,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1259,
+                "number": "607",
+                "name": "SFA 4:0",
+                "rank": 9800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307501,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1260,
+                "number": "608",
+                "name": "SFA 6:0",
+                "rank": 9900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307502,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1261,
+                "number": "609",
+                "name": "SFA 8:0",
+                "rank": 10000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307565,
+            "amount": 0.001,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1262,
+                "number": "610",
+                "name": "SFA 10:0",
+                "rank": 10100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307503,
+            "amount": 0.012,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1263,
+                "number": "611",
+                "name": "SFA 12:0",
+                "rank": 10300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307566,
+            "amount": 0.011,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1264,
+                "number": "612",
+                "name": "SFA 14:0",
+                "rank": 10500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307567,
+            "amount": 0.158,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1299,
+                "number": "652",
+                "name": "SFA 15:0",
+                "rank": 10600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307516,
+            "amount": 0.006,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1265,
+                "number": "613",
+                "name": "SFA 16:0",
+                "rank": 10700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307504,
+            "amount": 2.734,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1300,
+                "number": "653",
+                "name": "SFA 17:0",
+                "rank": 10800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307574,
+            "amount": 0.039,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1266,
+                "number": "614",
+                "name": "SFA 18:0",
+                "rank": 10900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307505,
+            "amount": 1.501,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1267,
+                "number": "615",
+                "name": "SFA 20:0",
+                "rank": 11100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307506,
+            "amount": 0.022,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1273,
+                "number": "624",
+                "name": "SFA 22:0",
+                "rank": 11200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307569,
+            "amount": 0.002,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1301,
+                "number": "654",
+                "name": "SFA 24:0",
+                "rank": 11300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307575,
+            "amount": 0.002,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1292,
+                "number": "645",
+                "name": "Fatty acids, total monounsaturated",
+                "rank": 11400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307514,
+            "amount": 5.067,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1274,
+                "number": "625",
+                "name": "MUFA 14:1",
+                "rank": 11500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307570,
+            "amount": 0.001,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1333,
+                "number": "697",
+                "name": "MUFA 15:1",
+                "rank": 11600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307581,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1275,
+                "number": "626",
+                "name": "MUFA 16:1",
+                "rank": 11700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307571,
+            "amount": 0.258,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1323,
+                "number": "687",
+                "name": "MUFA 17:1",
+                "rank": 12000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307579,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1268,
+                "number": "617",
+                "name": "MUFA 18:1",
+                "rank": 12100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307507,
+            "amount": 4.725,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1315,
+                "number": "674",
+                "name": "MUFA 18:1 c",
+                "rank": 12200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307576,
+            "amount": 4.672,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1277,
+                "number": "628",
+                "name": "MUFA 20:1",
+                "rank": 12400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307512,
+            "amount": 0.083,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1279,
+                "number": "630",
+                "name": "MUFA 22:1",
+                "rank": 12500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307513,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1317,
+                "number": "676",
+                "name": "MUFA 22:1 c",
+                "rank": 12600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307578,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1293,
+                "number": "646",
+                "name": "Fatty acids, total polyunsaturated",
+                "rank": 12900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307515,
+            "amount": 1.948,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1269,
+                "number": "618",
+                "name": "PUFA 18:2",
+                "rank": 13100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307508,
+            "amount": 1.692,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1316,
+                "number": "675",
+                "name": "PUFA 18:2 n-6 c,c",
+                "rank": 13200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307577,
+            "amount": 0.878,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1270,
+                "number": "619",
+                "name": "PUFA 18:3",
+                "rank": 13900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307509,
+            "amount": 0.075,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1404,
+                "number": "851",
+                "name": "PUFA 18:3 n-3 c,c,c (ALA)",
+                "rank": 14000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307582,
+            "amount": 0.066,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1321,
+                "number": "685",
+                "name": "PUFA 18:3 n-6 c,c,c",
+                "rank": 14100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307520,
+            "amount": 0.003,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1409,
+                "number": "856",
+                "name": "PUFA 18:3i",
+                "rank": 14200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307583,
+            "amount": 0.006,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1276,
+                "number": "627",
+                "name": "PUFA 18:4",
+                "rank": 14250,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307511,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1313,
+                "number": "672",
+                "name": "PUFA 20:2 n-6 c,c",
+                "rank": 14300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307519,
+            "amount": 0.067,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1325,
+                "number": "689",
+                "name": "PUFA 20:3",
+                "rank": 14400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307521,
+            "amount": 0.008,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1271,
+                "number": "620",
+                "name": "PUFA 20:4",
+                "rank": 14700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307510,
+            "amount": 0.094,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1278,
+                "number": "629",
+                "name": "PUFA 20:5 n-3 (EPA)",
+                "rank": 15000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307572,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1280,
+                "number": "631",
+                "name": "PUFA 22:5 n-3 (DPA)",
+                "rank": 15200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307573,
+            "amount": 0.011,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1272,
+                "number": "621",
+                "name": "PUFA 22:6 n-3 (DHA)",
+                "rank": 15300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307568,
+            "amount": 0.001,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307563,
+            "amount": 0.067,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1329,
+                "number": "693",
+                "name": "Fatty acids, total trans-monoenoic",
+                "rank": 15500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307580,
+            "amount": 0.053,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1304,
+                "number": "663",
+                "name": "TFA 18:1 t",
+                "rank": 15521,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307517,
+            "amount": 0.053,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1306,
+                "number": "665",
+                "name": "TFA 18:2 t not further defined",
+                "rank": 15610,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307518,
+            "amount": 0.008,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1331,
+                "number": "695",
+                "name": "Fatty acids, total trans-polyenoic",
+                "rank": 15619,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307522,
+            "amount": 0.014,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307562,
+            "amount": 86.0,
+            "dataPoints": 0
+        },
+        {
+            "nutrient": {
+                "id": 2042,
+                "number": "500",
+                "name": "Amino acids",
+                "rank": 16250,
+                "unitName": "g"
+            },
+            "type": "FoodNutrient"
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1210,
+                "number": "501",
+                "name": "Tryptophan",
+                "rank": 16300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307551,
+            "amount": 0.316,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1211,
+                "number": "502",
+                "name": "Threonine",
+                "rank": 16400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307552,
+            "amount": 1.167,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1212,
+                "number": "503",
+                "name": "Isoleucine",
+                "rank": 16500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307491,
+            "amount": 1.257,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1213,
+                "number": "504",
+                "name": "Leucine",
+                "rank": 16600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307492,
+            "amount": 2.185,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1214,
+                "number": "505",
+                "name": "Lysine",
+                "rank": 16700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307493,
+            "amount": 2.361,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1215,
+                "number": "506",
+                "name": "Methionine",
+                "rank": 16800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307553,
+            "amount": 0.728,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1216,
+                "number": "507",
+                "name": "Cystine",
+                "rank": 16900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307494,
+            "amount": 0.299,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1217,
+                "number": "508",
+                "name": "Phenylalanine",
+                "rank": 17000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307554,
+            "amount": 1.103,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1218,
+                "number": "509",
+                "name": "Tyrosine",
+                "rank": 17100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307555,
+            "amount": 1.052,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1219,
+                "number": "510",
+                "name": "Valine",
+                "rank": 17200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307495,
+            "amount": 1.343,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1220,
+                "number": "511",
+                "name": "Arginine",
+                "rank": 17300,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307496,
+            "amount": 1.71,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1221,
+                "number": "512",
+                "name": "Histidine",
+                "rank": 17400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307497,
+            "amount": 1.08,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1222,
+                "number": "513",
+                "name": "Alanine",
+                "rank": 17500,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307556,
+            "amount": 1.52,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1223,
+                "number": "514",
+                "name": "Aspartic acid",
+                "rank": 17600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307498,
+            "amount": 2.483,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1224,
+                "number": "515",
+                "name": "Glutamic acid",
+                "rank": 17700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307557,
+            "amount": 4.055,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1225,
+                "number": "516",
+                "name": "Glycine",
+                "rank": 17800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307558,
+            "amount": 1.2,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1226,
+                "number": "517",
+                "name": "Proline",
+                "rank": 17900,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307559,
+            "amount": 1.073,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1227,
+                "number": "518",
+                "name": "Serine",
+                "rank": 18000,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307499,
+            "amount": 1.108,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1228,
+                "number": "521",
+                "name": "Hydroxyproline",
+                "rank": 18100,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 54,
+                "code": "PAK",
+                "description": "Based on physical composition; Derived from analytical data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 1,
+                    "code": "1",
+                    "description": "Analytical or derived from analytical"
+                }
+            },
+            "id": 1307560,
+            "amount": 0.093,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1018,
+                "number": "221",
+                "name": "Alcohol, ethyl",
+                "rank": 18200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307525,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1057,
+                "number": "262",
+                "name": "Caffeine",
+                "rank": 18300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307474,
+            "amount": 0.0,
+            "dataPoints": 0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1058,
+                "number": "263",
+                "name": "Theobromine",
+                "rank": 18400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 56,
+                "code": "PIK",
+                "description": "Based on physical composition; Derived from imputed data; Known physical composition",
+                "foodNutrientSource": {
+                    "id": 2,
+                    "code": "4",
+                    "description": "Calculated or imputed"
+                }
+            },
+            "id": 1307475,
+            "amount": 0.0,
+            "dataPoints": 0
+        }
+    ],
+    "foodPortions": [
+        {
+            "id": 82035,
+            "gramWeight": 85.0,
+            "sequenceNumber": 1,
+            "amount": 3.0,
+            "modifier": "oz",
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            }
+        },
+        {
+            "id": 82036,
+            "dataPoints": 71,
+            "gramWeight": 206.0,
+            "sequenceNumber": 2,
+            "amount": 1.0,
+            "modifier": "chop",
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            }
+        }
+    ],
+    "dataType": "SR Legacy",
+    "foodClass": "FinalFood",
+    "foodComponents": [],
+    "foodAttributes": [],
+    "nutrientConversionFactors": [
+        {
+            "id": 16566,
+            "value": 6.25,
+            "type": ".ProteinConversionFactor",
+            "name": "Protein From Nitrogen"
+        },
+        {
+            "id": 11797,
+            "proteinValue": 4.27,
+            "fatValue": 9.02,
+            "carbohydrateValue": 3.87,
+            "type": ".CalorieConversionFactor",
+            "name": "Calories From Proximates"
+        }
+    ],
+    "inputFoods": [],
+    "ndbNumber": 10029,
+    "isHistoricalReference": true,
+    "foodCategory": {
+        "id": 10,
+        "code": "1000",
+        "description": "Pork Products"
+    }
+}
