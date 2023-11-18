@@ -4,7 +4,7 @@
         "recipe": {
             "id": "64fed0d332e9107c6db8b507",
             "name": "Harissa chicken on quinoa with green olives",
-            "headline": "This dish produces 50% less CO2e from ingredients than an average HelloFresh recipe",
+            "headline": "Produces 50% less CO2e than an average HelloFresh recipe",
             "prepTime": "PT25M",
             "image": "https://img.hellofresh.com/q_auto/recipes/image/HF_Y23_R37_W44_DE_R4819-1_Main_low-661e95c9.jpg",
             "websiteURL": "https://www.hellofresh.de/recipes/harissa-hahnchen-auf-quinoa-mit-grunen-oliven-64fed0d332e9107c6db8b507",
@@ -1380,7 +1380,7 @@
         "index": 3,
         "recipe": {
             "id": "64e8611440ec4203972faf1b",
-            "name": "Brown Sugar Bourbon Pork Chops with Apple Pan Sauce, Scallion Mashed Potatoes & Broccoli",
+            "name": "Brown Sugar Bourbon Pork Chops with Apple Pan Sauce, Mashed Potatoes & Broccoli",
             "headline": "Winner, winner, pork chop dinner!",
             "prepTime": "PT35M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/652e8f7b0adad327d2408cca-ef3881e7.jpeg",
@@ -1972,6 +1972,7 @@
             "prepTime": "PT15M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63696c23dae40b54e20bbcbf-f5590078.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/one-pan-sweet-spicy-cashew-pork-tacos-652e8f960adad327d2408ccd",
+            "seasonalEmoji": "/healthy.png",
             "tags": [
                 {
                     "name": "Spicy"
@@ -2630,6 +2631,7 @@
             "prepTime": "PT35M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/6447d3165b773e366f0f87c3-a3fa52d9.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/one-pot-italian-vegetable-soup-652ea1b4a5e6013831e9c411",
+            "seasonalEmoji": "/user.png",
             "tags": [
                 {
                     "name": "Seasonal"
