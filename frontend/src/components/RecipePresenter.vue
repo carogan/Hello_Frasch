@@ -69,15 +69,15 @@
                 <div class="nutrient-sum" v-if="showSideElement">
                     <div style="margin-top: 30px; margin-left: 10px;">
                         <strong class="vitamin-listing">
-                            Vitamin B9: {{ this.calculateFulfillmentPercentage()['vitaminB9'].toFixed(2) }}%
-                            <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                            Vitamin C: {{ this.calculateFulfillmentPercentage()['vitaminC'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('vitaminC')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
                     <div style="margin-left: 10px; margin-top: 25px">
                         <strong class="vitamin-listing">
-                            Vitamin B12: {{ this.calculateFulfillmentPercentage()['vitaminB12'].toFixed(2) }}%
-                            <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                            Vitamin A: {{ this.calculateFulfillmentPercentage()['vitaminA'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
@@ -97,8 +97,8 @@
 
                     <div style="margin-left: 10px; margin-top: 25px">
                         <strong class="vitamin-listing">
-                            Zinc: {{ this.calculateFulfillmentPercentage()['zinc'].toFixed(2) }}%
-                            <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                            Calcium: {{ this.calculateFulfillmentPercentage()['calcium'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('calcium')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
                 </div>
@@ -137,11 +137,11 @@ export default {
             newRecipes: [null, null, null],
             showSideElement: false,
             nutrientSums: {
-                vitaminB9: 0,
-                vitaminB12: 0,
+                vitaminC: 0,
+                vitaminA: 0,
                 vitaminK: 0,
                 iron: 0,
-                zinc: 0,
+                calcium: 0,
                 // Add other nutrients as needed
             },
         };
@@ -195,20 +195,20 @@ export default {
         calculateNutrientSums() {
             // Reset nutrient sums
             this.nutrientSums = {
-                vitaminB9: 0,
-                vitaminB12: 0,
+                vitaminC: 0,
+                vitaminA: 0,
                 vitaminK: 0,
                 iron: 0,
-                zinc: 0,
+                calcium: 0,
                 // Add other nutrients as needed
             };
             // Calculate nutrient sums across all recipes
             this.getRecipesForComputation().forEach((recipe) => {
-                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["Vitamin B9"].value || 1; // todo change
-                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["Vitamin B12"].value || 1; // todo change
+                this.nutrientSums.vitaminC += recipe.recipe.nutrition["Vitamin C"].value || 1; // todo change
+                this.nutrientSums.vitaminA += recipe.recipe.nutrition["Vitamin A"].value || 1; // todo change
                 this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"].value || 1; // todo change
                 this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
-                this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"].value || 1; // todo change
+                this.nutrientSums.zink += recipe.recipe.nutrition["Calcium"].value || 1; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -231,25 +231,25 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 400*3; // Example value in mcg daily
-            const expectedVitaminB12 = 2.4*3; // Example value in mcg
+            const expectedVitaminC = 400*3; // Example value in mcg daily
+            const expectedVitaminA = 2.4*3; // Example value in mcg
             const expectedVitaminK = 120*3; // Example value in mcg
             const expectedIron = 8*3; // Example value in mg
-            const expectedZinc = 11*3; // Example value in mg
+            const expectedCalcium = 11*3; // Example value in mg
 
-            const percentageVitaminB9 = ((this.nutrientSums.vitaminB9*0.5) / expectedVitaminB9) * 100;//0.5 because 2 servings
-            const percentageVitaminB12 = ((this.nutrientSums.vitaminB12*0.5) / expectedVitaminB12) * 100;
+            const percentageVitaminC = ((this.nutrientSums.vitaminC*0.5) / expectedVitaminC) * 100;//0.5 because 2 servings
+            const precentageVitaminA = ((this.nutrientSums.vitaminA*0.5) / expectedVitaminA) * 100;
             const percentageVitaminK = ((this.nutrientSums.vitaminK*0.5) / expectedVitaminK) * 100;
             const percentageIron = ((this.nutrientSums.iron*0.5) / expectedIron) * 100;
-            const percentageZinc = ((this.nutrientSums.zinc*0.5) / expectedZinc) * 100;
+            const percentageCalcium = ((this.nutrientSums.calcium*0.5) / expectedCalcium) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
-                'vitaminB9': percentageVitaminB9,
-                'vitaminB12': percentageVitaminB12,
+                'vitaminC': percentageVitaminC,
+                'vitaminA': precentageVitaminA,
                 'vitaminK': percentageVitaminK,
                 'iron': percentageIron,
-                'zinc': percentageZinc,
+                'calcium': percentageCalcium,
                 // Add other nutrients as needed
             };
 
