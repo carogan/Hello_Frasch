@@ -6,26 +6,46 @@
         </button>
 
         <div class="row" :class="{ 'shifted-row': showSideElement }">
-            <div class="col" v-for="(recipe, index) in recipes" :key="index">
+            <div class="col-4" v-for="(recipe, index) in recipes" :key="index">
                 <dismissed-recipe-card v-if="recipe.dismissed" :recipe="recipe"></dismissed-recipe-card>
-                <recipe-card :recipe="recipe" v-if="!recipe.dismissed" @replace="replaceRecipe">
-                </recipe-card>
+                <recipe-card :recipe="recipe" v-if="!recipe.dismissed" @replace="replaceRecipe"></recipe-card>
+
+                <recipe-card v-if="getNewRecipes()[index] && !getNewRecipes()[index].minimized"
+                             :recipe="getNewRecipes()[index]"></recipe-card>
+                <minimized-recipe-card v-if="getNewRecipes()[index] && getNewRecipes()[index].minimized"
+                                       :recipe="getNewRecipes()[index]"></minimized-recipe-card>
             </div>
         </div>
 
         <div class="row">
             <div class="collapse" id="newRecipeCollapse">
                 <div class="card card-body">
-                    <h2>Choose your new recipe</h2>
+                    <h2>Choose your new meal...</h2>
+                    <div style="margin-top: 20px;"></div>
 
                     <div class="row">
-                        <div class="col" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
+                        <div class="col-3" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
                             <recipe-card :recipe="recipe" @choose="chooseRecipe">
                             </recipe-card>
                         </div>
                     </div>
 
-                    <button
+                    <div style="display: flex; align-items: center" v-if="replacementRecipeChoices.length === 0">
+                        <div>We have nothing more to recommend to you. :(</div>
+                        <button
+                            class="btn btn-primary m-lg-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#newRecipeCollapse"
+                            aria-expanded="false"
+                            aria-controls="newRecipeCollapse"
+                        >
+                            Close
+                        </button>
+                    </div>
+
+
+                    <!-- <button
                         class="btn btn-primary"
                         type="button"
                         data-bs-toggle="collapse"
@@ -35,7 +55,7 @@
                         @click="enlargeAndReplace"
                     >
                         Toggle Collapse
-                    </button>
+                    </button> -->
                 </div>
             </div>
 
@@ -44,7 +64,7 @@
                 <!-- Close Button -->
                 <button class="close-button" @click="closeSideElement">&times;</button>
                 <div class="nutrient-sum" v-if="showSideElement">
-                    <p style="margin-top: 170px; margin-left: 10px;">
+                    <p style="margin-top: 100px; margin-left: 10px;">
                         Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
                         <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
@@ -52,8 +72,18 @@
                         Vitamin B12: {{ nutrientSums.vitaminB12 }} mg
                         <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
-                    <!-- Add other nutrients as needed -->
-                    <!--b9,b12,k,iron, zink-->
+                    <p style="margin-left: 10px;">
+                        Vitamin K: {{ nutrientSums.vitaminK }} mg
+                        <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
+                    <p style="margin-left: 10px;">
+                        Iron: {{ nutrientSums.iron }} mg
+                        <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
+                    <p style="margin-left: 10px;">
+                        Zinc: {{ nutrientSums.zinc }} mg
+                        <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
                 </div>
             </div>
         </div>
@@ -65,8 +95,10 @@
 import RecipeCard from "@/components/RecipeCard.vue";
 import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
 import {Doughnut} from "vue-chartjs";
-import mockedRecipes from '../../../backend/mockedRecipes.json'
+import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
+import {RECIPE_HAS_BEEN_REPLACED, RECIPE_IN_REPLACEMENT, RECIPE_NOT_YET_REPLACED} from "@/const";
+import MinimizedRecipeCard from "@/components/MinimizedRecipeCard.vue";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -74,20 +106,25 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 export default {
     props: ['data', 'options'],
     components: {
+        MinimizedRecipeCard,
         DismissedRecipeCard,
         RecipeCard,
         Doughnut
     },
     data() {
         return {
-            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
-            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
-            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: true})).slice(3, 6),
+            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
+            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
+            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: RECIPE_IN_REPLACEMENT})).slice(3, 6),
             replacedRecipeIndex: null,
+            newRecipes: [null, null, null],
             showSideElement: false,
             nutrientSums: {
-                vitaminB9: 300,
-                vitaminB12: 1000,
+                vitaminB9: 0,
+                vitaminB12: 0,
+                vitaminK: 0,
+                iron: 0,
+                zinc: 0,
                 // Add other nutrients as needed
             },
         };
@@ -95,6 +132,9 @@ export default {
 
 
     methods: {
+        getNewRecipes() {
+            return this.newRecipes;
+        },
         replaceRecipe(replacedRecipe) {
             // ugly way to deep copy an array
             this.previousRecipes = JSON.parse(JSON.stringify(this.recipes));
@@ -105,12 +145,20 @@ export default {
 
             // after we took note of which we minimized, make all of them smaller
             this.recipes.forEach(r => r.dismissed = true);
+            this.newRecipes.filter(r => !!r).forEach(r => r.minimized = true);
         },
-        enlargeAndReplace() {
+        enlargeOthers() {
             this.recipes = this.previousRecipes;
+            this.newRecipes.filter(r => !!r).forEach(r => r.minimized = false);
         },
         chooseRecipe(chosenRecipe) {
-            alert("You chose: " + chosenRecipe)
+            this.enlargeOthers();
+            this.newRecipes[this.replacedRecipeIndex] = chosenRecipe;
+            this.newRecipes[this.replacedRecipeIndex].replacementChoice = RECIPE_HAS_BEEN_REPLACED;
+            this.newRecipes[this.replacedRecipeIndex].minimized = false;
+
+            // remove from other choices
+            this.replacementRecipeChoices = this.replacementRecipeChoices.filter(i => i !== chosenRecipe);
         },
         closeSideElement() {
             this.showSideElement = false;
@@ -123,15 +171,21 @@ export default {
             this.nutrientSums = {
                 vitaminB9: 0,
                 vitaminB12: 0,
+                vitaminK: 0,
+                iron: 0,
+                zinc: 0,
                 // Add other nutrients as needed
             };
 
             // Calculate nutrient sums across all recipes
-            this.recipes.forEach((recipe) => {
-                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["vitaminB9"] || 12; // todo change
-                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["vitaminB12"] || 18; // todo change
+            /*this.recipes.forEach((recipe) => {
+                //this.nutrientSums.vitaminB9 += recipe.recipe.nutrition.VitaminB9.value || 1; // todo change
+                //this.nutrientSums.vitaminB12 += recipe.recipe.nutrition.VitaminB12.value || 1; // todo change
+                //this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"] || 1; // todo change
+                //this.nutrientSums.iron += recipe.recipe.nutrition["Iron"] || 1; // todo change
+                //this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"] || 1; // todo change
                 // Add other nutrients as needed
-            });
+            });*/
         },
         nutrientChartData(vitamin) {
             const percentage = this.calculateFulfillmentPercentage()[vitamin];
@@ -149,16 +203,25 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 1000; // Example value in IU
-            const expectedVitaminB12 = 1000; // Example value in mg
+            const expectedVitaminB9 = 1; // Example value in IU
+            const expectedVitaminB12 = 1; // Example value in mg
+            const expectedVitaminK = 1; // Example value in mg
+            const expectedIron = 1; // Example value in mg
+            const expectedZinc = 1; // Example value in mg
 
             const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
             const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
+            const percentageVitaminK = (this.nutrientSums.vitaminK / expectedVitaminK) * 100;
+            const percentageIron = (this.nutrientSums.iron / expectedIron) * 100;
+            const percentageZinc = (this.nutrientSums.zinc / expectedZinc) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
                 'vitaminB9': percentageVitaminB9,
                 'vitaminB12': percentageVitaminB12,
+                'vitaminK': percentageVitaminK,
+                'iron': percentageIron,
+                'zinc': percentageZinc,
                 // Add other nutrients as needed
             };
 

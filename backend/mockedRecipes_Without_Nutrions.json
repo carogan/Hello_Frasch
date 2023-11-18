@@ -307,6 +307,7 @@
           "prepTime": "PT15M",
           "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63696c23dae40b54e20bbcbf-f5590078.jpg",
           "websiteURL": "https://www.hellofresh.com/recipes/one-pan-sweet-spicy-cashew-pork-tacos-652e8f960adad327d2408ccd",
+          "seasonalEmoji": "/user.png",
           "tags": [
             {
               "name": "Spicy"
@@ -409,6 +410,7 @@
             "prepTime": "PT35M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/6447d3165b773e366f0f87c3-a3fa52d9.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/one-pot-italian-vegetable-soup-652ea1b4a5e6013831e9c411",
+            "seasonalEmoji": "/user.png",
             "tags": [
               {
                 "name": "Seasonal"
@@ -517,4 +519,3 @@
           }
         }
   ]
-  
