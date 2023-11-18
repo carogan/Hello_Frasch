@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <recipe-card
-                v-for="recipe in recipes"
-                :key="recipe.index"
+                v-for="(recipe, index) in recipes.slice(0, 3)"
+                :key="index"
                 :recipe="recipe"
                 @dismiss="dismissRecipe">
             </recipe-card>
@@ -13,7 +13,8 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
-import mockedRecipes from '../assets/mockedRecipes.json'
+import mockedRecipes from '../../../backend/mockedRecipes.json'
+
 
 export default {
     components: {
