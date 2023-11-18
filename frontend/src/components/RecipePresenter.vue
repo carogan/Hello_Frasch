@@ -62,7 +62,10 @@
             <!-- Side Element -->
             <div class="side-element" :class="{ 'show-side-element': showSideElement }" ref="sideElement">
                 <!-- Close Button -->
-                <button class="close-button" @click="closeSideElement">&times;</button>
+                <button class="close-button btn btn-outline-danger mt-4" @click="closeSideElement">&times;</button>
+                <h3 class="mt-4">Nutrition Manager</h3>
+                <h5>Percentage of RDA</h5>
+                <div style="margin-top: -10px">(Recommended Dietary Allowance)</div>
                 <div class="nutrient-sum" v-if="showSideElement">
                     <div style="margin-top: 50px; margin-left: 10px;">
                         <strong>
@@ -285,12 +288,12 @@ export default {
 }
 
 .side-element {
-    width: 200px; /* Adjust width as needed */
+    width: 350px; /* Adjust width as needed */
     height: 100%;
     background-color: #f0f0f0; /* Adjust background color as needed */
     position: fixed;
     top: 0;
-    right: -500px; /* Initially hide the side element off-screen */
+    right: -350px; /* Initially hide the side element off-screen */
     transition: right 0.3s ease;
 }
 
@@ -300,13 +303,11 @@ export default {
 
 .close-button {
     position: absolute;
-    top: 10px;
     right: 10px;
     font-size: 20px;
     cursor: pointer;
     background: none;
-    border: none;
-    outline: none;
+    width: 30px;
     padding: 0;
 }
 
