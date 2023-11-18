@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <button class="nutrition-manager-button" @click="toggleSideElement">
+        <button class="nutrition-manager-button" :class="{'button-hidden': showSideElement}" @click="toggleSideElement">
             <img src="/chef.png" alt="Nutrition Manager Icon" class="button-icon">
             Nutrition Manager
         </button>
@@ -28,7 +28,7 @@
                     <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                 </p>
                 <!-- Add other nutrients as needed -->
-                <!--b9,b12,k,iron, zink--> 
+                <!--b9,b12,k,iron, zink-->
             </div>
         </div>
 
@@ -37,8 +37,8 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
-import { Doughnut } from "vue-chartjs";
+import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
+import {Doughnut} from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes.json'
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -131,22 +131,30 @@ export default {
 
 
 .nutrition-manager-button {
-  position: fixed;
-  top: 100px;
-  right: 10px;
-  padding: 10px;
-  background-color: #4caf50;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 3; /* Ensure the button is above other elements */
+    position: fixed;
+    top: 25px;
+    right: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3; /* Ensure the button is above other elements */
+
 }
+
 .button-icon {
-  width: 20px; /* Adjust the width of the icon as needed */
-  height: auto; /* Maintain the aspect ratio */
-  margin-right: 5px; /* Add margin to separate the icon from text */
+    width: 20px; /* Adjust the width of the icon as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 5px; /* Add margin to separate the icon from text */
+    filter: invert(100%);
 }
+
+.button-hidden {
+    visibility: hidden;
+}
+
 .side-element {
     width: 200px; /* Adjust width as needed */
     height: 100%;
