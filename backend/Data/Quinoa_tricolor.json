@@ -1,0 +1,409 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2777423,
+            "value": 6,
+            "name": "Nutrient Removed"
+        },
+        {
+            "id": 2777424,
+            "value": 4,
+            "name": "Nutrient Updated"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2404710,
+    "description": "TRICOLOR QUINOA, TRICOLOR",
+    "publicationDate": "12/22/2022",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29631255,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631251,
+            "amount": 4.44
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29631257,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29631253,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631249,
+            "amount": 6.7
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631250,
+            "amount": 47.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631256,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631246,
+            "amount": 64.44
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631248,
+            "amount": 4.44
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631247,
+            "amount": 378.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631252,
+            "amount": 562.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631244,
+            "amount": 13.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29631245,
+            "amount": 5.56
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29631254,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "5/31/2021",
+    "availableDate": "5/31/2021",
+    "brandOwner": "Harris-Teeter Inc.",
+    "brandName": "HARRIS TEETER",
+    "subbrandName": "ORGANICS",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Other Grains & Seeds",
+    "gtinUpc": "07203672172",
+    "householdServingFullText": "1/4 cup",
+    "ingredients": "ORGANIC TRI COLOR QUINOA.",
+    "marketCountry": "United States",
+    "servingSize": 45.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "12 oz/340 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2404710,
+            "description": "TRICOLOR QUINOA, TRICOLOR",
+            "publicationDate": "12/22/2022",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "5/31/2021",
+            "availableDate": "5/31/2021",
+            "brandOwner": "Harris-Teeter Inc.",
+            "brandName": "HARRIS TEETER",
+            "subbrandName": "ORGANICS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Other Grains & Seeds",
+            "gtinUpc": "07203672172",
+            "householdServingFullText": "1/4 cup",
+            "ingredients": "ORGANIC TRI COLOR QUINOA.",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "12 oz/340 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1972424,
+            "description": "TRICOLOR QUINOA, TRICOLOR",
+            "publicationDate": "7/29/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "5/31/2021",
+            "availableDate": "5/31/2021",
+            "brandOwner": "Harris-Teeter Inc.",
+            "brandName": "HARRIS TEETER",
+            "subbrandName": "ORGANICS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Other Grains & Seeds",
+            "gtinUpc": "07203672172",
+            "ingredients": "ORGANIC TRI COLOR QUINOA.",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "12 oz/340 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1698552,
+            "description": "TRICOLOR QUINOA",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "8/22/2019",
+            "availableDate": "8/22/2019",
+            "brandOwner": "Harris-Teeter Inc.",
+            "brandName": "HARRIS TEETER",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Other Grains & Seeds",
+            "gtinUpc": "07203672172",
+            "ingredients": "ORGANIC TRI COLOR QUINOA.",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1406275,
+            "description": "TRICOLOR QUINOA",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "8/22/2019",
+            "availableDate": "8/22/2019",
+            "brandOwner": "Harris-Teeter Inc.",
+            "brandName": "HARRIS TEETER",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Other Grains & Seeds",
+            "gtinUpc": "07203672172",
+            "ingredients": "ORGANIC TRI COLOR QUINOA.",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 2.5
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 0.0
+        },
+        "carbohydrates": {
+            "value": 29.0
+        },
+        "fiber": {
+            "value": 3.02
+        },
+        "sugars": {
+            "value": 2.0
+        },
+        "protein": {
+            "value": 6.0
+        },
+        "calcium": {
+            "value": 21.2
+        },
+        "iron": {
+            "value": 2.0
+        },
+        "potassium": {
+            "value": 253
+        },
+        "calories": {
+            "value": 170
+        }
+    }
+}

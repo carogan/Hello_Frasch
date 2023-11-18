@@ -1,0 +1,449 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 3116484,
+            "value": 5,
+            "name": "Nutrient Added"
+        },
+        {
+            "id": 3116485,
+            "value": 6,
+            "name": "Nutrient Removed"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2601338,
+    "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+    "publicationDate": "7/13/2023",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484156,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484144,
+            "amount": 55.56
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484153,
+            "amount": 52.8
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 32484149,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1114,
+                "number": "328",
+                "name": "Vitamin D (D2 + D3)",
+                "rank": 8700,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 32484152,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484143,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484151,
+            "amount": 417.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484145,
+            "amount": 222.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484155,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484142,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484147,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484154,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 32484146,
+            "amount": 55.56
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 32484150,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 32484148,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "6/21/2023",
+    "availableDate": "6/21/2023",
+    "brandOwner": "Schnuck Markets, Inc.",
+    "brandName": "SCHNUCKS",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+    "gtinUpc": "041318191035",
+    "householdServingFullText": "2 Tbsp",
+    "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+    "marketCountry": "United States",
+    "servingSize": 36.0,
+    "servingSizeUnit": "GRM",
+    "packageWeight": "12.5 oz/355 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2601338,
+            "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+            "publicationDate": "7/13/2023",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "6/21/2023",
+            "availableDate": "6/21/2023",
+            "brandOwner": "Schnuck Markets, Inc.",
+            "brandName": "SCHNUCKS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041318191035",
+            "householdServingFullText": "2 Tbsp",
+            "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+            "marketCountry": "United States",
+            "servingSize": 36.0,
+            "servingSizeUnit": "GRM",
+            "packageWeight": "12.5 oz/355 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2137979,
+            "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "3/18/2019",
+            "availableDate": "3/18/2019",
+            "brandOwner": "Schnuck Markets, Inc.",
+            "brandName": "SCHNUCKS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041318191035",
+            "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+            "marketCountry": "United States",
+            "servingSize": 36.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "12.5 oz/355 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1687294,
+            "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "3/18/2019",
+            "availableDate": "3/18/2019",
+            "brandOwner": "Schnuck Markets, Inc.",
+            "brandName": "SCHNUCKS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041318191035",
+            "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+            "marketCountry": "United States",
+            "servingSize": 36.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1395042,
+            "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "3/18/2019",
+            "availableDate": "3/18/2019",
+            "brandOwner": "Schnuck Markets, Inc.",
+            "brandName": "SCHNUCKS",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041318191035",
+            "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+            "marketCountry": "United States",
+            "servingSize": 36.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 896710,
+            "description": "SWEET THAI CHILI SAUCE, SWEET THAI",
+            "publicationDate": "5/28/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "3/18/2019",
+            "availableDate": "3/18/2019",
+            "brandOwner": "Schnuck Markets, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041318191035",
+            "householdServingFullText": "2 Tbsp",
+            "ingredients": "SUGAR, WATER, DISTILLED VINEGAR, CHILI PASTE (CHILI, SALT, DISTILLED VINEGAR, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BISULFITE AS PRESERVATIVE, XANTHAN GUM), SALT, DRIED GARLIC, XANTHAN GUM, POTASSIUM SORBATE AS PRESERVATIVE, SODIUM BENZOATE AS PRESERVATIVE.",
+            "marketCountry": "United States",
+            "servingSize": 36.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 150
+        },
+        "carbohydrates": {
+            "value": 20.0
+        },
+        "fiber": {
+            "value": 0.0
+        },
+        "sugars": {
+            "value": 20.0
+        },
+        "protein": {
+            "value": 0.0
+        },
+        "vitaminD": {
+            "value": 0.0
+        },
+        "calcium": {
+            "value": 0.0
+        },
+        "iron": {
+            "value": 0.0
+        },
+        "potassium": {
+            "value": 0.0
+        },
+        "addedSugar": {
+            "value": 19.0
+        },
+        "calories": {
+            "value": 79.9
+        }
+    }
+}

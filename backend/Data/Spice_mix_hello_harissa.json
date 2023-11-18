@@ -1,0 +1,181 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2296811,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2093082,
+    "description": "HARISSA",
+    "publicationDate": "10/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 25081008,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25081007,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25081005,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 25081006,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "9/6/2018",
+    "availableDate": "9/6/2018",
+    "brandOwner": "Morton Bassett Inc.",
+    "brandName": "MORTON & BASSETT",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Herbs & Spices",
+    "gtinUpc": "016291441934",
+    "ingredients": "CHILIES, SMOKED PAPRIKA, CUMIN, CARAWAY, FENNEL, GARLIC, CORIANDER, BLACK PEPPER, CINNAMON, MINT, GINGER, AND PARSLEY.",
+    "marketCountry": "United States",
+    "servingSize": 0.5,
+    "servingSizeUnit": "g",
+    "packageWeight": "1.9 oz/53 g",
+    "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF FAT CAL. SAT, FAT, TRANS FAT, CHOLEST, FIBER SUGARS, VITAMIN, VITAMIN C, CALCIUM, IRON,",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2093082,
+            "description": "HARISSA",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "9/6/2018",
+            "availableDate": "9/6/2018",
+            "brandOwner": "Morton Bassett Inc.",
+            "brandName": "MORTON & BASSETT",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Herbs & Spices",
+            "gtinUpc": "016291441934",
+            "ingredients": "CHILIES, SMOKED PAPRIKA, CUMIN, CARAWAY, FENNEL, GARLIC, CORIANDER, BLACK PEPPER, CINNAMON, MINT, GINGER, AND PARSLEY.",
+            "marketCountry": "United States",
+            "servingSize": 0.5,
+            "servingSizeUnit": "g",
+            "packageWeight": "1.9 oz/53 g",
+            "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF FAT CAL. SAT, FAT, TRANS FAT, CHOLEST, FIBER SUGARS, VITAMIN, VITAMIN C, CALCIUM, IRON,"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1603407,
+            "description": "HARISSA",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "9/6/2018",
+            "availableDate": "9/6/2018",
+            "brandOwner": "Morton Bassett Inc.",
+            "brandName": "MORTON & BASSETT",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Herbs & Spices",
+            "gtinUpc": "016291441934",
+            "ingredients": "CHILIES, SMOKED PAPRIKA, CUMIN, CARAWAY, FENNEL, GARLIC, CORIANDER, BLACK PEPPER, CINNAMON, MINT, GINGER, AND PARSLEY.",
+            "marketCountry": "United States",
+            "servingSize": 0.5,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1311293,
+            "description": "HARISSA",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "9/6/2018",
+            "availableDate": "9/6/2018",
+            "brandOwner": "Morton Bassett Inc.",
+            "brandName": "MORTON & BASSETT",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Herbs & Spices",
+            "gtinUpc": "016291441934",
+            "ingredients": "CHILIES, SMOKED PAPRIKA, CUMIN, CARAWAY, FENNEL, GARLIC, CORIANDER, BLACK PEPPER, CINNAMON, MINT, GINGER, AND PARSLEY.",
+            "marketCountry": "United States",
+            "servingSize": 0.5,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        }
+    ],
+    "labelNutrients": {
+        "sodium": {
+            "value": 0.0
+        },
+        "carbohydrates": {
+            "value": 0.0
+        },
+        "protein": {
+            "value": 0.0
+        },
+        "calories": {
+            "value": 0.0
+        }
+    }
+}

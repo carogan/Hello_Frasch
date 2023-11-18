@@ -1,0 +1,298 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2218951,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2024761,
+    "description": "SWEET SOY GLAZE, SWEET SOY",
+    "publicationDate": "10/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24796523,
+            "amount": 200.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24796522,
+            "amount": 50.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24796525,
+            "amount": 3550.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24796526,
+            "amount": 40.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 73,
+                "code": "LCSL",
+                "description": "Calculated from a less than value per serving size measure"
+            },
+            "id": 24796520,
+            "amount": 5.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24796524,
+            "amount": 45.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 24796521,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "4/8/2020",
+    "availableDate": "4/8/2020",
+    "brandOwner": "Kikkoman Sales USA, Inc.",
+    "brandName": "KIKKOMAN",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+    "gtinUpc": "041390007026",
+    "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+    "marketCountry": "United States",
+    "servingSize": 20.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "11.8 oz/335 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2024761,
+            "description": "SWEET SOY GLAZE, SWEET SOY",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "brandName": "KIKKOMAN",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "11.8 oz/335 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1489952,
+            "description": "SWEET SOY GLAZE, SWEET SOY",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "brandName": "KIKKOMAN",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1197908,
+            "description": "SWEET SOY GLAZE, SWEET SOY",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "brandName": "KIKKOMAN",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1108192,
+            "description": "SWEET SOY GLAZE, SWEET SOY",
+            "publicationDate": "11/13/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 820700,
+            "description": "SWEET SOY GLAZE, SWEET SOY",
+            "publicationDate": "5/28/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "householdServingFullText": "1 Tbsp",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 793809,
+            "description": "SWEET SOY GLAZE",
+            "publicationDate": "4/1/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "2/15/2020",
+            "availableDate": "2/15/2020",
+            "brandOwner": "Kikkoman Sales USA, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Oriental, Mexican & Ethnic Sauces",
+            "gtinUpc": "041390007026",
+            "householdServingFullText": "1 Tbsp",
+            "ingredients": "SOY SAUCE (WATER, SOYBEANS, WHEAT, SALT), HIGH FRUCTOSE CORN SYRUP, SUGAR, CORN SYRUP, WATER, SALT, MODIFIED CORN STARCH, MONOSODIUM GLUTAMATE, VINEGAR, CARAMEL COLOR, CITRIC ACID, DISODIUM INOSINATE, DISODIUM GUANYLATE, XANTHAN GUM, POTASSIUM SORBATE AND SODIUM BENZOATE AS PRESERVATIVES.",
+            "marketCountry": "United States",
+            "servingSize": 20.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 710
+        },
+        "carbohydrates": {
+            "value": 10.0
+        },
+        "sugars": {
+            "value": 9.0
+        },
+        "protein": {
+            "value": 1.0
+        },
+        "addedSugar": {
+            "value": 8.0
+        },
+        "calories": {
+            "value": 40.0
+        }
+    }
+}

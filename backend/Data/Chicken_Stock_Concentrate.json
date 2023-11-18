@@ -1,0 +1,261 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2393042,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2166982,
+    "description": "CHICKEN CONCENTRATED STOCK, CHICKEN",
+    "publicationDate": "10/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25483219,
+            "amount": 11.1
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 73,
+                "code": "LCSL",
+                "description": "Calculated from a less than value per serving size measure"
+            },
+            "id": 25483213,
+            "amount": 11.11
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 25483214,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25483216,
+            "amount": 111.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25483218,
+            "amount": 6667.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 73,
+                "code": "LCSL",
+                "description": "Calculated from a less than value per serving size measure"
+            },
+            "id": 25483217,
+            "amount": 11.11
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25483215,
+            "amount": 11.11
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "2/5/2021",
+    "availableDate": "2/5/2021",
+    "brandOwner": "Unilever Bestfoods North America",
+    "brandName": "KNORR",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Canned Soup",
+    "gtinUpc": "048001014459",
+    "ingredients": "CHICKEN BROTH, SALT, SUGAR, YEAST EXTRACT, CHICKEN FAT, CORN STARCH, CITRIC ACID, NATURAL FLAVOR.",
+    "marketCountry": "United States",
+    "servingSize": 9.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "8.45 fl oz/250 mL",
+    "notaSignificantSourceOf": "Not a significant source of sat. fat, trans fat, cholest., fiber, vit. D, calcium, iron and potas..",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2166982,
+            "description": "CHICKEN CONCENTRATED STOCK, CHICKEN",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "2/5/2021",
+            "availableDate": "2/5/2021",
+            "brandOwner": "Unilever Bestfoods North America",
+            "brandName": "KNORR",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Canned Soup",
+            "gtinUpc": "048001014459",
+            "ingredients": "CHICKEN BROTH, SALT, SUGAR, YEAST EXTRACT, CHICKEN FAT, CORN STARCH, CITRIC ACID, NATURAL FLAVOR.",
+            "marketCountry": "United States",
+            "servingSize": 9.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "8.45 fl oz/250 mL",
+            "notaSignificantSourceOf": "Not a significant source of sat. fat, trans fat, cholest., fiber, vit. D, calcium, iron and potas.."
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1740585,
+            "description": "CHICKEN CONCENTRATED STOCK, CHICKEN",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "2/5/2021",
+            "availableDate": "2/5/2021",
+            "brandOwner": "Unilever Bestfoods North America",
+            "brandName": "KNORR",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Canned Soup",
+            "gtinUpc": "048001014459",
+            "ingredients": "CHICKEN BROTH, SALT, SUGAR, YEAST EXTRACT, CHICKEN FAT, CORN STARCH, CITRIC ACID, NATURAL FLAVOR.",
+            "marketCountry": "United States",
+            "servingSize": 9.0,
+            "servingSizeUnit": "g",
+            "notaSignificantSourceOf": "Not a significant source of sat. fat, trans fat, cholest., fiber, vit. D, calcium, iron and potas.."
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1448277,
+            "description": "CHICKEN CONCENTRATED STOCK, CHICKEN",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/29/2020",
+            "availableDate": "12/29/2020",
+            "brandOwner": "Unilever Bestfoods North America",
+            "brandName": "KNORR",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Canned Soup",
+            "gtinUpc": "048001014459",
+            "ingredients": "CHICKEN BROTH, SALT, SUGAR, YEAST EXTRACT, CHICKEN FAT, CORN STARCH, CITRIC ACID, NATURAL FLAVOR.",
+            "marketCountry": "United States",
+            "servingSize": 9.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": "Not a significant source of sat. fat, trans fat, cholest., fiber, vit. D, calcium, iron and potas.."
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1160909,
+            "description": "CHICKEN CONCENTRATED STOCK, CHICKEN",
+            "publicationDate": "1/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/8/2020",
+            "availableDate": "12/8/2020",
+            "brandOwner": "Unilever Bestfoods North America",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Canned Soup",
+            "gtinUpc": "048001014459",
+            "ingredients": "CHICKEN BROTH, SALT, SUGAR, YEAST EXTRACT, CHICKEN FAT, CORN STARCH, CITRIC ACID, NATURAL FLAVOR.",
+            "marketCountry": "United States",
+            "servingSize": 9.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 600
+        },
+        "carbohydrates": {
+            "value": 1.0
+        },
+        "sugars": {
+            "value": 1.0
+        },
+        "protein": {
+            "value": 1.0
+        },
+        "addedSugar": {
+            "value": 0.999
+        },
+        "calories": {
+            "value": 9.99
+        }
+    }
+}

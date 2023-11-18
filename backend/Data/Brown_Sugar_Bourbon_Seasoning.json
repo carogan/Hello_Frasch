@@ -1,0 +1,221 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2337768,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2127372,
+    "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+    "publicationDate": "10/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24811587,
+            "amount": 15556.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24811586,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 24811585,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 24811584,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 24811583,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "12/1/2020",
+    "availableDate": "12/1/2020",
+    "brandOwner": "McCormick & Company, Inc.",
+    "brandName": "MCCORMICK",
+    "subbrandName": "GRILL MATES",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+    "gtinUpc": "052100031897",
+    "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+    "marketCountry": "United States",
+    "servingSizeUnit": "g",
+    "packageWeight": "19 oz/538 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2127372,
+            "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "subbrandName": "GRILL MATES",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+            "gtinUpc": "052100031897",
+            "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+            "marketCountry": "United States",
+            "servingSizeUnit": "g",
+            "packageWeight": "19 oz/538 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1668315,
+            "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+            "gtinUpc": "052100031897",
+            "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+            "marketCountry": "United States",
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1376097,
+            "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+            "gtinUpc": "052100031897",
+            "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+            "marketCountry": "United States",
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1018271,
+            "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+            "publicationDate": "6/26/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "5/6/2020",
+            "availableDate": "5/6/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+            "gtinUpc": "052100031897",
+            "householdServingFullText": "0.9 GRM",
+            "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+            "marketCountry": "United States",
+            "servingSize": 0.9,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 881214,
+            "description": "BROWN SUGAR BOURBON SEASONING, BROWN SUGAR BOURBON",
+            "publicationDate": "5/28/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/25/2020",
+            "availableDate": "4/25/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Seasoning Mixes, Salts, Marinades & Tenderizers",
+            "gtinUpc": "052100031897",
+            "householdServingFullText": "0.9 GRM",
+            "ingredients": "INGREDIENTS: SEA SALT, BROWN SUGAR, EVAPORATED CANE SYRUP, SPICES (INCLUDING RED PEPPER), MOLASSES (REFINERY SYRUP, CANE MOLASSES, CARAMEL COLOR), GARLIC, ONION, RED BELL PEPPER, NATURAL FLAVOR (INCLUDING MALTED BARLEY WHISKEY EXTRACT), SUNFLOWER OIL, AND EXTRACTIVES OF PAPRIKA.",
+            "marketCountry": "United States",
+            "servingSize": 0.9,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {}
+}
