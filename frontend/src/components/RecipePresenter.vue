@@ -20,14 +20,15 @@
             <button class="close-button" @click="closeSideElement">&times;</button>
             <div class="nutrient-sum" v-if="showSideElement">
                 <p style="margin-top: 170px; margin-left: 10px;">
-                    Vitamin A: {{ nutrientSums.vitaminA }} IU
-                    <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: false, maintainAspectRatio: false}"></Doughnut>
+                    Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
+                    <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                 </p>
                 <p style="margin-left: 10px;">
-                    Vitamin B: {{ nutrientSums.vitaminB }} mg
-                    <Doughnut :data="nutrientChartData('vitaminB')" :options="{responsive: false, maintainAspectRatio: false}"></Doughnut>
+                    Vitamin B12: {{ nutrientSums.vitaminB12 }} mg
+                    <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                 </p>
                 <!-- Add other nutrients as needed -->
+                <!--b9,b12,k,iron, zink--> 
             </div>
         </div>
 
@@ -53,8 +54,8 @@ export default {
             recipes: mockedRecipes,
             showSideElement: false,
             nutrientSums: {
-                vitaminA: 300,
-                vitaminB: 1000,
+                vitaminB9: 300,
+                vitaminB12: 1000,
                 // Add other nutrients as needed
             },
         };
@@ -77,15 +78,15 @@ export default {
         calculateNutrientSums() {
             // Reset nutrient sums
             this.nutrientSums = {
-                vitaminA: 0,
-                vitaminB: 0,
+                vitaminB9: 0,
+                vitaminB12: 0,
                 // Add other nutrients as needed
             };
 
             // Calculate nutrient sums across all recipes
             this.recipes.forEach((recipe) => {
-                this.nutrientSums.vitaminA += recipe.recipe.nutrition["vitaminA"] || 12; // todo change
-                this.nutrientSums.vitaminB += recipe.recipe.nutrition["vitaminB"] || 18; // todo change
+                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["vitaminB9"] || 12; // todo change
+                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["vitaminB12"] || 18; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -94,27 +95,27 @@ export default {
             const remainingPercentage = 100 - percentage;
 
             return {
-                labels: ["Fulfilled", "Remaining"],
+                //labels: ["Fulfilled", "Remaining"],
                 datasets: [
                 {
                     data: [percentage, remainingPercentage],
-                    backgroundColor: [percentage >= 100 ? "white" : "red", "blue"],
+                    backgroundColor: [percentage >= 100 ? "green" : "green", "red"],
                 },
                 ],
             };
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminA = 1000; // Example value in IU
-            const expectedVitaminB = 1000; // Example value in mg
+            const expectedVitaminB9 = 1000; // Example value in IU
+            const expectedVitaminB12 = 1000; // Example value in mg
 
-            const percentageVitaminA = (this.nutrientSums.vitaminA / expectedVitaminA) * 100;
-            const percentageVitaminB = (this.nutrientSums.vitaminB / expectedVitaminB) * 100;
+            const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
+            const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
-                'vitaminA': percentageVitaminA,
-                'vitaminB': percentageVitaminB,
+                'vitaminB9': percentageVitaminB9,
+                'vitaminB12': percentageVitaminB12,
                 // Add other nutrients as needed
             };
 
@@ -147,7 +148,7 @@ export default {
   margin-right: 5px; /* Add margin to separate the icon from text */
 }
 .side-element {
-    width: 500px; /* Adjust width as needed */
+    width: 200px; /* Adjust width as needed */
     height: 100%;
     background-color: #f0f0f0; /* Adjust background color as needed */
     position: fixed;
