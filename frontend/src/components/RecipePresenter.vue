@@ -19,7 +19,7 @@
             <!-- Close Button -->
             <button class="close-button" @click="closeSideElement">&times;</button>
             <div class="nutrient-sum" v-if="showSideElement">
-                <p style="margin-top: 170px; margin-left: 10px;">
+                <p style="margin-top: 100px; margin-left: 10px;">
                     Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
                     <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                 </p>
