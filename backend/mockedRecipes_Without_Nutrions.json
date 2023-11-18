@@ -619,5 +619,105 @@
                 }
               ]
             }
+          },
+          {
+            "index": 7,
+            "recipe": {
+              "id": "652e8f460adad327d2408cc1",
+              "name": "Moo Shu Kidney Beans Bowls with Cabbage, Scallions & Buttery Rice",
+              "headline": "Avocado and plum dressing",
+              "prepTime": "PT25M",
+              "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/652e8f460adad327d2408cc1-c2616e77.jpeg",
+              "websiteURL": "https://www.hellofresh.com/recipes/moo-shu-pork-bowls-652e8f460adad327d2408cc1",
+              "seasonalEmoji": "/user.png",
+              "tags": [
+                {
+                  "name": "Easy Prep"
+                },
+                {
+                  "name": "Quick"
+                },
+                {
+                  "name": "Veggie"
+                }
+              ],
+              "nutrition": {
+                "calories": 760,
+                "carbohydrate": 81,
+                "protein": 29,
+                "Vitamin A": {"value":0.0,"unit": "mcg"},
+                "Vitamin B6": {"value":0.0,"unit": "mg"},
+                "Vitamin B9": {"value":0.0,"unit": "mcg"},
+                "Vitamin B12": {"value":0.0,"unit": "mcg"},
+                "Vitamin C": {"value":0.0,"unit": "mg"},
+                "Vitamin D": {"value":0.0,"unit": "mcg"},
+                "Vitamin E": {"value":0.0,"unit": "mg"},
+                "Vitamin K": {"value":0.0,"unit": "mcg"},
+                "Calcium": {"value":0.0,"unit": "mg"},
+                "Magnesium": {"value":0.0,"unit": "mg"},
+                "Potassium": {"value":0.0,"unit": "mg"},
+                "Selenium": {"value":0.0,"unit": "mcg"},
+                "Zinc": {"value":0.0,"unit": "mg"},
+                "Iron": {"value":0.0,"unit": "mg"}
+              },
+              "ingredients": [
+                {
+                  "name": "scallions",
+                  "type": "scallions",
+                  "imageLink": "not found",
+                  "amount_units": "2",
+                  "amount_gram": "30"
+                },
+                {
+                  "name": "lime",
+                  "type": "lime",
+                  "imageLink": "not found",
+                  "amount_units": "1",
+                  "amount_gram": "60"
+                },
+                {
+                  "name": "kidney_beans",
+                  "type": "kidney-beans",
+                  "imageLink": "not found",
+                  "amount_ounce": "10"
+                },
+                {
+                  "name": "shredded_red_cabbage",
+                  "type": "shredded-red-cabbage",
+                  "imageLink": "not found",
+                  "amount_ounce": "4"
+                },
+                {
+                  "name": "hoisin_sauce",
+                  "type": "hoisin-sauce",
+                  "imageLink": "not found",
+                  "amount_tablespoon": "2"
+                },
+                {
+                  "name": "sweet_thai_chili_sauce",
+                  "type": "sweet-thai-chili-sauce",
+                  "imageLink": "not found",
+                  "amount_ounce": "1"
+                },
+                {
+                  "name": "sweet_soy_glaze",
+                  "type": "sweet-soy-glaze",
+                  "imageLink": "not found",
+                  "amount_tablespoon": "4"
+                },
+                {
+                  "name": "jasmine_rice",
+                  "type": "jasmine-rice",
+                  "imageLink": "not found",
+                  "amount_cup": "0.5"
+                },
+                {
+                  "name": "sesame_seeds",
+                  "type": "sesame-seeds",
+                  "imageLink": "not found",
+                  "amount_tablespoon": "1"
+                }
+              ]
+            }
           }
   ]
