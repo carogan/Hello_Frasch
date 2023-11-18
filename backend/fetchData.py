@@ -45,7 +45,24 @@ food_items = {
     "brown sugar bourbon seasoning": 2127372,
     "chicken stock concentrate": 2166982,
     "sour cream": 171257,
-    "cilantro": 2345302
+    "cilantro": 2345302,
+    "garlic powder": 171325,
+    "gochujang sauce": 2244609,
+    "coleslaw mix": 2051926,
+    "mayonnaise": 171009,
+    "flour tortillas": 169724,
+    "cashews": 170162,
+    "yellow onion": 170004,
+    "garlic": 169230,
+    "kale": 169238,
+    "italian seasoning": 1887966,
+    "Crushed tomatoes": 170501,
+    "veggie stock concentrate": 2399720,
+    "israeli couscous": 2388833,
+    "demi baguette": 2636666,
+    "parmesan cheese": 171247,
+    "chili flakes": 1135511
+
 
 }
 
