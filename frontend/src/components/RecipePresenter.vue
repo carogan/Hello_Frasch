@@ -144,11 +144,11 @@ export default {
 
             // Calculate nutrient sums across all recipes
             this.recipes.forEach((recipe) => {
-                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition.VitaminB9.value || 1; // todo change
-                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition.VitaminB12.value || 1; // todo change
-                this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"] || 1; // todo change
-                this.nutrientSums.iron += recipe.recipe.nutrition["Iron"] || 1; // todo change
-                this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"] || 1; // todo change
+                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["Vitamin B9"].value || 1; // todo change
+                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["Vitamin B12"].value || 1; // todo change
+                this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"].value || 1; // todo change
+                this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
+                this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"].value || 1; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -168,11 +168,11 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 1; // Example value in IU
-            const expectedVitaminB12 = 1; // Example value in mg
-            const expectedVitaminK = 1; // Example value in mg
-            const expectedIron = 1; // Example value in mg
-            const expectedZinc = 1; // Example value in mg
+            const expectedVitaminB9 = 400; // Example value in mcg daily
+            const expectedVitaminB12 = 2.4; // Example value in mcg
+            const expectedVitaminK = 120; // Example value in mcg
+            const expectedIron = 8; // Example value in mg
+            const expectedZinc = 11; // Example value in mg
 
             const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
             const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
