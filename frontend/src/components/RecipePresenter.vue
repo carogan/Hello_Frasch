@@ -67,36 +67,36 @@
                 <h5>Percentage of RDA</h5>
                 <div style="margin-top: -10px">(Recommended Dietary Allowance)</div>
                 <div class="nutrient-sum" v-if="showSideElement">
-                    <div style="margin-top: 50px; margin-left: 10px;">
-                        <strong>
+                    <div style="margin-top: 30px; margin-left: 10px;">
+                        <strong class="vitamin-listing">
                             Vitamin B9: {{ this.calculateFulfillmentPercentage()['vitaminB9'].toFixed(2) }}%
                             <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
-                    <div style="margin-left: 10px;">
-                        <strong>
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
                             Vitamin B12: {{ this.calculateFulfillmentPercentage()['vitaminB12'].toFixed(2) }}%
                             <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
-                    <div style="margin-left: 10px;">
-                        <strong>
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
                             Vitamin K: {{ this.calculateFulfillmentPercentage()['vitaminK'].toFixed(2) }}%
                             <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
-                    <div style="margin-left: 10px;">
-                        <strong>
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
                             Iron: {{ this.calculateFulfillmentPercentage()['iron'].toFixed(2) }}%
                             <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
 
-                    <div style="margin-left: 10px;">
-                        <strong>
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
                             Zinc: {{ this.calculateFulfillmentPercentage()['zinc'].toFixed(2) }}%
                             <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
@@ -260,7 +260,9 @@ export default {
 </script>
 
 <style scoped>
-
+.vitamin-listing {
+    font-size: 15pt;
+}
 
 .nutrition-manager-button {
     position: fixed;
