@@ -18,12 +18,17 @@
                 {{ tag.name }}
             </span>
                     </div>
-                    <button @click="dismissCard" class="btn btn-danger">Dismiss</button>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#newRecipePickerCollapse" aria-expanded="false" aria-controls="newRecipePickerCollapse">
-                        Button with data-target
+                    <button
+                        @click="replaceCard"
+                        class="btn btn-danger"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#newRecipeCollapse"
+                        aria-expanded="false"
+                        aria-controls="newRecipeCollapse">
+                        Replace
                     </button>
                 </div>
-
                 <hr>
                 <p class="card-text" style="font-size: 10pt"><strong>Recommendation:</strong> based on your preferences.</p>
             </div>
@@ -42,8 +47,8 @@ export default {
         }
     },
     methods: {
-        dismissCard() {
-            this.$emit('dismiss', this.recipe)
+        replaceCard() {
+            this.$emit('replace', this.recipe)
         }
     }
 };
