@@ -13,6 +13,13 @@
                 <div class="card card-body">
                     <h2>Choose your new recipe</h2>
 
+                    <div class="row">
+                        <div class="col" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
+                            <recipe-card :recipe="recipe" @choose="chooseRecipe">
+                            </recipe-card>
+                        </div>
+                    </div>
+
                     <button
                         class="btn btn-primary"
                         type="button"
@@ -42,9 +49,9 @@ export default {
     },
     data() {
         return {
-            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false})).slice(0, 3),
-            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false})).slice(0, 3),
-            replacementRecipeChoices: mockedRecipes.slice(3, 6),
+            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
+            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
+            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: true})).slice(3, 6),
             replacedRecipeIndex: null
         };
     },
@@ -62,6 +69,9 @@ export default {
         },
         enlargeAndReplace() {
             this.recipes = this.previousRecipes;
+        },
+        chooseRecipe(chosenRecipe) {
+            alert("You chose: " + chosenRecipe)
         }
     },
 }

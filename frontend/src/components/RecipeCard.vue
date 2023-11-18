@@ -19,8 +19,20 @@
             </span>
                     </div>
                     <button
+                        v-if="!recipe.replacementChoice"
                         @click="replaceCard"
                         class="btn btn-danger"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#newRecipeCollapse"
+                        aria-expanded="false"
+                        aria-controls="newRecipeCollapse">
+                        Replace
+                    </button>
+                    <button
+                        v-if="recipe.replacementChoice"
+                        @click="chooseCard"
+                        class="btn btn-success"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#newRecipeCollapse"
@@ -57,6 +69,9 @@ export default {
     methods: {
         replaceCard() {
             this.$emit('replace', this.recipe)
+        },
+        chooseCard() {
+            this.$emit('choose', this.recipe)
         }
     }
 };
