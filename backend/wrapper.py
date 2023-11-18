@@ -4,6 +4,7 @@ from config import OPENAI_API_KEY
 import json
 import re
 import nutriCount
+from converter import recipes
 
 openai.api_key = OPENAI_API_KEY
 content = None

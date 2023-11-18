@@ -1,0 +1,879 @@
+{
+    "foodClass": "Survey",
+    "description": "Olives, green",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "id": 28856164,
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "amount": 1.03
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856165,
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "amount": 15.3
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856166,
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "amount": 3.84
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856167,
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "amount": 145
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856168,
+            "nutrient": {
+                "id": 1018,
+                "number": "221",
+                "name": "Alcohol, ethyl",
+                "rank": 18200,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856169,
+            "nutrient": {
+                "id": 1051,
+                "number": "255",
+                "name": "Water",
+                "rank": 100,
+                "unitName": "g"
+            },
+            "amount": 75.3
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856170,
+            "nutrient": {
+                "id": 1057,
+                "number": "262",
+                "name": "Caffeine",
+                "rank": 18300,
+                "unitName": "mg"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856171,
+            "nutrient": {
+                "id": 1058,
+                "number": "263",
+                "name": "Theobromine",
+                "rank": 18400,
+                "unitName": "mg"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856172,
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "amount": 0.54
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856173,
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "amount": 3.3
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856174,
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "amount": 52.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856175,
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "amount": 0.49
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856176,
+            "nutrient": {
+                "id": 1090,
+                "number": "304",
+                "name": "Magnesium, Mg",
+                "rank": 5500,
+                "unitName": "mg"
+            },
+            "amount": 11.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856177,
+            "nutrient": {
+                "id": 1091,
+                "number": "305",
+                "name": "Phosphorus, P",
+                "rank": 5600,
+                "unitName": "mg"
+            },
+            "amount": 4.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856178,
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "amount": 42.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856179,
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "amount": 1560.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856180,
+            "nutrient": {
+                "id": 1095,
+                "number": "309",
+                "name": "Zinc, Zn",
+                "rank": 5900,
+                "unitName": "mg"
+            },
+            "amount": 0.04
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856181,
+            "nutrient": {
+                "id": 1098,
+                "number": "312",
+                "name": "Copper, Cu",
+                "rank": 6000,
+                "unitName": "mg"
+            },
+            "amount": 0.12
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856182,
+            "nutrient": {
+                "id": 1103,
+                "number": "317",
+                "name": "Selenium, Se",
+                "rank": 6200,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.9
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856183,
+            "nutrient": {
+                "id": 1105,
+                "number": "319",
+                "name": "Retinol",
+                "rank": 7430,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856184,
+            "nutrient": {
+                "id": 1106,
+                "number": "320",
+                "name": "Vitamin A, RAE",
+                "rank": 7420,
+                "unitName": "\u00b5g"
+            },
+            "amount": 20.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856185,
+            "nutrient": {
+                "id": 1107,
+                "number": "321",
+                "name": "Carotene, beta",
+                "rank": 7440,
+                "unitName": "\u00b5g"
+            },
+            "amount": 231
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856186,
+            "nutrient": {
+                "id": 1108,
+                "number": "322",
+                "name": "Carotene, alpha",
+                "rank": 7450,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856187,
+            "nutrient": {
+                "id": 1109,
+                "number": "323",
+                "name": "Vitamin E (alpha-tocopherol)",
+                "rank": 7905,
+                "unitName": "mg"
+            },
+            "amount": 3.81
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856188,
+            "nutrient": {
+                "id": 1114,
+                "number": "328",
+                "name": "Vitamin D (D2 + D3)",
+                "rank": 8700,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856189,
+            "nutrient": {
+                "id": 1120,
+                "number": "334",
+                "name": "Cryptoxanthin, beta",
+                "rank": 7460,
+                "unitName": "\u00b5g"
+            },
+            "amount": 9.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856190,
+            "nutrient": {
+                "id": 1122,
+                "number": "337",
+                "name": "Lycopene",
+                "rank": 7530,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856191,
+            "nutrient": {
+                "id": 1123,
+                "number": "338",
+                "name": "Lutein + zeaxanthin",
+                "rank": 7560,
+                "unitName": "\u00b5g"
+            },
+            "amount": 510
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856192,
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856193,
+            "nutrient": {
+                "id": 1165,
+                "number": "404",
+                "name": "Thiamin",
+                "rank": 6400,
+                "unitName": "mg"
+            },
+            "amount": 0.021
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856194,
+            "nutrient": {
+                "id": 1166,
+                "number": "405",
+                "name": "Riboflavin",
+                "rank": 6500,
+                "unitName": "mg"
+            },
+            "amount": 0.007
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856195,
+            "nutrient": {
+                "id": 1167,
+                "number": "406",
+                "name": "Niacin",
+                "rank": 6600,
+                "unitName": "mg"
+            },
+            "amount": 0.237
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856196,
+            "nutrient": {
+                "id": 1175,
+                "number": "415",
+                "name": "Vitamin B-6",
+                "rank": 6800,
+                "unitName": "mg"
+            },
+            "amount": 0.031
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856197,
+            "nutrient": {
+                "id": 1177,
+                "number": "417",
+                "name": "Folate, total",
+                "rank": 6900,
+                "unitName": "\u00b5g"
+            },
+            "amount": 3.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856198,
+            "nutrient": {
+                "id": 1178,
+                "number": "418",
+                "name": "Vitamin B-12",
+                "rank": 7300,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856199,
+            "nutrient": {
+                "id": 1180,
+                "number": "421",
+                "name": "Choline, total",
+                "rank": 7220,
+                "unitName": "mg"
+            },
+            "amount": 14.2
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856200,
+            "nutrient": {
+                "id": 1185,
+                "number": "430",
+                "name": "Vitamin K (phylloquinone)",
+                "rank": 8800,
+                "unitName": "\u00b5g"
+            },
+            "amount": 1.4
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856201,
+            "nutrient": {
+                "id": 1186,
+                "number": "431",
+                "name": "Folic acid",
+                "rank": 7000,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856202,
+            "nutrient": {
+                "id": 1187,
+                "number": "432",
+                "name": "Folate, food",
+                "rank": 7100,
+                "unitName": "\u00b5g"
+            },
+            "amount": 3.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856203,
+            "nutrient": {
+                "id": 1190,
+                "number": "435",
+                "name": "Folate, DFE",
+                "rank": 7200,
+                "unitName": "\u00b5g"
+            },
+            "amount": 3.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856204,
+            "nutrient": {
+                "id": 1242,
+                "number": "573",
+                "name": "Vitamin E, added",
+                "rank": 7920,
+                "unitName": "mg"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856205,
+            "nutrient": {
+                "id": 1246,
+                "number": "578",
+                "name": "Vitamin B-12, added",
+                "rank": 7340,
+                "unitName": "\u00b5g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856206,
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856207,
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "amount": 2.03
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856208,
+            "nutrient": {
+                "id": 1259,
+                "number": "607",
+                "name": "SFA 4:0",
+                "rank": 9800,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856209,
+            "nutrient": {
+                "id": 1260,
+                "number": "608",
+                "name": "SFA 6:0",
+                "rank": 9900,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856210,
+            "nutrient": {
+                "id": 1261,
+                "number": "609",
+                "name": "SFA 8:0",
+                "rank": 10000,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856211,
+            "nutrient": {
+                "id": 1262,
+                "number": "610",
+                "name": "SFA 10:0",
+                "rank": 10100,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856212,
+            "nutrient": {
+                "id": 1263,
+                "number": "611",
+                "name": "SFA 12:0",
+                "rank": 10300,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856213,
+            "nutrient": {
+                "id": 1264,
+                "number": "612",
+                "name": "SFA 14:0",
+                "rank": 10500,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856214,
+            "nutrient": {
+                "id": 1265,
+                "number": "613",
+                "name": "SFA 16:0",
+                "rank": 10700,
+                "unitName": "g"
+            },
+            "amount": 1.69
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856215,
+            "nutrient": {
+                "id": 1266,
+                "number": "614",
+                "name": "SFA 18:0",
+                "rank": 10900,
+                "unitName": "g"
+            },
+            "amount": 0.338
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856216,
+            "nutrient": {
+                "id": 1268,
+                "number": "617",
+                "name": "MUFA 18:1",
+                "rank": 12100,
+                "unitName": "g"
+            },
+            "amount": 11.1
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856217,
+            "nutrient": {
+                "id": 1269,
+                "number": "618",
+                "name": "PUFA 18:2",
+                "rank": 13100,
+                "unitName": "g"
+            },
+            "amount": 1.22
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856218,
+            "nutrient": {
+                "id": 1270,
+                "number": "619",
+                "name": "PUFA 18:3",
+                "rank": 13900,
+                "unitName": "g"
+            },
+            "amount": 0.092
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856219,
+            "nutrient": {
+                "id": 1271,
+                "number": "620",
+                "name": "PUFA 20:4",
+                "rank": 14700,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856220,
+            "nutrient": {
+                "id": 1272,
+                "number": "621",
+                "name": "PUFA 22:6 n-3 (DHA)",
+                "rank": 15300,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856221,
+            "nutrient": {
+                "id": 1275,
+                "number": "626",
+                "name": "MUFA 16:1",
+                "rank": 11700,
+                "unitName": "g"
+            },
+            "amount": 0.123
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856222,
+            "nutrient": {
+                "id": 1276,
+                "number": "627",
+                "name": "PUFA 18:4",
+                "rank": 14250,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856223,
+            "nutrient": {
+                "id": 1277,
+                "number": "628",
+                "name": "MUFA 20:1",
+                "rank": 12400,
+                "unitName": "g"
+            },
+            "amount": 0.046
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856224,
+            "nutrient": {
+                "id": 1278,
+                "number": "629",
+                "name": "PUFA 20:5 n-3 (EPA)",
+                "rank": 15000,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856225,
+            "nutrient": {
+                "id": 1279,
+                "number": "630",
+                "name": "MUFA 22:1",
+                "rank": 12500,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856226,
+            "nutrient": {
+                "id": 1280,
+                "number": "631",
+                "name": "PUFA 22:5 n-3 (DPA)",
+                "rank": 15200,
+                "unitName": "g"
+            },
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856227,
+            "nutrient": {
+                "id": 1292,
+                "number": "645",
+                "name": "Fatty acids, total monounsaturated",
+                "rank": 11400,
+                "unitName": "g"
+            },
+            "amount": 11.3
+        },
+        {
+            "type": "FoodNutrient",
+            "id": 28856228,
+            "nutrient": {
+                "id": 1293,
+                "number": "646",
+                "name": "Fatty acids, total polyunsaturated",
+                "rank": 12900,
+                "unitName": "g"
+            },
+            "amount": 1.31
+        }
+    ],
+    "foodAttributes": [
+        {
+            "id": 2667341,
+            "value": "Moisture change: 0%",
+            "foodAttributeType": {
+                "id": 1002,
+                "name": "Adjustments",
+                "description": "Adjustments made to foods, including moisture changes"
+            }
+        },
+        {
+            "id": 2650902,
+            "name": "WWEIA Category number",
+            "value": "8408",
+            "foodAttributeType": {
+                "id": 999,
+                "name": "Attribute",
+                "description": "Generic attributes"
+            }
+        },
+        {
+            "id": 2650903,
+            "name": "WWEIA Category description",
+            "value": "Olives, pickles, pickled vegetables",
+            "foodAttributeType": {
+                "id": 999,
+                "name": "Attribute",
+                "description": "Generic attributes"
+            }
+        }
+    ],
+    "foodCode": "75510010",
+    "startDate": "1/1/2019",
+    "endDate": "12/31/2020",
+    "wweiaFoodCategory": {
+        "wweiaFoodCategoryDescription": "Olives, pickles, pickled vegetables",
+        "wweiaFoodCategoryCode": 2650903
+    },
+    "foodPortions": [
+        {
+            "id": 286947,
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            },
+            "modifier": "90000",
+            "gramWeight": 15,
+            "portionDescription": "Quantity not specified",
+            "sequenceNumber": 3
+        },
+        {
+            "id": 286946,
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            },
+            "modifier": "10205",
+            "gramWeight": 135,
+            "portionDescription": "1 cup",
+            "sequenceNumber": 2
+        },
+        {
+            "id": 286945,
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            },
+            "modifier": "64727",
+            "gramWeight": 4,
+            "portionDescription": "1 olive",
+            "sequenceNumber": 1
+        }
+    ],
+    "publicationDate": "10/28/2022",
+    "inputFoods": [
+        {
+            "id": 121668,
+            "unit": "GM",
+            "portionDescription": "NONE",
+            "portionCode": "0",
+            "foodDescription": "Olives, pickled, canned or bottled, green",
+            "ingredientWeight": 100,
+            "ingredientCode": 9195,
+            "ingredientDescription": "Olives, pickled, canned or bottled, green",
+            "amount": 100,
+            "sequenceNumber": 1
+        }
+    ],
+    "dataType": "Survey (FNDDS)",
+    "fdcId": 2345616
+}

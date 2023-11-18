@@ -1,10 +1,10 @@
 {
     "foodClass": "Survey",
-    "description": "Olives, green",
+    "description": "Cilantro, raw",
     "foodNutrients": [
         {
             "type": "FoodNutrient",
-            "id": 28856164,
+            "id": 28835754,
             "nutrient": {
                 "id": 1003,
                 "number": "203",
@@ -12,11 +12,11 @@
                 "rank": 600,
                 "unitName": "g"
             },
-            "amount": 1.03
+            "amount": 2.13
         },
         {
             "type": "FoodNutrient",
-            "id": 28856165,
+            "id": 28835755,
             "nutrient": {
                 "id": 1004,
                 "number": "204",
@@ -24,11 +24,11 @@
                 "rank": 800,
                 "unitName": "g"
             },
-            "amount": 15.3
+            "amount": 0.52
         },
         {
             "type": "FoodNutrient",
-            "id": 28856166,
+            "id": 28835756,
             "nutrient": {
                 "id": 1005,
                 "number": "205",
@@ -36,11 +36,11 @@
                 "rank": 1110,
                 "unitName": "g"
             },
-            "amount": 3.84
+            "amount": 3.67
         },
         {
             "type": "FoodNutrient",
-            "id": 28856167,
+            "id": 28835757,
             "nutrient": {
                 "id": 1008,
                 "number": "208",
@@ -48,11 +48,11 @@
                 "rank": 300,
                 "unitName": "kcal"
             },
-            "amount": 145
+            "amount": 23.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856168,
+            "id": 28835758,
             "nutrient": {
                 "id": 1018,
                 "number": "221",
@@ -64,7 +64,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856169,
+            "id": 28835759,
             "nutrient": {
                 "id": 1051,
                 "number": "255",
@@ -72,11 +72,11 @@
                 "rank": 100,
                 "unitName": "g"
             },
-            "amount": 75.3
+            "amount": 92.2
         },
         {
             "type": "FoodNutrient",
-            "id": 28856170,
+            "id": 28835760,
             "nutrient": {
                 "id": 1057,
                 "number": "262",
@@ -88,7 +88,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856171,
+            "id": 28835761,
             "nutrient": {
                 "id": 1058,
                 "number": "263",
@@ -100,7 +100,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856172,
+            "id": 28835762,
             "nutrient": {
                 "id": 2000,
                 "number": "269",
@@ -108,11 +108,11 @@
                 "rank": 1510,
                 "unitName": "g"
             },
-            "amount": 0.54
+            "amount": 0.87
         },
         {
             "type": "FoodNutrient",
-            "id": 28856173,
+            "id": 28835763,
             "nutrient": {
                 "id": 1079,
                 "number": "291",
@@ -120,11 +120,11 @@
                 "rank": 1200,
                 "unitName": "g"
             },
-            "amount": 3.3
+            "amount": 2.8
         },
         {
             "type": "FoodNutrient",
-            "id": 28856174,
+            "id": 28835764,
             "nutrient": {
                 "id": 1087,
                 "number": "301",
@@ -132,11 +132,11 @@
                 "rank": 5300,
                 "unitName": "mg"
             },
-            "amount": 52.0
+            "amount": 67.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856175,
+            "id": 28835765,
             "nutrient": {
                 "id": 1089,
                 "number": "303",
@@ -144,11 +144,11 @@
                 "rank": 5400,
                 "unitName": "mg"
             },
-            "amount": 0.49
+            "amount": 1.77
         },
         {
             "type": "FoodNutrient",
-            "id": 28856176,
+            "id": 28835766,
             "nutrient": {
                 "id": 1090,
                 "number": "304",
@@ -156,11 +156,11 @@
                 "rank": 5500,
                 "unitName": "mg"
             },
-            "amount": 11.0
+            "amount": 26.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856177,
+            "id": 28835767,
             "nutrient": {
                 "id": 1091,
                 "number": "305",
@@ -168,11 +168,11 @@
                 "rank": 5600,
                 "unitName": "mg"
             },
-            "amount": 4.0
+            "amount": 48.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856178,
+            "id": 28835768,
             "nutrient": {
                 "id": 1092,
                 "number": "306",
@@ -180,11 +180,11 @@
                 "rank": 5700,
                 "unitName": "mg"
             },
-            "amount": 42.0
+            "amount": 521
         },
         {
             "type": "FoodNutrient",
-            "id": 28856179,
+            "id": 28835769,
             "nutrient": {
                 "id": 1093,
                 "number": "307",
@@ -192,11 +192,11 @@
                 "rank": 5800,
                 "unitName": "mg"
             },
-            "amount": 1560.0
+            "amount": 46.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856180,
+            "id": 28835770,
             "nutrient": {
                 "id": 1095,
                 "number": "309",
@@ -204,11 +204,11 @@
                 "rank": 5900,
                 "unitName": "mg"
             },
-            "amount": 0.04
+            "amount": 0.5
         },
         {
             "type": "FoodNutrient",
-            "id": 28856181,
+            "id": 28835771,
             "nutrient": {
                 "id": 1098,
                 "number": "312",
@@ -216,11 +216,11 @@
                 "rank": 6000,
                 "unitName": "mg"
             },
-            "amount": 0.12
+            "amount": 0.225
         },
         {
             "type": "FoodNutrient",
-            "id": 28856182,
+            "id": 28835772,
             "nutrient": {
                 "id": 1103,
                 "number": "317",
@@ -232,7 +232,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856183,
+            "id": 28835773,
             "nutrient": {
                 "id": 1105,
                 "number": "319",
@@ -244,7 +244,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856184,
+            "id": 28835774,
             "nutrient": {
                 "id": 1106,
                 "number": "320",
@@ -252,11 +252,11 @@
                 "rank": 7420,
                 "unitName": "\u00b5g"
             },
-            "amount": 20.0
+            "amount": 337
         },
         {
             "type": "FoodNutrient",
-            "id": 28856185,
+            "id": 28835775,
             "nutrient": {
                 "id": 1107,
                 "number": "321",
@@ -264,11 +264,11 @@
                 "rank": 7440,
                 "unitName": "\u00b5g"
             },
-            "amount": 231
+            "amount": 3930.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856186,
+            "id": 28835776,
             "nutrient": {
                 "id": 1108,
                 "number": "322",
@@ -276,11 +276,11 @@
                 "rank": 7450,
                 "unitName": "\u00b5g"
             },
-            "amount": 0.0
+            "amount": 36.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856187,
+            "id": 28835777,
             "nutrient": {
                 "id": 1109,
                 "number": "323",
@@ -288,11 +288,11 @@
                 "rank": 7905,
                 "unitName": "mg"
             },
-            "amount": 3.81
+            "amount": 2.5
         },
         {
             "type": "FoodNutrient",
-            "id": 28856188,
+            "id": 28835778,
             "nutrient": {
                 "id": 1114,
                 "number": "328",
@@ -304,7 +304,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856189,
+            "id": 28835779,
             "nutrient": {
                 "id": 1120,
                 "number": "334",
@@ -312,11 +312,11 @@
                 "rank": 7460,
                 "unitName": "\u00b5g"
             },
-            "amount": 9.0
+            "amount": 202
         },
         {
             "type": "FoodNutrient",
-            "id": 28856190,
+            "id": 28835780,
             "nutrient": {
                 "id": 1122,
                 "number": "337",
@@ -328,7 +328,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856191,
+            "id": 28835781,
             "nutrient": {
                 "id": 1123,
                 "number": "338",
@@ -336,11 +336,11 @@
                 "rank": 7560,
                 "unitName": "\u00b5g"
             },
-            "amount": 510
+            "amount": 865
         },
         {
             "type": "FoodNutrient",
-            "id": 28856192,
+            "id": 28835782,
             "nutrient": {
                 "id": 1162,
                 "number": "401",
@@ -348,11 +348,11 @@
                 "rank": 6300,
                 "unitName": "mg"
             },
-            "amount": 0.0
+            "amount": 27.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856193,
+            "id": 28835783,
             "nutrient": {
                 "id": 1165,
                 "number": "404",
@@ -360,11 +360,11 @@
                 "rank": 6400,
                 "unitName": "mg"
             },
-            "amount": 0.021
+            "amount": 0.067
         },
         {
             "type": "FoodNutrient",
-            "id": 28856194,
+            "id": 28835784,
             "nutrient": {
                 "id": 1166,
                 "number": "405",
@@ -372,11 +372,11 @@
                 "rank": 6500,
                 "unitName": "mg"
             },
-            "amount": 0.007
+            "amount": 0.162
         },
         {
             "type": "FoodNutrient",
-            "id": 28856195,
+            "id": 28835785,
             "nutrient": {
                 "id": 1167,
                 "number": "406",
@@ -384,11 +384,11 @@
                 "rank": 6600,
                 "unitName": "mg"
             },
-            "amount": 0.237
+            "amount": 1.11
         },
         {
             "type": "FoodNutrient",
-            "id": 28856196,
+            "id": 28835786,
             "nutrient": {
                 "id": 1175,
                 "number": "415",
@@ -396,11 +396,11 @@
                 "rank": 6800,
                 "unitName": "mg"
             },
-            "amount": 0.031
+            "amount": 0.149
         },
         {
             "type": "FoodNutrient",
-            "id": 28856197,
+            "id": 28835787,
             "nutrient": {
                 "id": 1177,
                 "number": "417",
@@ -408,11 +408,11 @@
                 "rank": 6900,
                 "unitName": "\u00b5g"
             },
-            "amount": 3.0
+            "amount": 62.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856198,
+            "id": 28835788,
             "nutrient": {
                 "id": 1178,
                 "number": "418",
@@ -424,7 +424,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856199,
+            "id": 28835789,
             "nutrient": {
                 "id": 1180,
                 "number": "421",
@@ -432,11 +432,11 @@
                 "rank": 7220,
                 "unitName": "mg"
             },
-            "amount": 14.2
+            "amount": 12.8
         },
         {
             "type": "FoodNutrient",
-            "id": 28856200,
+            "id": 28835790,
             "nutrient": {
                 "id": 1185,
                 "number": "430",
@@ -444,11 +444,11 @@
                 "rank": 8800,
                 "unitName": "\u00b5g"
             },
-            "amount": 1.4
+            "amount": 310
         },
         {
             "type": "FoodNutrient",
-            "id": 28856201,
+            "id": 28835791,
             "nutrient": {
                 "id": 1186,
                 "number": "431",
@@ -460,7 +460,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856202,
+            "id": 28835792,
             "nutrient": {
                 "id": 1187,
                 "number": "432",
@@ -468,11 +468,11 @@
                 "rank": 7100,
                 "unitName": "\u00b5g"
             },
-            "amount": 3.0
+            "amount": 62.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856203,
+            "id": 28835793,
             "nutrient": {
                 "id": 1190,
                 "number": "435",
@@ -480,11 +480,11 @@
                 "rank": 7200,
                 "unitName": "\u00b5g"
             },
-            "amount": 3.0
+            "amount": 62.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856204,
+            "id": 28835794,
             "nutrient": {
                 "id": 1242,
                 "number": "573",
@@ -496,7 +496,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856205,
+            "id": 28835795,
             "nutrient": {
                 "id": 1246,
                 "number": "578",
@@ -508,7 +508,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856206,
+            "id": 28835796,
             "nutrient": {
                 "id": 1253,
                 "number": "601",
@@ -520,7 +520,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856207,
+            "id": 28835797,
             "nutrient": {
                 "id": 1258,
                 "number": "606",
@@ -528,11 +528,11 @@
                 "rank": 9700,
                 "unitName": "g"
             },
-            "amount": 2.03
+            "amount": 0.014
         },
         {
             "type": "FoodNutrient",
-            "id": 28856208,
+            "id": 28835798,
             "nutrient": {
                 "id": 1259,
                 "number": "607",
@@ -544,7 +544,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856209,
+            "id": 28835799,
             "nutrient": {
                 "id": 1260,
                 "number": "608",
@@ -556,7 +556,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856210,
+            "id": 28835800,
             "nutrient": {
                 "id": 1261,
                 "number": "609",
@@ -568,7 +568,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856211,
+            "id": 28835801,
             "nutrient": {
                 "id": 1262,
                 "number": "610",
@@ -580,7 +580,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856212,
+            "id": 28835802,
             "nutrient": {
                 "id": 1263,
                 "number": "611",
@@ -592,7 +592,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856213,
+            "id": 28835803,
             "nutrient": {
                 "id": 1264,
                 "number": "612",
@@ -604,7 +604,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856214,
+            "id": 28835804,
             "nutrient": {
                 "id": 1265,
                 "number": "613",
@@ -612,11 +612,11 @@
                 "rank": 10700,
                 "unitName": "g"
             },
-            "amount": 1.69
+            "amount": 0.012
         },
         {
             "type": "FoodNutrient",
-            "id": 28856215,
+            "id": 28835805,
             "nutrient": {
                 "id": 1266,
                 "number": "614",
@@ -624,11 +624,11 @@
                 "rank": 10900,
                 "unitName": "g"
             },
-            "amount": 0.338
+            "amount": 0.001
         },
         {
             "type": "FoodNutrient",
-            "id": 28856216,
+            "id": 28835806,
             "nutrient": {
                 "id": 1268,
                 "number": "617",
@@ -636,11 +636,11 @@
                 "rank": 12100,
                 "unitName": "g"
             },
-            "amount": 11.1
+            "amount": 0.273
         },
         {
             "type": "FoodNutrient",
-            "id": 28856217,
+            "id": 28835807,
             "nutrient": {
                 "id": 1269,
                 "number": "618",
@@ -648,11 +648,11 @@
                 "rank": 13100,
                 "unitName": "g"
             },
-            "amount": 1.22
+            "amount": 0.04
         },
         {
             "type": "FoodNutrient",
-            "id": 28856218,
+            "id": 28835808,
             "nutrient": {
                 "id": 1270,
                 "number": "619",
@@ -660,11 +660,11 @@
                 "rank": 13900,
                 "unitName": "g"
             },
-            "amount": 0.092
+            "amount": 0.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856219,
+            "id": 28835809,
             "nutrient": {
                 "id": 1271,
                 "number": "620",
@@ -676,7 +676,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856220,
+            "id": 28835810,
             "nutrient": {
                 "id": 1272,
                 "number": "621",
@@ -688,7 +688,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856221,
+            "id": 28835811,
             "nutrient": {
                 "id": 1275,
                 "number": "626",
@@ -696,11 +696,11 @@
                 "rank": 11700,
                 "unitName": "g"
             },
-            "amount": 0.123
+            "amount": 0.002
         },
         {
             "type": "FoodNutrient",
-            "id": 28856222,
+            "id": 28835812,
             "nutrient": {
                 "id": 1276,
                 "number": "627",
@@ -712,7 +712,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856223,
+            "id": 28835813,
             "nutrient": {
                 "id": 1277,
                 "number": "628",
@@ -720,11 +720,11 @@
                 "rank": 12400,
                 "unitName": "g"
             },
-            "amount": 0.046
+            "amount": 0.0
         },
         {
             "type": "FoodNutrient",
-            "id": 28856224,
+            "id": 28835814,
             "nutrient": {
                 "id": 1278,
                 "number": "629",
@@ -736,7 +736,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856225,
+            "id": 28835815,
             "nutrient": {
                 "id": 1279,
                 "number": "630",
@@ -748,7 +748,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856226,
+            "id": 28835816,
             "nutrient": {
                 "id": 1280,
                 "number": "631",
@@ -760,7 +760,7 @@
         },
         {
             "type": "FoodNutrient",
-            "id": 28856227,
+            "id": 28835817,
             "nutrient": {
                 "id": 1292,
                 "number": "645",
@@ -768,11 +768,11 @@
                 "rank": 11400,
                 "unitName": "g"
             },
-            "amount": 11.3
+            "amount": 0.275
         },
         {
             "type": "FoodNutrient",
-            "id": 28856228,
+            "id": 28835818,
             "nutrient": {
                 "id": 1293,
                 "number": "646",
@@ -780,12 +780,32 @@
                 "rank": 12900,
                 "unitName": "g"
             },
-            "amount": 1.31
+            "amount": 0.04
         }
     ],
     "foodAttributes": [
         {
-            "id": 2667341,
+            "id": 2650275,
+            "name": "WWEIA Category description",
+            "value": "Not included in a food category",
+            "foodAttributeType": {
+                "id": 999,
+                "name": "Attribute",
+                "description": "Generic attributes"
+            }
+        },
+        {
+            "id": 2650274,
+            "name": "WWEIA Category number",
+            "value": "9999",
+            "foodAttributeType": {
+                "id": 999,
+                "name": "Attribute",
+                "description": "Generic attributes"
+            }
+        },
+        {
+            "id": 2667027,
             "value": "Moisture change: 0%",
             "foodAttributeType": {
                 "id": 1002,
@@ -794,86 +814,98 @@
             }
         },
         {
-            "id": 2650902,
-            "name": "WWEIA Category number",
-            "value": "8408",
+            "id": 2660446,
+            "value": "coriander leaves",
             "foodAttributeType": {
-                "id": 999,
-                "name": "Attribute",
-                "description": "Generic attributes"
-            }
+                "id": 1001,
+                "name": "Additional Description",
+                "description": "Additional descriptions for the food."
+            },
+            "rank": 1
         },
         {
-            "id": 2650903,
-            "name": "WWEIA Category description",
-            "value": "Olives, pickles, pickled vegetables",
+            "id": 2660447,
+            "value": "Chinese parsley",
             "foodAttributeType": {
-                "id": 999,
-                "name": "Attribute",
-                "description": "Generic attributes"
-            }
+                "id": 1001,
+                "name": "Additional Description",
+                "description": "Additional descriptions for the food."
+            },
+            "rank": 2
         }
     ],
-    "foodCode": "75510010",
+    "foodCode": "75109550",
     "startDate": "1/1/2019",
     "endDate": "12/31/2020",
     "wweiaFoodCategory": {
-        "wweiaFoodCategoryCode": 2650903,
-        "wweiaFoodCategoryDescription": "Olives, pickles, pickled vegetables"
+        "wweiaFoodCategoryDescription": "Not included in a food category",
+        "wweiaFoodCategoryCode": 2650275
     },
-    "fdcId": 2345616,
-    "dataType": "Survey (FNDDS)",
     "foodPortions": [
         {
-            "id": 286947,
+            "id": 285980,
             "measureUnit": {
                 "id": 9999,
                 "name": "undetermined",
                 "abbreviation": "undetermined"
             },
             "modifier": "90000",
-            "gramWeight": 15,
+            "gramWeight": 1,
             "portionDescription": "Quantity not specified",
-            "sequenceNumber": 3
+            "sequenceNumber": 4
         },
         {
-            "id": 286946,
+            "id": 285978,
+            "measureUnit": {
+                "id": 9999,
+                "name": "undetermined",
+                "abbreviation": "undetermined"
+            },
+            "modifier": "62222",
+            "gramWeight": 1,
+            "portionDescription": "1 sprig",
+            "sequenceNumber": 2
+        },
+        {
+            "id": 285977,
             "measureUnit": {
                 "id": 9999,
                 "name": "undetermined",
                 "abbreviation": "undetermined"
             },
             "modifier": "10205",
-            "gramWeight": 135,
+            "gramWeight": 16,
             "portionDescription": "1 cup",
-            "sequenceNumber": 2
+            "sequenceNumber": 1
         },
         {
-            "id": 286945,
+            "id": 285979,
             "measureUnit": {
                 "id": 9999,
                 "name": "undetermined",
                 "abbreviation": "undetermined"
             },
-            "modifier": "64727",
-            "gramWeight": 4,
-            "portionDescription": "1 olive",
-            "sequenceNumber": 1
+            "modifier": "64070",
+            "gramWeight": 0.3,
+            "portionDescription": "1 guideline amount per item",
+            "sequenceNumber": 3
         }
     ],
     "publicationDate": "10/28/2022",
     "inputFoods": [
         {
-            "id": 121668,
+            "id": 120663,
             "unit": "GM",
             "portionDescription": "NONE",
             "portionCode": "0",
-            "foodDescription": "Olives, pickled, canned or bottled, green",
+            "foodDescription": "Coriander (cilantro) leaves, raw",
             "ingredientWeight": 100,
-            "ingredientCode": 9195,
-            "ingredientDescription": "Olives, pickled, canned or bottled, green",
+            "ingredientCode": 11165,
+            "ingredientDescription": "Coriander (cilantro) leaves, raw",
             "amount": 100,
             "sequenceNumber": 1
         }
-    ]
+    ],
+    "dataType": "Survey (FNDDS)",
+    "fdcId": 2345302
 }

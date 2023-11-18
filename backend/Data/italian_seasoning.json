@@ -1,0 +1,226 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2008981,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 1887966,
+    "description": "ITALIAN SEASONING",
+    "publicationDate": "7/29/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 23695857,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 23695862,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 23695858,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 23695859,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 23695863,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 23695861,
+            "amount": 12500.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 23695860,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 23695864,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 23695856,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "1/3/2018",
+    "availableDate": "1/3/2018",
+    "brandOwner": "M&N Food Products Inc",
+    "brandName": "SAL & JUDY'S",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Herbs & Spices",
+    "gtinUpc": "046212000087",
+    "ingredients": "SPICES, SALT, DEHYDRATED GARLIC, DEHYDRATED BELL PEPPER, DEHYDRATED ONION, LEMON PEEL, AND EXTRA VIRGIN OLIVE OIL",
+    "marketCountry": "United States",
+    "servingSizeUnit": "g",
+    "packageWeight": "2.56 oz/72 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1887966,
+            "description": "ITALIAN SEASONING",
+            "publicationDate": "7/29/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/3/2018",
+            "availableDate": "1/3/2018",
+            "brandOwner": "M&N Food Products Inc",
+            "brandName": "SAL & JUDY'S",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Herbs & Spices",
+            "gtinUpc": "046212000087",
+            "ingredients": "SPICES, SALT, DEHYDRATED GARLIC, DEHYDRATED BELL PEPPER, DEHYDRATED ONION, LEMON PEEL, AND EXTRA VIRGIN OLIVE OIL",
+            "marketCountry": "United States",
+            "servingSizeUnit": "g",
+            "packageWeight": "2.56 oz/72 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1776708,
+            "description": "ITALIAN SEASONING",
+            "publicationDate": "6/17/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/3/2018",
+            "availableDate": "1/3/2018",
+            "brandOwner": "M&N Food Products Inc",
+            "brandName": "SAL & JUDY'S",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Herbs & Spices",
+            "gtinUpc": "046212000087",
+            "ingredients": "SPICES, SALT, DEHYDRATED GARLIC, DEHYDRATED BELL PEPPER, DEHYDRATED ONION, LEMON PEEL, AND EXTRA VIRGIN OLIVE OIL",
+            "marketCountry": "United States",
+            "servingSizeUnit": "g",
+            "packageWeight": "72 g"
+        }
+    ],
+    "labelNutrients": {}
+}

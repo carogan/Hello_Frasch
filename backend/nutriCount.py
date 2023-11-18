@@ -147,10 +147,10 @@ def create_nutrition_dict(directory, nutrient_mapping, default_units):
                             "unit": nutrient_info["nutrient"]["unitName"]
                         }
 
-                # Add missing nutrients with a value of 0 and the default unit
+                # Add missing nutrients with a value of 0.0 and the default unit
                 for nutrient in default_units:
                     if nutrient not in nutrient_data:
-                        nutrient_data[nutrient] = {"value": 0, "unit": default_units[nutrient]["unit"]}
+                        nutrient_data[nutrient] = {"value": 0.0, "unit": default_units[nutrient]["unit"]}
 
                 nutrition_dict[ingredient_name] = nutrient_data
     return nutrition_dict

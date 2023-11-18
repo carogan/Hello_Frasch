@@ -62,7 +62,7 @@
                 <!-- Close Button -->
                 <button class="close-button" @click="closeSideElement">&times;</button>
                 <div class="nutrient-sum" v-if="showSideElement">
-                    <p style="margin-top: 170px; margin-left: 10px;">
+                    <p style="margin-top: 100px; margin-left: 10px;">
                         Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
                         <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
@@ -70,8 +70,18 @@
                         Vitamin B12: {{ nutrientSums.vitaminB12 }} mg
                         <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
-                    <!-- Add other nutrients as needed -->
-                    <!--b9,b12,k,iron, zink-->
+                    <p style="margin-left: 10px;">
+                        Vitamin K: {{ nutrientSums.vitaminK }} mg
+                        <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
+                    <p style="margin-left: 10px;">
+                        Iron: {{ nutrientSums.iron }} mg
+                        <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
+                    <p style="margin-left: 10px;">
+                        Zinc: {{ nutrientSums.zinc }} mg
+                        <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                    </p>
                 </div>
             </div>
         </div>
@@ -83,7 +93,7 @@
 import RecipeCard from "@/components/RecipeCard.vue";
 import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
 import {Doughnut} from "vue-chartjs";
-import mockedRecipes from '../../../backend/mockedRecipes.json'
+import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
 import {RECIPE_HAS_BEEN_REPLACED, RECIPE_IN_REPLACEMENT, RECIPE_NOT_YET_REPLACED} from "@/const";
 
@@ -106,8 +116,11 @@ export default {
             newRecipes: [null, null, null],
             showSideElement: false,
             nutrientSums: {
-                vitaminB9: 300,
-                vitaminB12: 1000,
+                vitaminB9: 0,
+                vitaminB12: 0,
+                vitaminK: 0,
+                iron: 0,
+                zinc: 0,
                 // Add other nutrients as needed
             },
         };
@@ -148,13 +161,19 @@ export default {
             this.nutrientSums = {
                 vitaminB9: 0,
                 vitaminB12: 0,
+                vitaminK: 0,
+                iron: 0,
+                zinc: 0,
                 // Add other nutrients as needed
             };
 
             // Calculate nutrient sums across all recipes
             this.recipes.forEach((recipe) => {
-                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["vitaminB9"] || 12; // todo change
-                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["vitaminB12"] || 18; // todo change
+                this.nutrientSums.vitaminB9 += recipe.recipe.nutrition.VitaminB9.value || 1; // todo change
+                this.nutrientSums.vitaminB12 += recipe.recipe.nutrition.VitaminB12.value || 1; // todo change
+                this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"] || 1; // todo change
+                this.nutrientSums.iron += recipe.recipe.nutrition["Iron"] || 1; // todo change
+                this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"] || 1; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -174,16 +193,25 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 1000; // Example value in IU
-            const expectedVitaminB12 = 1000; // Example value in mg
+            const expectedVitaminB9 = 1; // Example value in IU
+            const expectedVitaminB12 = 1; // Example value in mg
+            const expectedVitaminK = 1; // Example value in mg
+            const expectedIron = 1; // Example value in mg
+            const expectedZinc = 1; // Example value in mg
 
             const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
             const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
+            const percentageVitaminK = (this.nutrientSums.vitaminK / expectedVitaminK) * 100;
+            const percentageIron = (this.nutrientSums.iron / expectedIron) * 100;
+            const percentageZinc = (this.nutrientSums.zinc / expectedZinc) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
                 'vitaminB9': percentageVitaminB9,
                 'vitaminB12': percentageVitaminB12,
+                'vitaminK': percentageVitaminK,
+                'iron': percentageIron,
+                'zinc': percentageZinc,
                 // Add other nutrients as needed
             };
 
