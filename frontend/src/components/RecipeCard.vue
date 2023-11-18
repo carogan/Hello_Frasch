@@ -7,8 +7,8 @@
 
             <img :src="recipe.recipe.image" class="card-img-top" alt="Recipe Image">
             <div class="card-body">
-                <h5 class="card-title">{{ recipe.recipe.name }}</h5>
-                <div style="height: 50px; overflow: hidden; margin-bottom: 10px">
+                <h5 class="card-title" style="height: 70px; overflow: hidden">{{ recipe.recipe.name }}</h5>
+                <div style="height: 45px; overflow: hidden; margin-bottom: 10px">
                     <p class="card-text">{{ recipe.recipe.headline }}</p>
                 </div>
                 <div class="d-flex justify-content-between align-items-center" style="height: 50px">
@@ -18,11 +18,39 @@
                 {{ tag.name }}
             </span>
                     </div>
-                    <button @click="dismissCard" class="btn btn-danger">Dismiss</button>
+                    <button
+                        v-if="!recipe.replacementChoice"
+                        @click="replaceCard"
+                        class="btn btn-danger"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#newRecipeCollapse"
+                        aria-expanded="false"
+                        aria-controls="newRecipeCollapse">
+                        Replace
+                    </button>
+                    <button
+                        v-if="recipe.replacementChoice"
+                        @click="chooseCard"
+                        class="btn btn-success"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#newRecipeCollapse"
+                        aria-expanded="false"
+                        aria-controls="newRecipeCollapse">
+                        Replace
+                    </button>
                 </div>
-
                 <hr>
-                <p class="card-text" style="font-size: 10pt"><strong>Recommendation:</strong> based on your preferences.</p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/user.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> based on your preferences.
+                </p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> seasonal ingredients.
+                </p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> based on your micronutrient levels.
+                </p>
             </div>
         </div>
     </div>
@@ -39,8 +67,11 @@ export default {
         }
     },
     methods: {
-        dismissCard() {
-            this.$emit('dismiss', this.recipe)
+        replaceCard() {
+            this.$emit('replace', this.recipe)
+        },
+        chooseCard() {
+            this.$emit('choose', this.recipe)
         }
     }
 };
@@ -49,7 +80,6 @@ export default {
 <style scoped>
 .recipe-card {
     position: relative;
-    max-width: calc(33.33% - 20px); /* 33.33% for three cards in a row, minus margin */
     margin: 0 10px 20px 10px; /* Adjust margin as needed */
 }
 
@@ -60,21 +90,26 @@ export default {
 }
 
 .emoji-container {
-  position: absolute;
-  top: 5px; /* Adjust the top position as needed */
-  right: 5px; /* Adjust the right position as needed */
-  padding: 5px; /* Adjust padding as needed */
-  z-index: 2; /* Set a z-index value higher than the image */
-}
-.emoji-container img {
     position: absolute;
-    top: -6px; /* dont change */
-    right: 7px; /* dont change */
-    max-width: 500%; /* Ensure the animated emoji fits within the container */
-    max-height: 500%; /* Ensure the animated emoji fits within the container */
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    padding: 5px; /* Adjust padding as needed */
+    z-index: 2; /* Set a z-index value higher than the image */
+    width: 50px; /* Set a fixed width for the emoji container */
+    height: 50px; /* Set a fixed height for the emoji container */
     border-radius: 10%;
     background-color: #85e459;
     object-fit: contain;
+}
+
+.emoji-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%; /* Set a maximum width for the image */
+    max-height: 80%; /* Set a maximum height for the image */
+
 }
 
 @media (max-width: 768px) {
