@@ -21,34 +21,29 @@
             <div class="nutrient-sum" v-if="showSideElement">
                 <p style="margin-top: 170px; margin-left: 10px;">
                     Vitamin A: {{ nutrientSums.vitaminA }} IU
-                    <doughnut :data="nutrientChartData('vitaminA')" :options="chartOptions"></doughnut>
+                    <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: true, maintainAspectRatio: false}"></Doughnut>
                 </p>
                 <p style="margin-left: 10px;">
                     Vitamin B: {{ nutrientSums.vitaminB }} mg
-                    <doughnut :data="nutrientChartData('vitaminB')" :options="chartOptions"></doughnut>
+                    <Doughnut :data="nutrientChartData('vitaminB')" :options="{responsive: true, maintainAspectRatio: false}"></Doughnut>
                 </p>
                 <!-- Add other nutrients as needed -->
             </div>
         </div>
-        
+
     </div>
 </template>
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js'
 import { Doughnut } from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes.json'
 
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default {
-    extends: Doughnut,
     props: ['data', 'options'],
-    mounted() {
-        // Render the chart when the component is mounted
-        setTimeout(() => {
-            this.renderChart(this.data, this.options);
-        }, 0);
-    },
     components: {
         RecipeCard,
         Doughnut
@@ -65,9 +60,9 @@ export default {
         };
     },
 
-    
+
     methods: {
-        
+
         dismissRecipe(dismissedRecipe) {
             this.recipes = this.recipes.filter((recipe) => recipe !== dismissedRecipe);
             this.calculateNutrientSums();
@@ -89,8 +84,8 @@ export default {
 
             // Calculate nutrient sums across all recipes
             this.recipes.forEach((recipe) => {
-                this.nutrientSums.vitaminA += recipe.recipe.nutrition["vitaminA"] || 0;
-                this.nutrientSums.vitaminB += recipe.recipe.nutrition["vitaminB"] || 0;
+                this.nutrientSums.vitaminA += recipe.recipe.nutrition["vitaminA"] || 12; // todo change
+                this.nutrientSums.vitaminB += recipe.recipe.nutrition["vitaminB"] || 18; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -122,7 +117,7 @@ export default {
                 'vitaminB': percentageVitaminB,
                 // Add other nutrients as needed
             };
-            
+
         },
     },
     watch: {
