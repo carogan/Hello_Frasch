@@ -130,7 +130,7 @@ export default {
         };
     },
 
-    created() {
+    mounted() {
         this.calculateNutrientSums();
     },
 
@@ -163,6 +163,7 @@ export default {
             this.newRecipes[this.replacedRecipeIndex] = chosenRecipe;
             this.newRecipes[this.replacedRecipeIndex].replacementChoice = RECIPE_HAS_BEEN_REPLACED;
             this.newRecipes[this.replacedRecipeIndex].minimized = false;
+            this.calculateNutrientSums();//update nutrient sums
 
             // remove from other choices
             this.replacementRecipeChoices = this.replacementRecipeChoices.filter(i => i !== chosenRecipe);
@@ -172,6 +173,7 @@ export default {
         },
         toggleSideElement() {
             this.showSideElement = !this.showSideElement;
+            this.calculateNutrientSums();//update nutrient sums
         },
         calculateNutrientSums() {
             // Reset nutrient sums
@@ -197,7 +199,10 @@ export default {
         },
         nutrientChartData(vitamin) {
             const percentage = this.calculateFulfillmentPercentage()[vitamin];
-            const remainingPercentage = 100 - percentage;
+            let remainingPercentage = 100 - percentage;
+            if (remainingPercentage < 0){
+                remainingPercentage = 0;
+            }
 
             return {
                 //labels: ["Fulfilled", "Remaining"],
@@ -211,17 +216,17 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 400; // Example value in mcg daily
-            const expectedVitaminB12 = 2.4; // Example value in mcg
-            const expectedVitaminK = 120; // Example value in mcg
-            const expectedIron = 8; // Example value in mg
-            const expectedZinc = 11; // Example value in mg
+            const expectedVitaminB9 = 400*3; // Example value in mcg daily
+            const expectedVitaminB12 = 2.4*3; // Example value in mcg
+            const expectedVitaminK = 120*3; // Example value in mcg
+            const expectedIron = 8*3; // Example value in mg
+            const expectedZinc = 11*3; // Example value in mg
 
-            const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
-            const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
-            const percentageVitaminK = (this.nutrientSums.vitaminK / expectedVitaminK) * 100;
-            const percentageIron = (this.nutrientSums.iron / expectedIron) * 100;
-            const percentageZinc = (this.nutrientSums.zinc / expectedZinc) * 100;
+            const percentageVitaminB9 = ((this.nutrientSums.vitaminB9*0.5) / expectedVitaminB9) * 100;//0.5 because 2 servings
+            const percentageVitaminB12 = ((this.nutrientSums.vitaminB12*0.5) / expectedVitaminB12) * 100;
+            const percentageVitaminK = ((this.nutrientSums.vitaminK*0.5) / expectedVitaminK) * 100;
+            const percentageIron = ((this.nutrientSums.iron*0.5) / expectedIron) * 100;
+            const percentageZinc = ((this.nutrientSums.zinc*0.5) / expectedZinc) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
