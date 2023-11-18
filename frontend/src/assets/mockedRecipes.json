@@ -7,6 +7,7 @@
         "prepTime": "PT25M",
         "image": "https://img.hellofresh.com/q_auto/recipes/image/HF_Y23_R37_W44_DE_R4819-1_Main_low-661e95c9.jpg",
         "websiteURL": "https://www.hellofresh.de/recipes/harissa-hahnchen-auf-quinoa-mit-grunen-oliven-64fed0d332e9107c6db8b507",
+        "seasonalEmoji": "X",
         "tags": [
             { "name": "High Protein" },
             { "name": "Under 650 Calories" }
@@ -53,6 +54,7 @@
         "prepTime": "PT25M",
         "image": "https://img.hellofresh.com/q_auto/recipes/image/HF_Y23_R38_W36_DE_R4737-1_Main_low-127700d5.jpg",
         "websiteURL": "https://www.hellofresh.de/recipes/balsamico-linsen-salat-mit-hahnchenbrust-64df2a75552e10127649f25f",
+        "seasonalEmoji": "X",
         "tags": [
             { "name": "High Protein" },
             { "name": "Gluten Free" },
@@ -100,6 +102,7 @@
         "prepTime": "PT35M",
         "image": "https://img.hellofresh.com/q_auto/recipes/image/HF_Y23_R39_W49_DE_R4823-1_Main__5low-208db069.jpg",
         "websiteURL": "https://www.hellofresh.de/recipes/perlencouscous-salat-mit-rote-beete-and-pastinakenchips-64e8611440ec4203972faf1b",
+        "seasonalEmoji": "X",
         "tags": [
             { "name": "Vegetarian" },
             { "name": "Extra Vegetables" },
