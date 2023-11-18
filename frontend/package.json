@@ -8,9 +8,13 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
     "chart.js": "^4.4.0",
     "core-js": "^3.8.3",
+    "jquery": "^3.7.1",
+    "portal-vue": "^3.0.0-beta.0",
     "vue": "^3.2.13",
     "vue-router": "^4.2.5"
   },
