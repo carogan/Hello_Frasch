@@ -1,5 +1,8 @@
 <template>
     <div class="container">
+        <button class="nutrition-manager-button" @click="toggleSideElement">
+            Nutrition Manager
+        </button>
         <div class="row" :class="{ 'shifted-row': showSideElement }">
             <!-- Recipe Cards -->
             <recipe-card
@@ -15,6 +18,9 @@
             <!-- Close Button -->
             <button class="close-button" @click="closeSideElement">&times;</button>
             <!-- Add your content here -->
+        </div>
+        <div class="arrow-button" v-if="showSideElement" @click="closeSideElement">
+            &larr;
         </div>
     </div>
 </template>
@@ -36,16 +42,31 @@ export default {
     methods: {
         dismissRecipe(dismissedRecipe) {
             this.recipes = this.recipes.filter((recipe) => recipe !== dismissedRecipe);
-            this.showSideElement = true;
+            this.showSideElement = false;
         },
         closeSideElement() {
             this.showSideElement = false;
+        },
+        toggleSideElement() {
+            this.showSideElement = !this.showSideElement;
         },
     },
 };
 </script>
 
 <style scoped>
+.nutrition-manager-button {
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 3; /* Ensure the button is above other elements */
+}
 .side-element {
     width: 200px; /* Adjust width as needed */
     height: 100%;
@@ -58,6 +79,20 @@ export default {
 
 .show-side-element {
     right: 0; /* Move the side element into view */
+}
+
+.arrow-button {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 3; /* Ensure the button is above other elements */
 }
 
 .close-button {
