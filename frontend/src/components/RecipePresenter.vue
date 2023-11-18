@@ -21,11 +21,11 @@
             <div class="nutrient-sum" v-if="showSideElement">
                 <p style="margin-top: 170px; margin-left: 10px;">
                     Vitamin A: {{ nutrientSums.vitaminA }} IU
-                    <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: true, maintainAspectRatio: false}"></Doughnut>
+                    <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: false, maintainAspectRatio: false}"></Doughnut>
                 </p>
                 <p style="margin-left: 10px;">
                     Vitamin B: {{ nutrientSums.vitaminB }} mg
-                    <Doughnut :data="nutrientChartData('vitaminB')" :options="{responsive: true, maintainAspectRatio: false}"></Doughnut>
+                    <Doughnut :data="nutrientChartData('vitaminB')" :options="{responsive: false, maintainAspectRatio: false}"></Doughnut>
                 </p>
                 <!-- Add other nutrients as needed -->
             </div>
@@ -147,12 +147,12 @@ export default {
   margin-right: 5px; /* Add margin to separate the icon from text */
 }
 .side-element {
-    width: 200px; /* Adjust width as needed */
+    width: 500px; /* Adjust width as needed */
     height: 100%;
     background-color: #f0f0f0; /* Adjust background color as needed */
     position: fixed;
     top: 0;
-    right: -200px; /* Initially hide the side element off-screen */
+    right: -500px; /* Initially hide the side element off-screen */
     transition: right 0.3s ease;
 }
 
