@@ -23,7 +23,7 @@
                 "carbohydrate": 52.4,
                 "protein": 38.4,
                 "Vitamin A": {
-                    "value": 41.8556016,
+                    "value": 462.1,
                     "unit": "mcg"
                 },
                 "Vitamin B6": {
@@ -35,11 +35,11 @@
                     "unit": "mcg"
                 },
                 "Vitamin B12": {
-                    "value": 0.002,
+                    "value": 0.0008,
                     "unit": "mcg"
                 },
                 "Vitamin C": {
-                    "value": 3.81743216,
+                    "value": 164.26,
                     "unit": "mg"
                 },
                 "Vitamin D": {
@@ -47,35 +47,35 @@
                     "unit": "mcg"
                 },
                 "Vitamin E": {
-                    "value": 0.0473721878,
+                    "value": 3.3905999999999996,
                     "unit": "mg"
                 },
                 "Vitamin K": {
-                    "value": 0.8371151720000001,
+                    "value": 145.47,
                     "unit": "mcg"
                 },
                 "Calcium": {
-                    "value": 13.782686159999999,
+                    "value": 429.80750000000006,
                     "unit": "mg"
                 },
                 "Magnesium": {
-                    "value": 66.81534538,
+                    "value": 197.04,
                     "unit": "mg"
                 },
                 "Potassium": {
-                    "value": 852.7641475600001,
+                    "value": 2779.7700000000004,
                     "unit": "mg"
                 },
                 "Selenium": {
-                    "value": 0.076119322,
+                    "value": 13.815999999999999,
                     "unit": "mcg"
                 },
                 "Zinc": {
-                    "value": 1.6598896012,
+                    "value": 3.4240500000000003,
                     "unit": "mg"
                 },
                 "Iron": {
-                    "value": 0.9532981442,
+                    "value": 12.35055,
                     "unit": "mg"
                 }
             },
@@ -747,7 +747,7 @@
                 "carbohydrate": 81,
                 "protein": 29,
                 "Vitamin A": {
-                    "value": 0.5118394961996078,
+                    "value": 85.37278,
                     "unit": "mcg"
                 },
                 "Vitamin B6": {
@@ -759,47 +759,47 @@
                     "unit": "mcg"
                 },
                 "Vitamin B12": {
-                    "value": 0.0086498784758459,
+                    "value": 1.5308730000000002,
                     "unit": "mcg"
                 },
                 "Vitamin C": {
-                    "value": 0.669157805020607,
+                    "value": 89.825325,
                     "unit": "mg"
                 },
                 "Vitamin D": {
-                    "value": 0.008009146736894351,
+                    "value": 1.417475,
                     "unit": "mcg"
                 },
                 "Vitamin E": {
-                    "value": 0.046780757744471754,
+                    "value": 1.1623773,
                     "unit": "mg"
                 },
                 "Vitamin K": {
-                    "value": 0.8209406842635832,
+                    "value": 105.90803599999998,
                     "unit": "mcg"
                 },
                 "Calcium": {
-                    "value": 129.34087152139097,
+                    "value": 299.868,
                     "unit": "mg"
                 },
                 "Magnesium": {
-                    "value": 47.89976041292489,
+                    "value": 159.65248,
                     "unit": "mg"
                 },
                 "Potassium": {
-                    "value": 74.93069368316718,
+                    "value": 1572.58904,
                     "unit": "mg"
                 },
                 "Selenium": {
-                    "value": 6.0319810045293485,
+                    "value": 113.897618,
                     "unit": "mcg"
                 },
                 "Zinc": {
-                    "value": 1.1276379443182536,
+                    "value": 11.113365100000001,
                     "unit": "mg"
                 },
                 "Iron": {
-                    "value": 2.086450225897503,
+                    "value": 8.712369500000001,
                     "unit": "mg"
                 }
             },
@@ -1396,7 +1396,7 @@
                 "carbohydrate": 57,
                 "protein": 33,
                 "Vitamin A": {
-                    "value": 26.117828020754605,
+                    "value": 599.3467199999999,
                     "unit": "mcg"
                 },
                 "Vitamin B6": {
@@ -1408,47 +1408,47 @@
                     "unit": "mcg"
                 },
                 "Vitamin B12": {
-                    "value": 0.04450358487744,
+                    "value": 1.7986190000000002,
                     "unit": "mcg"
                 },
                 "Vitamin C": {
-                    "value": 0.8755704620305791,
+                    "value": 173.11213599999996,
                     "unit": "mg"
                 },
                 "Vitamin D": {
-                    "value": 0.005731588512000001,
+                    "value": 2.83495,
                     "unit": "mcg"
                 },
                 "Vitamin E": {
-                    "value": 0.09592453227206345,
+                    "value": 6.544028799999999,
                     "unit": "mg"
                 },
                 "Vitamin K": {
-                    "value": 2.6450801173805605,
+                    "value": 642.99026,
                     "unit": "mcg"
                 },
                 "Calcium": {
-                    "value": 21.92716667121195,
+                    "value": 613.5549300000001,
                     "unit": "mg"
                 },
                 "Magnesium": {
-                    "value": 2.9313302188882906,
+                    "value": 211.29358999999997,
                     "unit": "mg"
                 },
                 "Potassium": {
-                    "value": 40.39042304044636,
+                    "value": 3270.33855,
                     "unit": "mg"
                 },
                 "Selenium": {
-                    "value": 0.9802112517557602,
+                    "value": 123.37133999999999,
                     "unit": "mcg"
                 },
                 "Zinc": {
-                    "value": 0.09655044510672763,
+                    "value": 11.533421899999999,
                     "unit": "mg"
                 },
                 "Iron": {
-                    "value": 0.1169506904525555,
+                    "value": 16.7965543,
                     "unit": "mg"
                 }
             },
@@ -1985,7 +1985,7 @@
                 "carbohydrate": 77,
                 "protein": 33,
                 "Vitamin A": {
-                    "value": 2.126542182989186,
+                    "value": 33.71435375,
                     "unit": "mcg"
                 },
                 "Vitamin B6": {
@@ -1997,47 +1997,47 @@
                     "unit": "mcg"
                 },
                 "Vitamin B12": {
-                    "value": 0.015998928106282614,
+                    "value": 1.562073,
                     "unit": "mcg"
                 },
                 "Vitamin C": {
-                    "value": 0.33339473059831337,
+                    "value": 5.739803749999999,
                     "unit": "mg"
                 },
                 "Vitamin D": {
-                    "value": 0.026607214320632053,
+                    "value": 1.469475,
                     "unit": "mcg"
                 },
                 "Vitamin E": {
-                    "value": 1.5273983230780959,
+                    "value": 4.992369375,
                     "unit": "mg"
                 },
                 "Vitamin K": {
-                    "value": 31.858015529567858,
+                    "value": 76.180042,
                     "unit": "mcg"
                 },
                 "Calcium": {
-                    "value": 116.39304745554419,
+                    "value": 468.87675624999997,
                     "unit": "mg"
                 },
                 "Magnesium": {
-                    "value": 93.64635609440937,
+                    "value": 206.97205750000003,
                     "unit": "mg"
                 },
                 "Potassium": {
-                    "value": 241.3045930977199,
+                    "value": 1687.56815875,
                     "unit": "mg"
                 },
                 "Selenium": {
-                    "value": 5.953736632941102,
+                    "value": 110.235566875,
                     "unit": "mcg"
                 },
                 "Zinc": {
-                    "value": 1.9858337912685426,
+                    "value": 12.437127475000002,
                     "unit": "mg"
                 },
                 "Iron": {
-                    "value": 5.521957028518632,
+                    "value": 19.4323786375,
                     "unit": "mg"
                 }
             },
@@ -2643,7 +2643,7 @@
                 "carbohydrate": 98,
                 "protein": 18,
                 "Vitamin A": {
-                    "value": 2.6588999203688752,
+                    "value": 267.74108,
                     "unit": "mcg"
                 },
                 "Vitamin B6": {
@@ -2655,47 +2655,47 @@
                     "unit": "mcg"
                 },
                 "Vitamin B12": {
-                    "value": 0.014196,
+                    "value": 0.5459999999999999,
                     "unit": "mcg"
                 },
                 "Vitamin C": {
-                    "value": 0.0022460401377895883,
+                    "value": 32.760844,
                     "unit": "mg"
                 },
                 "Vitamin D": {
-                    "value": 0.005070000000000001,
+                    "value": 0.195,
                     "unit": "mcg"
                 },
                 "Vitamin E": {
-                    "value": 0.006419991033333344,
+                    "value": 3.2995078,
                     "unit": "mg"
                 },
                 "Vitamin K": {
-                    "value": 0.024382888962643547,
+                    "value": 512.51563,
                     "unit": "mcg"
                 },
                 "Calcium": {
-                    "value": 13.991478442871164,
+                    "value": 706.6387,
                     "unit": "mg"
                 },
                 "Magnesium": {
-                    "value": 0.46205056100329855,
+                    "value": 74.4195,
                     "unit": "mg"
                 },
                 "Potassium": {
-                    "value": 56.89759444940152,
+                    "value": 1022.04082,
                     "unit": "mg"
                 },
                 "Selenium": {
-                    "value": 0.38512518445961236,
+                    "value": 21.803582,
                     "unit": "mcg"
                 },
                 "Zinc": {
-                    "value": 0.04713165579766762,
+                    "value": 3.0378746000000003,
                     "unit": "mg"
                 },
                 "Iron": {
-                    "value": 0.218221384973554,
+                    "value": 4.62282045,
                     "unit": "mg"
                 }
             },

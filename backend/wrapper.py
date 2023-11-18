@@ -4,17 +4,17 @@ from config import OPENAI_API_KEY
 import json
 import re
 import nutriCount
-from converter import recipes
 
 openai.api_key = OPENAI_API_KEY
 content = None
 
 
-with open('backend/mockedRecipes.json','r') as f:
-   content = json.load(f)
+with open('backend/mockedRecipes_with_Nutrition.json','r') as f:
+   recipes = json.load(f)
 
 #content = json.load("backend/mockedRecipes.js")
 ingredient = "Lime"
+content = recipes[2]
 correct_json = False
 while correct_json is False:
 
@@ -22,9 +22,8 @@ while correct_json is False:
     model="gpt-4",
     messages=[
         {"role": "system", "content": "Food lover"},
-        {"role": "user", "content": "The user does not like " + ingredient +", Replace in this recipe all ingredients with " + ingredient +" where it appears with the right amount of a similar ingredient  which is used in another dish of the list. The replacement ingredient should have a similar usage, taste is not as important. The replacement ingredient has to have the exact same name and type as an ingredient used in a different recipe in this list. For example, an apple could be replaced with a pear but only if the pear is used in a recipe in the list. An apple could not be replaced by pear jelly since pear jelly has a different usage. If absolutely no possible replacement exists, do not replace it and instead change the name of the ingredient to the original name + no replacement possible. Only do this in the list of ingredients. Return just the new json object and the json object has to have correct syntax, thus the response should start with [{\"index\": 1,... and end with}] :" + json.dumps(content)}    
+        {"role": "user", "content": "I want to make a recipe, but it is low in Iron, please replace one ingredient so that the iron amount increases. Return just the new json object and the json object has to have correct syntax, thus the response should start with [{\"index\": 1,... and end with}] :" + json.dumps(content)}    #with open("backend/output.json", 'w') as json_file:
         ])
-    #with open("backend/output.json", 'w') as json_file:
     #    json.dump(str(completion.choices[0].message.content), json_file, indent=1)
     response = str(completion.choices[0].message.content)
     try:
