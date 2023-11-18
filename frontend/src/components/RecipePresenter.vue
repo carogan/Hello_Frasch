@@ -9,9 +9,11 @@
             <div class="col-4" v-for="(recipe, index) in recipes" :key="index">
                 <dismissed-recipe-card v-if="recipe.dismissed" :recipe="recipe"></dismissed-recipe-card>
                 <recipe-card :recipe="recipe" v-if="!recipe.dismissed" @replace="replaceRecipe"></recipe-card>
-            </div>
-            <div class="col-4" v-for="(recipe, index) in newRecipes" :key="index">
-                <recipe-card v-if="recipe" :recipe="recipe"></recipe-card>
+
+                <recipe-card v-if="getNewRecipes()[index] && !getNewRecipes()[index].minimized"
+                             :recipe="getNewRecipes()[index]"></recipe-card>
+                <minimized-recipe-card v-if="getNewRecipes()[index] && getNewRecipes()[index].minimized"
+                                       :recipe="getNewRecipes()[index]"></minimized-recipe-card>
             </div>
         </div>
 
@@ -96,6 +98,7 @@ import {Doughnut} from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
 import {RECIPE_HAS_BEEN_REPLACED, RECIPE_IN_REPLACEMENT, RECIPE_NOT_YET_REPLACED} from "@/const";
+import MinimizedRecipeCard from "@/components/MinimizedRecipeCard.vue";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -103,6 +106,7 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 export default {
     props: ['data', 'options'],
     components: {
+        MinimizedRecipeCard,
         DismissedRecipeCard,
         RecipeCard,
         Doughnut
@@ -135,6 +139,9 @@ export default {
         getRecipesForComputation() {
             return this.recipes.filter(r => !r.dismissed).concat(this.newRecipes.filter(r => !!r));
         },
+        getNewRecipes() {
+            return this.newRecipes;
+        },
         replaceRecipe(replacedRecipe) {
             // ugly way to deep copy an array
             this.previousRecipes = JSON.parse(JSON.stringify(this.recipes));
@@ -145,14 +152,17 @@ export default {
 
             // after we took note of which we minimized, make all of them smaller
             this.recipes.forEach(r => r.dismissed = true);
+            this.newRecipes.filter(r => !!r).forEach(r => r.minimized = true);
         },
         enlargeOthers() {
             this.recipes = this.previousRecipes;
+            this.newRecipes.filter(r => !!r).forEach(r => r.minimized = false);
         },
         chooseRecipe(chosenRecipe) {
             this.enlargeOthers();
             this.newRecipes[this.replacedRecipeIndex] = chosenRecipe;
             this.newRecipes[this.replacedRecipeIndex].replacementChoice = RECIPE_HAS_BEEN_REPLACED;
+            this.newRecipes[this.replacedRecipeIndex].minimized = false;
 
             // remove from other choices
             this.replacementRecipeChoices = this.replacementRecipeChoices.filter(i => i !== chosenRecipe);
@@ -183,7 +193,7 @@ export default {
                 this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
                 this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"].value || 1; // todo change
                 // Add other nutrients as needed
-            });
+            });*/
         },
         nutrientChartData(vitamin) {
             const percentage = this.calculateFulfillmentPercentage()[vitamin];
@@ -225,7 +235,7 @@ export default {
 
         },
     },
-    
+
 };
 </script>
 

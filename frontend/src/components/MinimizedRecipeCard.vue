@@ -4,7 +4,7 @@
             <div class="row g-0">
                 <div class="col-md-4">
                     <div class="image-container">
-                        <img :src="recipe.recipe.image" class="img-fluid rounded-start faded img-fill" alt="Image">
+                        <img :src="recipe.recipe.image" class="img-fluid rounded-start img-fill faded" alt="Image">
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -37,7 +37,7 @@ export default {
 }
 
 .faded {
-    opacity: 0.25;
+    opacity: 0.90;
 }
 
 .image-container {

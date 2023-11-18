@@ -31,7 +31,7 @@ for entry in content:
             for nut in i_nut:
                 print(nut)
 
-                entry['recipe']['nutrition'][nut]['value'] = float(i.get("amount_per_100_gramm"))* (float(entry['recipe']['nutrition'][nut]['value']) + float(nutrients[i.get("name")][nut]["value"]))
+                entry['recipe']['nutrition'][nut]['value'] = float(i.get("amount_per_100_gramm"))*  float(nutrients[i.get("name")][nut]["value"]) +(float(entry['recipe']['nutrition'][nut]['value']))
                 
             i.update(i_nut)
 
