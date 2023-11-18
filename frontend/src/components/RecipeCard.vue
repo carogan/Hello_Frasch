@@ -30,7 +30,15 @@
                     </button>
                 </div>
                 <hr>
-                <p class="card-text" style="font-size: 10pt"><strong>Recommendation:</strong> based on your preferences.</p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/user.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> based on your preferences.
+                </p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> seasonal ingredients.
+                </p>
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
+                    <strong>Recommendation:</strong> based on your micronutrient levels.
+                </p>
             </div>
         </div>
     </div>
