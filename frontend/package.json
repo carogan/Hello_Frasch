@@ -18,6 +18,7 @@
     "jquery": "^3.7.1",
     "portal-vue": "^3.0.0-beta.0",
     "vue": "^3.2.13",
+    "vue-chartjs": "^5.2.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

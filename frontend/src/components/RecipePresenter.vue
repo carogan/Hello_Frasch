@@ -18,7 +18,17 @@
         <div class="side-element" :class="{ 'show-side-element': showSideElement }" ref="sideElement">
             <!-- Close Button -->
             <button class="close-button" @click="closeSideElement">&times;</button>
-            <!-- Add your content here -->
+            <div class="nutrient-sum" v-if="showSideElement">
+                <p style="margin-top: 170px; margin-left: 10px;">
+                    Vitamin A: {{ nutrientSums.vitaminA }} IU
+                    <doughnut :data="nutrientChartData('vitaminA')" :options="chartOptions"></doughnut>
+                </p>
+                <p style="margin-left: 10px;">
+                    Vitamin B: {{ nutrientSums.vitaminB }} mg
+                    <doughnut :data="nutrientChartData('vitaminB')" :options="chartOptions"></doughnut>
+                </p>
+                <!-- Add other nutrients as needed -->
+            </div>
         </div>
         
     </div>
@@ -26,22 +36,41 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
+import { Doughnut } from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes.json'
 
 
 export default {
+    extends: Doughnut,
+    props: ['data', 'options'],
+    mounted() {
+        // Render the chart when the component is mounted
+        setTimeout(() => {
+            this.renderChart(this.data, this.options);
+        }, 0);
+    },
     components: {
         RecipeCard,
+        Doughnut
     },
     data() {
         return {
             recipes: mockedRecipes,
             showSideElement: false,
+            nutrientSums: {
+                vitaminA: 300,
+                vitaminB: 1000,
+                // Add other nutrients as needed
+            },
         };
     },
+
+    
     methods: {
+        
         dismissRecipe(dismissedRecipe) {
             this.recipes = this.recipes.filter((recipe) => recipe !== dismissedRecipe);
+            this.calculateNutrientSums();
             this.showSideElement = false;
         },
         closeSideElement() {
@@ -50,11 +79,61 @@ export default {
         toggleSideElement() {
             this.showSideElement = !this.showSideElement;
         },
+        calculateNutrientSums() {
+            // Reset nutrient sums
+            this.nutrientSums = {
+                vitaminA: 0,
+                vitaminB: 0,
+                // Add other nutrients as needed
+            };
+
+            // Calculate nutrient sums across all recipes
+            this.recipes.forEach((recipe) => {
+                this.nutrientSums.vitaminA += recipe.recipe.nutrition["vitaminA"] || 0;
+                this.nutrientSums.vitaminB += recipe.recipe.nutrition["vitaminB"] || 0;
+                // Add other nutrients as needed
+            });
+        },
+        nutrientChartData(vitamin) {
+            const percentage = this.calculateFulfillmentPercentage()[vitamin];
+            const remainingPercentage = 100 - percentage;
+
+            return {
+                labels: ["Fulfilled", "Remaining"],
+                datasets: [
+                {
+                    data: [percentage, remainingPercentage],
+                    backgroundColor: [percentage >= 100 ? "white" : "red", "blue"],
+                },
+                ],
+            };
+        },
+        calculateFulfillmentPercentage() {
+            // Replace these values with your expected daily consumption
+            const expectedVitaminA = 1000; // Example value in IU
+            const expectedVitaminB = 1000; // Example value in mg
+
+            const percentageVitaminA = (this.nutrientSums.vitaminA / expectedVitaminA) * 100;
+            const percentageVitaminB = (this.nutrientSums.vitaminB / expectedVitaminB) * 100;
+
+            // Return the overall percentage (you can customize this based on your needs)
+            return {
+                'vitaminA': percentageVitaminA,
+                'vitaminB': percentageVitaminB,
+                // Add other nutrients as needed
+            };
+            
+        },
+    },
+    watch: {
+        recipes: 'calculateNutrientSums', // Recalculate sums when recipes change
     },
 };
 </script>
 
 <style scoped>
+
+
 .nutrition-manager-button {
   position: fixed;
   top: 100px;

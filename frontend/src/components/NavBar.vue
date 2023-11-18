@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
-                <strong style="color: grey;">🚫 Disabled</strong>
+                <strong style="color: grey;">🚫 Select Recipe</strong>
               </a>
             </li>
           </ul>
