@@ -336,64 +336,64 @@
           },
           "ingredients": [
             {
-              "name": "Limes",
+              "name": "limes",
               "type": "lime",
               "imageLink": "not found",
               "amount_units": "1",
               "amount_gram": "60"
             },
             {
-              "name": "Cilantro",
+              "name": "cilantro",
               "type": "cilantro",
               "imageLink": "not found",
               "amount_ounce": "0.25"
             },
             {
-              "name": "Ground Pork",
+              "name": "ground_pork",
               "type": "ground-pork",
               "imageLink": "not found",
               "amount_ounce": "10"
             },
             {
-              "name": "Garlic Powder",
+              "name": "garlic_powder",
               "type": "garlic-powder",
               "imageLink": "not found",
               "amount_tablespoon": "1"
             },
             {
-              "name": "Hoisin Sauce",
+              "name": "hoisin_sauce",
               "type": "hoisin-sauce",
               "imageLink": "not found",
               "amount_tablespoon": "2"
             },
             {
-              "name": "Gochujang Sauce",
+              "name": "gochujang_sauce",
               "type": "gochujang-sauce",
               "imageLink": "not found",
               "amount_ounce": "1"
             },
             {
-              "name": "Coleslaw Mix",
+              "name": "coleslaw_mix",
               "type": "coleslaw-mix",
               "imageLink": "not found",
-              "amount_grams": "4"
+              "amount_gram": "4"
             },
             {
-              "name": "Mayonnaise",
+              "name": "mayonnaise",
               "type": "mayonnaise",
               "imageLink": "not found",
               "amount_tablespoon": "2"
             },
             {
-              "name": "Flour Tortillas",
+              "name": "flour_tortillas",
               "type": "flour-tortillas",
               "imageLink": "not found",
               "amount_units": "6",
               "amount_gram": "180"
             },
             {
-              "name": "Cashews",
-              "type": "flour-tortillas",
+              "name": "cashews",
+              "type": "cashews",
               "imageLink": "not found",
               "amount_ounce": "1"
             }
@@ -438,77 +438,77 @@
             },
             "ingredients": [
               {
-                "name": "Yellow Onion",
+                "name": "yellow_onion",
                 "type": "yellow-onion",
                 "imageLink": "not found",
                 "amount_units": "1",
                 "amount_gram": "170"
               },
               {
-                "name": "Carrots",
+                "name": "carrots",
                 "type": "carrot",
                 "imageLink": "not found",
                 "amount_ounce": "6"
               },
               {
-                "name": "Garlic",
+                "name": "garlic",
                 "type": "garlic",
                 "imageLink": "not found",
                 "amount_units": "1",
                 "amount_gram": "30"
               },
               {
-                "name": "Kale",
+                "name": "kale",
                 "type": "kale",
                 "imageLink": "not found",
                 "amount_ounce": "4"
               },
               {
-                "name": "Italian Seasoning",
+                "name": "italian_seasoning",
                 "type": "italien-seasoning",
                 "imageLink": "not found",
                 "amount_tablespoon": "1"
               },
               {
-                "name": "Crushed Tomatoes",
+                "name": "crushed_tomatoes",
                 "type": "tomatoes",
                 "imageLink": "not found",
                 "amount_ounce": "13.76"
               },
               {
-                "name": "Veggie Stock Concentrate",
+                "name": "veggie_stock_concentrate",
                 "type": "veggie-stock-concentrate",
                 "imageLink": "not found",
                 "amount_units": "3",
                 "amount_gram": "9.6"
               },
               {
-                "name": "Israeli Couscous",
+                "name": "israeli_couscous",
                 "type": "couscous",
                 "imageLink": "not found",
                 "amount_ounce": "2.5"
               },
               {
-                "name": "Garlic Powder",
+                "name": "garlic_powder",
                 "type": "garlic-powder",
                 "imageLink": "not found",
                 "amount_tablespoon": "1"
               },
               {
-                "name": "Demi_Baguette",
+                "name": "demi_baguette",
                 "type": "bread",
                 "imageLink": "not found",
                 "amount_units": "1",
                 "amount_gram": "115"
               },
               {
-                "name": "Parmesan Cheese",
+                "name": "parmesan_cheese",
                 "type": "parmesan-cheese",
                 "imageLink": "not found",
                 "amount_tablespoon": "3"
               },
               {
-                "name": "Chili Flakes",
+                "name": "chili_flakes",
                 "type": "chili-flakes",
                 "imageLink": "not found",
                 "amount_tablespoon": "0.2"

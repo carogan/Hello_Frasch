@@ -1,0 +1,425 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2726416,
+            "value": 4,
+            "name": "Nutrient Updated"
+        },
+        {
+            "id": 2726417,
+            "value": 6,
+            "name": "Nutrient Removed"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2388833,
+    "description": "ISRAELI COUSCOUS",
+    "publicationDate": "12/22/2022",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29410269,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410256,
+            "amount": 13.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410268,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410258,
+            "amount": 71.11
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29410266,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410261,
+            "amount": 2.2
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29410267,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410257,
+            "amount": 1.11
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 29410265,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410259,
+            "amount": 356.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410264,
+            "amount": 184.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410263,
+            "amount": 2.22
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410262,
+            "amount": 24.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 29410260,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "11/15/2022",
+    "availableDate": "11/15/2022",
+    "brandOwner": "Hy-Vee, Inc.",
+    "brandName": "HY-VEE",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Pasta by Shape & Type",
+    "gtinUpc": "075450134780",
+    "householdServingFullText": "0.25 cup dry",
+    "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+    "marketCountry": "United States",
+    "servingSize": 45.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "14 oz/397 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2388833,
+            "description": "ISRAELI COUSCOUS",
+            "publicationDate": "12/22/2022",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "11/15/2022",
+            "availableDate": "11/15/2022",
+            "brandOwner": "Hy-Vee, Inc.",
+            "brandName": "HY-VEE",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pasta by Shape & Type",
+            "gtinUpc": "075450134780",
+            "householdServingFullText": "0.25 cup dry",
+            "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "14 oz/397 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1888177,
+            "description": "ISRAELI COUSCOUS",
+            "publicationDate": "7/29/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "10/1/2020",
+            "availableDate": "10/1/2020",
+            "brandOwner": "Hy-Vee, Inc.",
+            "brandName": "HY-VEE",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pasta by Shape & Type",
+            "gtinUpc": "075450134780",
+            "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "14 oz/397 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1547229,
+            "description": "ISRAELI COUSCOUS",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "10/1/2020",
+            "availableDate": "10/1/2020",
+            "brandOwner": "Hy-Vee, Inc.",
+            "brandName": "HY-VEE",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pasta by Shape & Type",
+            "gtinUpc": "075450134780",
+            "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1255162,
+            "description": "ISRAELI COUSCOUS",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "10/1/2020",
+            "availableDate": "10/1/2020",
+            "brandOwner": "Hy-Vee, Inc.",
+            "brandName": "HY-VEE",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pasta by Shape & Type",
+            "gtinUpc": "075450134780",
+            "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1112247,
+            "description": "ISRAELI COUSCOUS",
+            "publicationDate": "11/13/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "9/28/2020",
+            "availableDate": "9/28/2020",
+            "brandOwner": "Hy-Vee, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pasta by Shape & Type",
+            "gtinUpc": "075450134780",
+            "ingredients": "ISRAELI COUSCOUS (WHEAT FLOUR, ROSEMARY EXTRACT).",
+            "marketCountry": "United States",
+            "servingSize": 45.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.5
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 0.0
+        },
+        "carbohydrates": {
+            "value": 32.0
+        },
+        "fiber": {
+            "value": 0.99
+        },
+        "sugars": {
+            "value": 0.0
+        },
+        "protein": {
+            "value": 6.0
+        },
+        "calcium": {
+            "value": 10.8
+        },
+        "iron": {
+            "value": 0.999
+        },
+        "potassium": {
+            "value": 82.8
+        },
+        "calories": {
+            "value": 160
+        }
+    }
+}

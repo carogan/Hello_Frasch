@@ -1,0 +1,441 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2494485,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2244609,
+    "description": "GOCHUJANG SAUCE, GOCHUJANG",
+    "publicationDate": "4/1/2022",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648321,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648322,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648315,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648319,
+            "amount": 33.3
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648313,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648311,
+            "amount": 267.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648309,
+            "amount": 5.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648316,
+            "amount": 233.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648317,
+            "amount": 967.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648314,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648320,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27648318,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648310,
+            "amount": 53.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648312,
+            "amount": 43.33
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27648308,
+            "amount": 3.33
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "1/9/2020",
+    "availableDate": "1/9/2020",
+    "brandOwner": "Kingston Marketing Co",
+    "brandName": "CULINARY TOURS",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+    "gtinUpc": "011225191367",
+    "householdServingFullText": "2 Tbsp",
+    "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+    "marketCountry": "United States",
+    "servingSize": 30.0,
+    "servingSizeUnit": "ml",
+    "packageWeight": "11.8 fl oz/349 mL",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2244609,
+            "description": "GOCHUJANG SAUCE, GOCHUJANG",
+            "publicationDate": "4/1/2022",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "1/9/2020",
+            "availableDate": "1/9/2020",
+            "brandOwner": "Kingston Marketing Co",
+            "brandName": "CULINARY TOURS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+            "gtinUpc": "011225191367",
+            "householdServingFullText": "2 Tbsp",
+            "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+            "marketCountry": "United States",
+            "servingSize": 30.0,
+            "servingSizeUnit": "ml",
+            "packageWeight": "11.8 fl oz/349 mL"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2114640,
+            "description": "GOCHUJANG SAUCE, GOCHUJANG",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/9/2020",
+            "availableDate": "1/9/2020",
+            "brandOwner": "Kingston Marketing Co",
+            "brandName": "CULINARY TOURS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+            "gtinUpc": "011225191367",
+            "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+            "marketCountry": "United States",
+            "servingSize": 30.0,
+            "servingSizeUnit": "ml",
+            "packageWeight": "11.8 fl oz"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1642370,
+            "description": "GOCHUJANG SAUCE, GOCHUJANG",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/9/2020",
+            "availableDate": "1/9/2020",
+            "brandOwner": "Kingston Marketing Co",
+            "brandName": "CULINARY TOURS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+            "gtinUpc": "011225191367",
+            "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+            "marketCountry": "United States",
+            "servingSize": 30.0,
+            "servingSizeUnit": "ml"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1350196,
+            "description": "GOCHUJANG SAUCE, GOCHUJANG",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/9/2020",
+            "availableDate": "1/9/2020",
+            "brandOwner": "Kingston Marketing Co",
+            "brandName": "CULINARY TOURS",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+            "gtinUpc": "011225191367",
+            "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+            "marketCountry": "United States",
+            "servingSize": 30.0,
+            "servingSizeUnit": "ml",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 670112,
+            "description": "GOCHUJANG SAUCE, GOCHUJANG",
+            "publicationDate": "12/6/2019",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "8/19/2019",
+            "availableDate": "8/19/2019",
+            "brandOwner": "CULINARY TOURS",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Ketchup, Mustard, BBQ & Cheese Sauce",
+            "gtinUpc": "011225191367",
+            "householdServingFullText": "2 Tbsp",
+            "ingredients": "HIGH FRUCTOSE CORN SYRUP, RED PEPPER PASTE [CORN SYRUP, RICE, WATER, DRIED VEGETABLE SEASONING (RED PEPPER, SALT, GARLIC, ONION), DRIED RED PEPPER, SOYBEAN, SALT, RICE WINE, YEAST, WHEAT, ASPERGILLUS ORYZEA], WATER, TOMATO PASTE, CANOLA OIL, APPLE VINEGAR, SUGAR, GARLIC, DEHYDRATED GARLIC, DISTILLED VINEGAR, MODIFIED CORN STARCH, SPICE EXTRACT, SALT, CITRIC ACID, DEHYDRATED ONION, SODIUM BENZOATE (PRESERVATIVE), CHILI POWDER (SPICES, SALT, CARAMEL, DEXTROSE), SPICES.",
+            "marketCountry": "United States",
+            "servingSize": 30.0,
+            "servingSizeUnit": "ml"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 1.5
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 290
+        },
+        "carbohydrates": {
+            "value": 16.0
+        },
+        "fiber": {
+            "value": 0.0
+        },
+        "sugars": {
+            "value": 13.0
+        },
+        "protein": {
+            "value": 0.999
+        },
+        "calcium": {
+            "value": 0.0
+        },
+        "iron": {
+            "value": 0.0
+        },
+        "potassium": {
+            "value": 69.9
+        },
+        "addedSugar": {
+            "value": 9.99
+        },
+        "calories": {
+            "value": 80.1
+        }
+    }
+}

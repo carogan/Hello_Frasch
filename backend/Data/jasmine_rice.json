@@ -828,11 +828,9 @@
     "startDate": "1/1/2019",
     "endDate": "12/31/2020",
     "wweiaFoodCategory": {
-        "wweiaFoodCategoryCode": 2647455,
-        "wweiaFoodCategoryDescription": "Rice"
+        "wweiaFoodCategoryDescription": "Rice",
+        "wweiaFoodCategoryCode": 2647455
     },
-    "fdcId": 2343892,
-    "dataType": "Survey (FNDDS)",
     "foodPortions": [
         {
             "id": 280518,
@@ -885,5 +883,7 @@
             "amount": 1,
             "sequenceNumber": 1
         }
-    ]
+    ],
+    "dataType": "Survey (FNDDS)",
+    "fdcId": 2343892
 }

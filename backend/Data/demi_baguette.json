@@ -1,0 +1,445 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 3185583,
+            "value": 6,
+            "name": "Nutrient Removed"
+        },
+        {
+            "id": 3185585,
+            "value": 2,
+            "name": "Description"
+        },
+        {
+            "id": 3185582,
+            "value": 5,
+            "name": "Nutrient Added"
+        },
+        {
+            "id": 3185586,
+            "value": 3,
+            "name": "Ingredients"
+        },
+        {
+            "id": 3185584,
+            "value": 4,
+            "name": "Nutrient Updated"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2636666,
+    "description": "DEMI BAGUETTE",
+    "publicationDate": "9/14/2023",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004667,
+            "amount": 7.14
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004680,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1114,
+                "number": "328",
+                "name": "Vitamin D (D2 + D3)",
+                "rank": 8700,
+                "unitName": "\u00b5g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004677,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004673,
+            "amount": 73.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004676,
+            "amount": 482.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004670,
+            "amount": 232.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004674,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004669,
+            "amount": 46.43
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004668,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004675,
+            "amount": 91.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004681,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004679,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004671,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004678,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 33004672,
+            "amount": 1.8
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "8/21/2023",
+    "availableDate": "8/21/2023",
+    "brandOwner": "Izzio Artisan Bakery LLC",
+    "brandName": "IZZIO",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Breads & Buns",
+    "gtinUpc": "657082000260",
+    "householdServingFullText": "2 oz",
+    "ingredients": "WHEAT FLOUR, WATER, SOURDOUGH CULTURE (WHEAT FLOUR, WATER), SEA SALT, YEAST, MALTED BARLEY FLOUR.",
+    "marketCountry": "United States",
+    "servingSize": 56.0,
+    "servingSizeUnit": "GRM",
+    "packageWeight": "6 oz/171 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2636666,
+            "description": "DEMI BAGUETTE",
+            "publicationDate": "9/14/2023",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "8/21/2023",
+            "availableDate": "8/21/2023",
+            "brandOwner": "Izzio Artisan Bakery LLC",
+            "brandName": "IZZIO",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "657082000260",
+            "householdServingFullText": "2 oz",
+            "ingredients": "WHEAT FLOUR, WATER, SOURDOUGH CULTURE (WHEAT FLOUR, WATER), SEA SALT, YEAST, MALTED BARLEY FLOUR.",
+            "marketCountry": "United States",
+            "servingSize": 56.0,
+            "servingSizeUnit": "GRM",
+            "packageWeight": "6 oz/171 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2272025,
+            "description": "FRENCH CLASSIC DEMI BAGUETTE BREAD, FRENCH CLASSIC",
+            "publicationDate": "5/23/2022",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "1/18/2019",
+            "availableDate": "1/18/2019",
+            "brandOwner": "Izzio Artisan Bakery LLC",
+            "brandName": "IZZIO ARTISAN BAKERY",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "657082000260",
+            "householdServingFullText": "2 ONZ",
+            "ingredients": "WHEAT FLOUR, WATER, SEA SALT, WHOLE GRAIN FLOURS (RYE AND WHOLE WHEAT), YEAST, SOURDOUGH CULTURE (WHOLE WHEAT FLOUR, WATER), MALTED BARLEY FLOUR.",
+            "marketCountry": "United States",
+            "servingSize": 56.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "6 oz/171 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1962788,
+            "description": "FRENCH CLASSIC DEMI BAGUETTE BREAD, FRENCH CLASSIC",
+            "publicationDate": "7/29/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/18/2019",
+            "availableDate": "1/18/2019",
+            "brandOwner": "Izzio Artisan Bakery LLC",
+            "brandName": "IZZIO ARTISAN BAKERY",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "657082000260",
+            "ingredients": "WHEAT FLOUR, WATER, SEA SALT, WHOLE GRAIN FLOURS (RYE AND WHOLE WHEAT), YEAST, SOURDOUGH CULTURE (WHOLE WHEAT FLOUR, WATER), MALTED BARLEY FLOUR.",
+            "marketCountry": "United States",
+            "servingSize": 56.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "6 oz/171 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1820357,
+            "description": "FRENCH CLASSIC DEMI BAGUETTE BREAD, FRENCH CLASSIC",
+            "publicationDate": "6/17/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "1/18/2019",
+            "availableDate": "1/18/2019",
+            "brandOwner": "Izzio Artisan Bakery LLC",
+            "brandName": "IZZIO ARTISAN BAKERY",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "657082000260",
+            "ingredients": "WHEAT FLOUR, WATER, SEA SALT, WHOLE GRAIN FLOURS (RYE AND WHOLE WHEAT), YEAST, SOURDOUGH CULTURE (WHOLE WHEAT FLOUR, WATER), MALTED BARLEY FLOUR.",
+            "marketCountry": "United States",
+            "servingSize": 56.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "171 g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 270
+        },
+        "carbohydrates": {
+            "value": 26.0
+        },
+        "fiber": {
+            "value": 1.01
+        },
+        "sugars": {
+            "value": 0.0
+        },
+        "protein": {
+            "value": 4.0
+        },
+        "vitaminD": {
+            "value": 0.0
+        },
+        "calcium": {
+            "value": 40.9
+        },
+        "iron": {
+            "value": 0.0
+        },
+        "potassium": {
+            "value": 51.0
+        },
+        "addedSugar": {
+            "value": 0.0
+        },
+        "calories": {
+            "value": 130
+        }
+    }
+}
