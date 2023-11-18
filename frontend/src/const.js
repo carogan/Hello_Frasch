@@ -1,0 +1,3 @@
+export const RECIPE_NOT_YET_REPLACED = 1;
+export const RECIPE_IN_REPLACEMENT = 2;
+export const RECIPE_HAS_BEEN_REPLACED = 3;
