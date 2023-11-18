@@ -62,16 +62,16 @@
                 <!-- Close Button -->
                 <button class="close-button" @click="closeSideElement">&times;</button>
                 <div class="nutrient-sum" v-if="showSideElement">
-                    <p style="margin-top: 100px; margin-left: 10px;">
-                        Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
+                    <p style="margin-top: 50px; margin-left: 10px;">
+                        Vitamin B9: {{ nutrientSums.vitaminB9 }} mcg
                         <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Vitamin B12: {{ nutrientSums.vitaminB12 }} mg
+                        Vitamin B12: {{ nutrientSums.vitaminB12 }} mcg
                         <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Vitamin K: {{ nutrientSums.vitaminK }} mg
+                        Vitamin K: {{ nutrientSums.vitaminK }} mcg
                         <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
@@ -126,6 +126,10 @@ export default {
         };
     },
 
+    created() {
+        this.calculateNutrientSums();
+    },
+
 
     methods: {
         getRecipesForComputation() {
@@ -169,9 +173,10 @@ export default {
                 zinc: 0,
                 // Add other nutrients as needed
             };
-
+            console.log(this.getRecipesForComputation())
             // Calculate nutrient sums across all recipes
-            this.recipes.forEach((recipe) => {
+            this.getRecipesForComputation().forEach((recipe) => {
+                console.log(recipe.recipe.nutrition["Vitamin B9"].value)
                 this.nutrientSums.vitaminB9 += recipe.recipe.nutrition["Vitamin B9"].value || 1; // todo change
                 this.nutrientSums.vitaminB12 += recipe.recipe.nutrition["Vitamin B12"].value || 1; // todo change
                 this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"].value || 1; // todo change
@@ -196,11 +201,11 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 400; // Example value in mcg daily
-            const expectedVitaminB12 = 2.4; // Example value in mcg
-            const expectedVitaminK = 120; // Example value in mcg
-            const expectedIron = 8; // Example value in mg
-            const expectedZinc = 11; // Example value in mg
+            const expectedVitaminB9 = 400*7; // Example value in mcg daily
+            const expectedVitaminB12 = 2.4*7; // Example value in mcg
+            const expectedVitaminK = 120*7; // Example value in mcg
+            const expectedIron = 8*7; // Example value in mg
+            const expectedZinc = 11*7; // Example value in mg
 
             const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
             const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
@@ -220,9 +225,7 @@ export default {
 
         },
     },
-    watch: {
-        recipes: 'calculateNutrientSums', // Recalculate sums when recipes change
-    },
+    
 };
 </script>
 
