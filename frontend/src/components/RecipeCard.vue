@@ -73,7 +73,7 @@ export default {
     max-width: 500%; /* Ensure the animated emoji fits within the container */
     max-height: 500%; /* Ensure the animated emoji fits within the container */
     border-radius: 10%;
-    background-color: #7fda55;
+    background-color: #85e459;
     object-fit: contain;
 }
 
