@@ -7,8 +7,8 @@
 
             <img :src="recipe.recipe.image" class="card-img-top" alt="Recipe Image">
             <div class="card-body">
-                <h5 class="card-title">{{ recipe.recipe.name }}</h5>
-                <div style="height: 50px; overflow: hidden; margin-bottom: 10px">
+                <h5 class="card-title" style="height: 70px; overflow: hidden">{{ recipe.recipe.name }}</h5>
+                <div style="height: 45px; overflow: hidden; margin-bottom: 10px">
                     <p class="card-text">{{ recipe.recipe.headline }}</p>
                 </div>
                 <div class="d-flex justify-content-between align-items-center" style="height: 50px">
@@ -49,7 +49,6 @@ export default {
 <style scoped>
 .recipe-card {
     position: relative;
-    max-width: calc(33.33% - 20px); /* 33.33% for three cards in a row, minus margin */
     margin: 0 10px 20px 10px; /* Adjust margin as needed */
 }
 
