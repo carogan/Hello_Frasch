@@ -63,23 +63,23 @@
                 <button class="close-button" @click="closeSideElement">&times;</button>
                 <div class="nutrient-sum" v-if="showSideElement">
                     <p style="margin-top: 50px; margin-left: 10px;">
-                        Vitamin B9: {{ nutrientSums.vitaminB9 }} mcg
+                        Vitamin B9: {{ nutrientSums.vitaminB9.toFixed(2) }} mcg
                         <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Vitamin B12: {{ nutrientSums.vitaminB12 }} mcg
+                        Vitamin B12: {{ nutrientSums.vitaminB12.toFixed(2) }} mcg
                         <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Vitamin K: {{ nutrientSums.vitaminK }} mcg
+                        Vitamin K: {{ nutrientSums.vitaminK.toFixed(2) }} mcg
                         <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Iron: {{ nutrientSums.iron }} mg
+                        Iron: {{ nutrientSums.iron.toFixed(2) }} mg
                         <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                     <p style="margin-left: 10px;">
-                        Zinc: {{ nutrientSums.zinc }} mg
+                        Zinc: {{ nutrientSums.zinc.toFixed(2) }} mg
                         <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                     </p>
                 </div>
@@ -201,11 +201,11 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 400*7; // Example value in mcg daily
-            const expectedVitaminB12 = 2.4*7; // Example value in mcg
-            const expectedVitaminK = 120*7; // Example value in mcg
-            const expectedIron = 8*7; // Example value in mg
-            const expectedZinc = 11*7; // Example value in mg
+            const expectedVitaminB9 = 400; // Example value in mcg daily
+            const expectedVitaminB12 = 2.4; // Example value in mcg
+            const expectedVitaminK = 120; // Example value in mcg
+            const expectedIron = 8; // Example value in mg
+            const expectedZinc = 11; // Example value in mg
 
             const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
             const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
