@@ -91,7 +91,7 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
-import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
+import {ArcElement, Chart as ChartJS, Legend, Tooltip} from 'chart.js'
 import {Doughnut} from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
@@ -128,6 +128,9 @@ export default {
 
 
     methods: {
+        getRecipesForComputation() {
+            return this.recipes.filter(r => !r.dismissed).concat(this.newRecipes.filter(r => !!r));
+        },
         replaceRecipe(replacedRecipe) {
             // ugly way to deep copy an array
             this.previousRecipes = JSON.parse(JSON.stringify(this.recipes));
