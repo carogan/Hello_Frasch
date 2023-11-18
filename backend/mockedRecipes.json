@@ -39,13 +39,13 @@
         },
         "ingredients": [
           {
-            "name": "green olives",
+            "name": "green_olives",
             "type": "green-olives",
             "imageLink": "not found",
             "amount_gram": "70"
           },
           {
-            "name": "quinoa tricolor",
+            "name": "quinoa_tricolor",
             "type": "quinoa-tricolor",
             "imageLink": "not found",
             "amount_gram": "100"
@@ -58,7 +58,7 @@
             "amount_gram": "230"
           },
           {
-            "name": "garlic clove",
+            "name": "garlic_clove",
             "type": "garlic-cloves",
             "imageLink": "not found",
             "amount_units": "2",
@@ -72,7 +72,7 @@
             "amount_gram": "10"
           },
           {
-            "name": "spice mix hello harissa",
+            "name": "spice_mix_hello_harissa",
             "type": "spice-mix-hello-harissa",
             "imageLink": "not found",
             "amount_gram": "2"
@@ -92,13 +92,13 @@
             "amount_gram": "50"
           },
           {
-            "name": "chicken broth",
+            "name": "chicken_broth",
             "type": "chicken-broth",
             "imageLink": "not found",
             "amount_gram": "4"
           },
           {
-            "name": "chopped chicken",
+            "name": "chopped_chicken",
             "type": "chopped-chicken",
             "imageLink": "not found",
             "amount_gram": "250"
@@ -151,57 +151,57 @@
         },
         "ingredients": [
           {
-            "name": "Scallions",
+            "name": "scallions",
             "type": "scallions",
             "imageLink": "not found",
             "amount_units": "2",
             "amount_gram": "30"
           },
           {
-            "name": "Lime",
+            "name": "lime",
             "type": "lime",
             "imageLink": "not found",
             "amount_units": "1",
             "amount_gram": "60"
           },
           {
-            "name": "Ground Pork",
+            "name": "ground_pork",
             "type": "ground-pork",
             "imageLink": "not found",
             "amount_ounce": "10"
           },
           {
-            "name": "Shredded Red Cabbage",
+            "name": "shredded_red_cabbage",
             "type": "shredded-red-cabbage",
             "imageLink": "not found",
             "amount_ounce": "4"
           },
           {
-            "name": "Hoisin Sauce",
+            "name": "hoisin_sauce",
             "type": "hoisin-sauce",
             "imageLink": "not found",
             "amount_tablespoon": "2"
           },
           {
-            "name": "Sweet Thai Chili Sauce",
+            "name": "sweet_thai_chili_sauce",
             "type": "sweet-thai-chili-sauce",
             "imageLink": "not found",
             "amount_ounce": "1"
           },
           {
-            "name": "Sweet Soy Glaze",
+            "name": "sweet_soy_glaze",
             "type": "sweet-soy-glaze",
             "imageLink": "not found",
             "amount_tablespoon": "4"
           },
           {
-            "name": "Jasmine Rice",
+            "name": "jasmine_rice",
             "type": "jasmine-rice",
             "imageLink": "not found",
             "amount_cup": "0.5"
           },
           {
-            "name": "Sesame Seeds",
+            "name": "sesame_seeds",
             "type": "sesame-seeds",
             "imageLink": "not found",
             "amount_tablespoon": "1"
@@ -245,52 +245,52 @@
         },
         "ingredients": [
           {
-            "name": "Potatoes",
+            "name": "potatoes",
             "type": "potatoes",
             "imageLink": "not found",
             "amount_ounce": "12"
           },
           {
-            "name": "Broccoli Florets",
+            "name": "broccoli_florets",
             "type": "broccoli",
             "imageLink": "not found",
             "amount_ounce": "8"
           },
           {
-            "name": "Apple",
+            "name": "apple",
             "type": "apple",
             "imageLink": "not found",
             "amount_units": "1",
             "amount_gram": "200"
           },
           {
-            "name": "Scallions",
+            "name": "scallions",
             "type": "scallion",
             "imageLink": "not found",
             "amount_units": "2",
             "amount_gram": "30"
           },
           {
-            "name": "Pork Chops",
+            "name": "pork_chops",
             "type": "pork-chops",
             "imageLink": "not found",
             "amount_ounce": "10"
           },
           {
-            "name": "Brown Sugar Bourbon Seasoning",
+            "name": "brown_sugar_bourbon_seasoning",
             "type": "sugar-bourbon-seasoning",
             "imageLink": "not found",
             "amount_grams": "10.8"
           },
           {
-            "name": "Chicken Stock Concentrate",
+            "name": "chicken_stock_concentrate",
             "type": "chicken-stock-concentrate",
             "imageLink": "not found",
             "amount_units": "1",
             "amount_gram": "9.6"
           },
           {
-            "name": "Sour Cream",
+            "name": "sour_cream",
             "type": "sour-cream",
             "imageLink": "not found",
             "amount_tablespoon": "1.5"
