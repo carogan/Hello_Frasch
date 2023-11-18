@@ -61,7 +61,16 @@ food_items = {
     "israeli couscous": 2388833,
     "demi baguette": 2636666,
     "parmesan cheese": 171247,
-    "chili flakes": 1135511
+    "chili flakes": 1135511,
+    "yukon gold potatoes": 2251779,
+    "monterey jack cheese": 2341123,
+    "cajun spice blend": 1868450,
+    "hot sauce": 171186,
+    "kidney beans": 175196,
+    "sliced dill pickle": 168558,
+    "tempura mix": 2034431,
+    "brioche buns": 1124666 
+
 
 
 }
