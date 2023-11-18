@@ -13,7 +13,8 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
-import mockedRecipes from '../assets/mockedRecipes.json'
+import mockedRecipes from '../../../backend/mockedRecipes.json'
+
 
 export default {
     components: {

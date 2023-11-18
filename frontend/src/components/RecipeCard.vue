@@ -2,18 +2,18 @@
     <div class="recipe-card card">
         <div class="card-frame">
             <div class="emoji-container">
-                <img :src="recipe.seasonalEmoji" alt="Seasonal Emoji">
+                <img :src="recipe.recipe.seasonalEmoji" alt="Seasonal Emoji">
             </div>
 
-            <img :src="recipe.image" class="card-img-top" alt="Recipe Image">
+            <img :src="recipe.recipe.image" class="card-img-top" alt="Recipe Image">
             <div class="card-body">
-                <h5 class="card-title">{{ recipe.name }}</h5>
+                <h5 class="card-title">{{ recipe.recipe.name }}</h5>
                 <div style="height: 50px; overflow: hidden; margin-bottom: 10px">
-                    <p class="card-text">{{ recipe.headline }}</p>
+                    <p class="card-text">{{ recipe.recipe.headline }}</p>
                 </div>
                 <div class="d-flex justify-content-between align-items-center" style="height: 50px">
                     <div>
-            <span class="badge bg-success" :key="tag.name" v-for="tag in recipe.tags"
+            <span class="badge bg-success" :key="tag.name" v-for="tag in recipe.recipe.tags"
                     style="margin: 2px">
                 {{ tag.name }}
             </span>
