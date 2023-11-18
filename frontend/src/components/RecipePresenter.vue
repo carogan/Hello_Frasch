@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" :class="{ 'shifted-row': showSideElement }">
             <div class="collapse" id="newRecipeCollapse">
                 <div class="card card-body">
                     <h2>Choose your new meal...</h2>
@@ -73,7 +73,7 @@
                             <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
                         </strong>
                     </div>
-                    
+
                     <div style="margin-left: 10px;">
                         <strong>
                             Vitamin B12: {{ this.calculateFulfillmentPercentage()['vitaminB12'].toFixed(2) }}%
