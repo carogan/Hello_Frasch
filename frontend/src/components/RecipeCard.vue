@@ -7,7 +7,7 @@
 
             <img :src="recipe.recipe.image" class="card-img-top" alt="Recipe Image">
             <div class="card-body">
-                <h5 class="card-title" style="height: 70px; overflow: hidden">{{ recipe.recipe.name }}</h5>
+                <h5 class="card-title" style="height: 73px; overflow: hidden">{{ recipe.recipe.name }}</h5>
                 <div style="height: 45px; overflow: hidden; margin-bottom: 10px">
                     <p class="card-text">{{ recipe.recipe.headline }}</p>
                 </div>
@@ -19,7 +19,7 @@
             </span>
                     </div>
                     <button
-                        v-if="!recipe.replacementChoice"
+                        v-if="recipe.replacementChoice === RECIPE_NOT_YET_REPLACED()"
                         @click="replaceCard"
                         class="btn btn-danger"
                         type="button"
@@ -30,7 +30,7 @@
                         Replace
                     </button>
                     <button
-                        v-if="recipe.replacementChoice"
+                        v-else-if="recipe.replacementChoice === RECIPE_IN_REPLACEMENT()"
                         @click="chooseCard"
                         class="btn btn-success"
                         type="button"
@@ -45,11 +45,14 @@
                 <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/user.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> based on your preferences.
                 </p>
-                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
+                <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> seasonal ingredients.
                 </p>
-                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
+                <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> based on your micronutrient levels.
+                </p>
+                <p class="card-text" v-else style="font-size: 10pt">
+                    <strong>Recommendation:</strong> just because we felt like it.
                 </p>
             </div>
         </div>
@@ -59,6 +62,8 @@
 <!-- Seasonal Recommendations / e.g. Apfel/Schneeflocke -->
 
 <script>
+import {RECIPE_IN_REPLACEMENT, RECIPE_NOT_YET_REPLACED} from "@/const";
+
 export default {
     props: {
         recipe: {
@@ -67,6 +72,12 @@ export default {
         }
     },
     methods: {
+        RECIPE_IN_REPLACEMENT() {
+            return RECIPE_IN_REPLACEMENT
+        },
+        RECIPE_NOT_YET_REPLACED() {
+            return RECIPE_NOT_YET_REPLACED
+        },
         replaceCard() {
             this.$emit('replace', this.recipe)
         },

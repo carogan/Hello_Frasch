@@ -6,26 +6,44 @@
         </button>
 
         <div class="row" :class="{ 'shifted-row': showSideElement }">
-            <div class="col" v-for="(recipe, index) in recipes" :key="index">
+            <div class="col-4" v-for="(recipe, index) in recipes" :key="index">
                 <dismissed-recipe-card v-if="recipe.dismissed" :recipe="recipe"></dismissed-recipe-card>
-                <recipe-card :recipe="recipe" v-if="!recipe.dismissed" @replace="replaceRecipe">
-                </recipe-card>
+                <recipe-card :recipe="recipe" v-if="!recipe.dismissed" @replace="replaceRecipe"></recipe-card>
+            </div>
+            <div class="col-4" v-for="(recipe, index) in newRecipes" :key="index">
+                <recipe-card v-if="recipe" :recipe="recipe"></recipe-card>
             </div>
         </div>
 
         <div class="row">
             <div class="collapse" id="newRecipeCollapse">
                 <div class="card card-body">
-                    <h2>Choose your new recipe</h2>
+                    <h2>Choose your new meal...</h2>
+                    <div style="margin-top: 20px;"></div>
 
                     <div class="row">
-                        <div class="col" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
+                        <div class="col-3" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
                             <recipe-card :recipe="recipe" @choose="chooseRecipe">
                             </recipe-card>
                         </div>
                     </div>
 
-                    <button
+                    <div style="display: flex; align-items: center" v-if="replacementRecipeChoices.length === 0">
+                        <div>We have nothing more to recommend to you. :(</div>
+                        <button
+                            class="btn btn-primary m-lg-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#newRecipeCollapse"
+                            aria-expanded="false"
+                            aria-controls="newRecipeCollapse"
+                        >
+                            Close
+                        </button>
+                    </div>
+
+
+                    <!-- <button
                         class="btn btn-primary"
                         type="button"
                         data-bs-toggle="collapse"
@@ -35,7 +53,7 @@
                         @click="enlargeAndReplace"
                     >
                         Toggle Collapse
-                    </button>
+                    </button> -->
                 </div>
             </div>
 
@@ -77,6 +95,7 @@ import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
 import {Doughnut} from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
+import {RECIPE_HAS_BEEN_REPLACED, RECIPE_IN_REPLACEMENT, RECIPE_NOT_YET_REPLACED} from "@/const";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -90,10 +109,11 @@ export default {
     },
     data() {
         return {
-            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
-            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: false})).slice(0, 3),
-            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: true})).slice(3, 6),
+            recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
+            previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
+            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: RECIPE_IN_REPLACEMENT})).slice(3, 6),
             replacedRecipeIndex: null,
+            newRecipes: [null, null, null],
             showSideElement: false,
             nutrientSums: {
                 vitaminB9: 0,
@@ -119,11 +139,16 @@ export default {
             // after we took note of which we minimized, make all of them smaller
             this.recipes.forEach(r => r.dismissed = true);
         },
-        enlargeAndReplace() {
+        enlargeOthers() {
             this.recipes = this.previousRecipes;
         },
         chooseRecipe(chosenRecipe) {
-            alert("You chose: " + chosenRecipe)
+            this.enlargeOthers();
+            this.newRecipes[this.replacedRecipeIndex] = chosenRecipe;
+            this.newRecipes[this.replacedRecipeIndex].replacementChoice = RECIPE_HAS_BEEN_REPLACED;
+
+            // remove from other choices
+            this.replacementRecipeChoices = this.replacementRecipeChoices.filter(i => i !== chosenRecipe);
         },
         closeSideElement() {
             this.showSideElement = false;
