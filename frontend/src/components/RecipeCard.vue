@@ -2,8 +2,8 @@
     <div class="recipe-card card">
         <img :src="recipe.image" class="card-img-top" alt="Recipe Image">
         <div class="card-body">
-            <h5 class="card-title">{{ recipe.title }}</h5>
-            <p class="card-text">{{ recipe.description }}</p>
+            <h5 class="card-title">{{ recipe.name }}</h5>
+            <p class="card-text">{{ recipe.headline }}</p>
             <button @click="dismissRecipe" class="btn btn-danger">Dismiss</button>
         </div>
     </div>
