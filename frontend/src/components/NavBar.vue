@@ -1,47 +1,76 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/Hello_Fresh_Lockup.png" alt="Hello Fresh Branding Image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
+  
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <strong style="color: darkgreen;">📦 Select Box</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <strong style="color: darkgreen;">📝 Register</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <strong style="color: darkgreen;">🚚 Delivery</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                <strong style="color: grey;">💰 Payment Plan</strong>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                <strong style="color: grey;">🚫 Disabled</strong>
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center">
+            <div class="mr-6">
+              <i class="bi bi-cart3" style="font-size: 24px;"></i> 
+            </div>
+            <div class="ml-6" style="margin-left: 20px !important;">
+              <p class="mb-0">Pause or cancel</p>
+              <p class="mb-0">subscription</p>
+            </div>
+          </div>
         </div>
+      </div>
     </nav>
-</template>
-
-<script>
-export default {
+  </template>
+  
+  <script>
+  export default {
     name: 'NavBar',
-};
-</script>
-
-<style scoped>
-
-</style>
+  };
+  </script>
+  
+  <style scoped>
+  /* Add any custom styles if needed */
+  
+  /* Additional styling for increased space between links */
+  .navbar-nav {
+    margin: 0 auto; /* Center the navbar links */
+  }
+  
+  .nav-link {
+    margin-right: 20px; /* Adjust the space between links */
+  }
+  
+  /* Style for the shopping cart icon */
+  .fas {
+    font-size: 24px; /* Adjust the size of the icon */
+  }
+  </style>
+  
