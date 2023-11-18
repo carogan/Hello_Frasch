@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <button class="nutrition-manager-button" @click="toggleSideElement">
+            <img src="/chef.png" alt="Nutrition Manager Icon" class="button-icon">
             Nutrition Manager
         </button>
         <div class="row" :class="{ 'shifted-row': showSideElement }">
@@ -19,9 +20,7 @@
             <button class="close-button" @click="closeSideElement">&times;</button>
             <!-- Add your content here -->
         </div>
-        <div class="arrow-button" v-if="showSideElement" @click="closeSideElement">
-            &larr;
-        </div>
+        
     </div>
 </template>
 
@@ -61,11 +60,16 @@ export default {
   right: 10px;
   padding: 10px;
   background-color: #4caf50;
-  color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   z-index: 3; /* Ensure the button is above other elements */
+}
+.button-icon {
+  width: 20px; /* Adjust the width of the icon as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 5px; /* Add margin to separate the icon from text */
 }
 .side-element {
     width: 200px; /* Adjust width as needed */
@@ -79,20 +83,6 @@ export default {
 
 .show-side-element {
     right: 0; /* Move the side element into view */
-}
-
-.arrow-button {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  font-size: 24px;
-  cursor: pointer;
-  background-color: #4caf50;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  z-index: 3; /* Ensure the button is above other elements */
 }
 
 .close-button {
