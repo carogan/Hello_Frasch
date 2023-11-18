@@ -193,7 +193,7 @@ export default {
                 this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
                 this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"].value || 1; // todo change
                 // Add other nutrients as needed
-            });*/
+            });
         },
         nutrientChartData(vitamin) {
             const percentage = this.calculateFulfillmentPercentage()[vitamin];
