@@ -1,18 +1,17 @@
 <template>
     <nav-bar></nav-bar>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <recipe-presenter></recipe-presenter>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import NavBar from "@/components/NavBar.vue";
+import RecipePresenter from "@/components/RecipePresenter.vue";
 
 export default {
   name: 'App',
   components: {
+      RecipePresenter,
       NavBar,
-    HelloWorld
   }
 }
 </script>
