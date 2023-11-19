@@ -46,7 +46,7 @@
                     <strong>Recommendation:</strong> based on your preferences.
                 </p>
                 <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
-                    <strong>Recommendation:</strong> seasonal ingredients.
+                    <strong>Recommendation:</strong> contains seasonal ingredients.
                 </p>
                 <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> based on your micronutrient levels.
@@ -109,7 +109,8 @@ export default {
     width: 50px; /* Set a fixed width for the emoji container */
     height: 50px; /* Set a fixed height for the emoji container */
     border-radius: 10%;
-    background-color: #85e459;
+    /*background-color: #85e459;*/
+    background-color: #4caf50;
     object-fit: contain;
 }
 
@@ -120,6 +121,7 @@ export default {
     transform: translate(-50%, -50%);
     max-width: 80%; /* Set a maximum width for the image */
     max-height: 80%; /* Set a maximum height for the image */
+    filter: invert(100%);
 
 }
 

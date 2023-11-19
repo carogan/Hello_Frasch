@@ -17,7 +17,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" :class="{ 'shifted-row': showSideElement }">
             <div class="collapse" id="newRecipeCollapse">
                 <div class="card card-body">
                     <h2>Choose your new meal...</h2>
@@ -62,28 +62,45 @@
             <!-- Side Element -->
             <div class="side-element" :class="{ 'show-side-element': showSideElement }" ref="sideElement">
                 <!-- Close Button -->
-                <button class="close-button" @click="closeSideElement">&times;</button>
+                <button class="close-button btn btn-outline-danger mt-4" @click="closeSideElement">&times;</button>
+                <h3 class="mt-4">Nutrition Manager</h3>
+                <h5>Percentage of RDA</h5>
+                <div style="margin-top: -10px">(Recommended Dietary Allowance)</div>
                 <div class="nutrient-sum" v-if="showSideElement">
-                    <p style="margin-top: 100px; margin-left: 10px;">
-                        Vitamin B9: {{ nutrientSums.vitaminB9 }} IU
-                        <Doughnut :data="nutrientChartData('vitaminB9')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
-                    </p>
-                    <p style="margin-left: 10px;">
-                        Vitamin B12: {{ nutrientSums.vitaminB12 }} mg
-                        <Doughnut :data="nutrientChartData('vitaminB12')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
-                    </p>
-                    <p style="margin-left: 10px;">
-                        Vitamin K: {{ nutrientSums.vitaminK }} mg
-                        <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
-                    </p>
-                    <p style="margin-left: 10px;">
-                        Iron: {{ nutrientSums.iron }} mg
-                        <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
-                    </p>
-                    <p style="margin-left: 10px;">
-                        Zinc: {{ nutrientSums.zinc }} mg
-                        <Doughnut :data="nutrientChartData('zinc')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
-                    </p>
+                    <div style="margin-top: 30px; margin-left: 10px;">
+                        <strong class="vitamin-listing">
+                            Vitamin C: {{ this.calculateFulfillmentPercentage()['vitaminC'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('vitaminC')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                        </strong>
+                    </div>
+
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
+                            Vitamin A: {{ this.calculateFulfillmentPercentage()['vitaminA'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('vitaminA')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                        </strong>
+                    </div>
+
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
+                            Vitamin K: {{ this.calculateFulfillmentPercentage()['vitaminK'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('vitaminK')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                        </strong>
+                    </div>
+
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
+                            Iron: {{ this.calculateFulfillmentPercentage()['iron'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('iron')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                        </strong>
+                    </div>
+
+                    <div style="margin-left: 10px; margin-top: 25px">
+                        <strong class="vitamin-listing">
+                            Calcium: {{ this.calculateFulfillmentPercentage()['calcium'].toFixed(2) }}%
+                            <Doughnut :data="nutrientChartData('calcium')" :options="{responsive: false, maintainAspectRatio: false}" style="width: 100px; height: 100px;"></Doughnut>
+                        </strong>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,7 +110,7 @@
 
 <script>
 import RecipeCard from "@/components/RecipeCard.vue";
-import {Chart as ChartJS, ArcElement, Tooltip, Legend} from 'chart.js'
+import {ArcElement, Chart as ChartJS, Legend, Tooltip} from 'chart.js'
 import {Doughnut} from "vue-chartjs";
 import mockedRecipes from '../../../backend/mockedRecipes_with_Nutrition.json'
 import DismissedRecipeCard from "@/components/DismissedRecipeCard.vue";
@@ -120,18 +137,25 @@ export default {
             newRecipes: [null, null, null],
             showSideElement: false,
             nutrientSums: {
-                vitaminB9: 0,
-                vitaminB12: 0,
+                vitaminC: 0,
+                vitaminA: 0,
                 vitaminK: 0,
                 iron: 0,
-                zinc: 0,
+                calcium: 0,
                 // Add other nutrients as needed
             },
         };
     },
 
+    mounted() {
+        this.calculateNutrientSums();
+    },
+
 
     methods: {
+        getRecipesForComputation() {
+            return this.recipes.filter(r => !r.dismissed).concat(this.newRecipes.filter(r => !!r));
+        },
         getNewRecipes() {
             return this.newRecipes;
         },
@@ -156,6 +180,7 @@ export default {
             this.newRecipes[this.replacedRecipeIndex] = chosenRecipe;
             this.newRecipes[this.replacedRecipeIndex].replacementChoice = RECIPE_HAS_BEEN_REPLACED;
             this.newRecipes[this.replacedRecipeIndex].minimized = false;
+            this.calculateNutrientSums();//update nutrient sums
 
             // remove from other choices
             this.replacementRecipeChoices = this.replacementRecipeChoices.filter(i => i !== chosenRecipe);
@@ -165,76 +190,79 @@ export default {
         },
         toggleSideElement() {
             this.showSideElement = !this.showSideElement;
+            this.calculateNutrientSums();//update nutrient sums
         },
         calculateNutrientSums() {
             // Reset nutrient sums
             this.nutrientSums = {
-                vitaminB9: 0,
-                vitaminB12: 0,
+                vitaminC: 0,
+                vitaminA: 0,
                 vitaminK: 0,
                 iron: 0,
-                zinc: 0,
+                calcium: 0,
                 // Add other nutrients as needed
             };
-
             // Calculate nutrient sums across all recipes
-            /*this.recipes.forEach((recipe) => {
-                //this.nutrientSums.vitaminB9 += recipe.recipe.nutrition.VitaminB9.value || 1; // todo change
-                //this.nutrientSums.vitaminB12 += recipe.recipe.nutrition.VitaminB12.value || 1; // todo change
-                //this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"] || 1; // todo change
-                //this.nutrientSums.iron += recipe.recipe.nutrition["Iron"] || 1; // todo change
-                //this.nutrientSums.zink += recipe.recipe.nutrition["Zinc"] || 1; // todo change
+            this.getRecipesForComputation().forEach((recipe) => {
+                this.nutrientSums.vitaminC += recipe.recipe.nutrition["Vitamin C"].value || 1; // todo change
+                this.nutrientSums.vitaminA += recipe.recipe.nutrition["Vitamin A"].value || 1; // todo change
+                this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"].value || 1; // todo change
+                this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
+                this.nutrientSums.calcium += recipe.recipe.nutrition["Calcium"].value || 1; // todo change
                 // Add other nutrients as needed
-            });*/
+            });
         },
         nutrientChartData(vitamin) {
             const percentage = this.calculateFulfillmentPercentage()[vitamin];
-            const remainingPercentage = 100 - percentage;
+            let remainingPercentage = 100 - percentage;
+            if (remainingPercentage < 0){
+                remainingPercentage = 0;
+            }
 
             return {
                 //labels: ["Fulfilled", "Remaining"],
                 datasets: [
                     {
                         data: [percentage, remainingPercentage],
-                        backgroundColor: [percentage >= 100 ? "green" : "green", "red"],
+                        backgroundColor: [percentage >= 100 ? "#4caf50" : "#4caf50", "#dc3545"],
                     },
                 ],
             };
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminB9 = 1; // Example value in IU
-            const expectedVitaminB12 = 1; // Example value in mg
-            const expectedVitaminK = 1; // Example value in mg
-            const expectedIron = 1; // Example value in mg
-            const expectedZinc = 1; // Example value in mg
+            const expectedVitaminC = 90*3; // Example value in mg daily
+            const expectedVitaminA = 900*3; // Example value in mcg
+            const expectedVitaminK = 120*3; // Example value in mcg
+            const expectedIron = 8*3; // Example value in mg
+            const expectedCalcium = 1000*3; // Example value in mg
 
-            const percentageVitaminB9 = (this.nutrientSums.vitaminB9 / expectedVitaminB9) * 100;
-            const percentageVitaminB12 = (this.nutrientSums.vitaminB12 / expectedVitaminB12) * 100;
-            const percentageVitaminK = (this.nutrientSums.vitaminK / expectedVitaminK) * 100;
-            const percentageIron = (this.nutrientSums.iron / expectedIron) * 100;
-            const percentageZinc = (this.nutrientSums.zinc / expectedZinc) * 100;
+            const percentageVitaminC = ((this.nutrientSums.vitaminC*0.5) / expectedVitaminC) * 100;//0.5 because 2 servings
+            const precentageVitaminA = ((this.nutrientSums.vitaminA*0.5) / expectedVitaminA) * 100;
+            const percentageVitaminK = ((this.nutrientSums.vitaminK*0.5) / expectedVitaminK) * 100;
+            const percentageIron = ((this.nutrientSums.iron*0.5) / expectedIron) * 100;
+            const percentageCalcium = ((this.nutrientSums.calcium*0.5) / expectedCalcium) * 100;
 
             // Return the overall percentage (you can customize this based on your needs)
             return {
-                'vitaminB9': percentageVitaminB9,
-                'vitaminB12': percentageVitaminB12,
+                'vitaminC': percentageVitaminC,
+                'vitaminA': precentageVitaminA,
                 'vitaminK': percentageVitaminK,
                 'iron': percentageIron,
-                'zinc': percentageZinc,
+                'calcium': percentageCalcium,
                 // Add other nutrients as needed
             };
 
         },
     },
-    watch: {
-        recipes: 'calculateNutrientSums', // Recalculate sums when recipes change
-    },
+
 };
 </script>
 
 <style scoped>
-
+.vitamin-listing {
+    font-size: 15pt;
+}
 
 .nutrition-manager-button {
     position: fixed;
@@ -262,12 +290,12 @@ export default {
 }
 
 .side-element {
-    width: 200px; /* Adjust width as needed */
+    width: 350px; /* Adjust width as needed */
     height: 100%;
     background-color: #f0f0f0; /* Adjust background color as needed */
     position: fixed;
     top: 0;
-    right: -500px; /* Initially hide the side element off-screen */
+    right: -350px; /* Initially hide the side element off-screen */
     transition: right 0.3s ease;
 }
 
@@ -277,13 +305,11 @@ export default {
 
 .close-button {
     position: absolute;
-    top: 10px;
     right: 10px;
     font-size: 20px;
     cursor: pointer;
     background: none;
-    border: none;
-    outline: none;
+    width: 30px;
     padding: 0;
 }
 
