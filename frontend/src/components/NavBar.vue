@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#" @click="reloadPage">
           <img src="/Hello_Fresh_Lockup.png" alt="Hello Fresh Branding Image">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" tabindex="-1">
-                <strong style="color: darkgreen">🍲 Select Recipe</strong>
+                <strong style="color: darkgreen">🍲 Select Menu</strong>
               </a>
             </li>
           </ul>
@@ -53,6 +53,11 @@
   <script>
   export default {
     name: 'NavBar',
+      methods: {
+        reloadPage() {
+            location.reload();
+        }
+      }
   };
   </script>
 
