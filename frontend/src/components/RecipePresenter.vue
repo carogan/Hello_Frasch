@@ -234,7 +234,7 @@ export default {
             const expectedVitaminC = 90*3; // Example value in mg daily
             const expectedVitaminA = 900*3; // Example value in mcg
             const expectedVitaminK = 120*3; // Example value in mcg
-            const expectedIron = 8*3; // Example value in mg
+            const expectedIron = 8*3; // Example value in mg 18mg for women 8 for men
             const expectedCalcium = 1000*3; // Example value in mg
 
             const percentageVitaminC = ((this.nutrientSums.vitaminC*0.5) / expectedVitaminC) * 100;//0.5 because 2 servings
