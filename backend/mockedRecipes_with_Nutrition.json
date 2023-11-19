@@ -1385,7 +1385,7 @@
             "prepTime": "PT15M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/63696c23dae40b54e20bbcbf-f5590078.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/one-pan-sweet-spicy-cashew-pork-tacos-652e8f960adad327d2408ccd",
-            "seasonalEmoji": "/user.png",
+            "seasonalEmoji": "/heart.png",
             "tags": [
                 {
                     "name": "Spicy"
@@ -2631,7 +2631,7 @@
             "prepTime": "PT35M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/6447d3165b773e366f0f87c3-a3fa52d9.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/one-pot-italian-vegetable-soup-652ea1b4a5e6013831e9c411",
-            "seasonalEmoji": "/user.png",
+            "seasonalEmoji": "/heart.png",
             "tags": [
                 {
                     "name": "Seasonal"
@@ -3362,7 +3362,7 @@
             "prepTime": "PT35M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/61f98870a51f585b15689bfd-decf1f44.jpg",
             "websiteURL": "https://www.hellofresh.com/recipes/crispy-cajun-kidney-bean-sandwiches-61f98870a51f585b15689bfd",
-            "seasonalEmoji": "/user.png",
+            "seasonalEmoji": "/heart.png",
             "tags": [
                 {
                     "name": "Spicy"
@@ -4076,16 +4076,13 @@
             "prepTime": "PT25M",
             "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/652e8f460adad327d2408cc1-c2616e77.jpeg",
             "websiteURL": "https://www.hellofresh.com/recipes/moo-shu-pork-bowls-652e8f460adad327d2408cc1",
-            "seasonalEmoji": "/user.png",
+            "seasonalEmoji": "/wellness.png",
             "tags": [
                 {
-                    "name": "Easy Prep"
-                },
-                {
-                    "name": "Quick"
-                },
-                {
                     "name": "Veggie"
+                },
+                {
+                    "name": "⭐ Iron Boost"
                 }
             ],
             "nutrition": {

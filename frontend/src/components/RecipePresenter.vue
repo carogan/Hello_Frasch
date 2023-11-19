@@ -24,7 +24,7 @@
                     <div style="margin-top: 20px;"></div>
 
                     <div class="row">
-                        <div class="col-3" v-for="(recipe, index) in replacementRecipeChoices" :key="index">
+                        <div class="col-3" v-for="(recipe, index) in replacementRecipeChoices.slice(0, 3)" :key="index">
                             <recipe-card :recipe="recipe" @choose="chooseRecipe">
                             </recipe-card>
                         </div>
@@ -132,7 +132,7 @@ export default {
         return {
             recipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
             previousRecipes: mockedRecipes.map(recipe => ({...recipe, dismissed: false, replacementChoice: RECIPE_NOT_YET_REPLACED})).slice(0, 3),
-            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: RECIPE_IN_REPLACEMENT})).slice(3, 6),
+            replacementRecipeChoices: mockedRecipes.map(recipe => ({...recipe, replacementChoice: RECIPE_IN_REPLACEMENT})).slice(3, 7),
             replacedRecipeIndex: null,
             newRecipes: [null, null, null],
             showSideElement: false,

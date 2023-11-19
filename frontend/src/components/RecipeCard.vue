@@ -13,7 +13,7 @@
                 </div>
                 <div class="d-flex justify-content-between align-items-center" style="height: 50px">
                     <div>
-            <span class="badge bg-success" :key="tag.name" v-for="tag in recipe.recipe.tags"
+            <span :class="getBadgeClass(tag.name)" :key="tag.name" v-for="tag in recipe.recipe.tags"
                     style="margin: 2px">
                 {{ tag.name }}
             </span>
@@ -42,13 +42,13 @@
                     </button>
                 </div>
                 <hr>
-                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/user.png'" style="font-size: 10pt">
+                <p class="card-text" v-if="recipe.recipe.seasonalEmoji === '/heart.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> based on your preferences.
                 </p>
                 <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/christmas.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> contains seasonal ingredients.
                 </p>
-                <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/healthy.png'" style="font-size: 10pt">
+                <p class="card-text" v-else-if="recipe.recipe.seasonalEmoji === '/wellness.png'" style="font-size: 10pt">
                     <strong>Recommendation:</strong> based on your micronutrient levels.
                 </p>
                 <p class="card-text" v-else style="font-size: 10pt">
@@ -83,6 +83,13 @@ export default {
         },
         chooseCard() {
             this.$emit('choose', this.recipe)
+        },
+        getBadgeClass(name) {
+            if (name === "⭐ Iron Boost") {
+                return "badge bg-primary"
+            } else {
+                return "badge bg-success";
+            }
         }
     }
 };
