@@ -4,6 +4,7 @@ from config import OPENAI_API_KEY
 import json
 import re
 import nutriCount
+from ingredientsList import ingredients
 
 openai.api_key = OPENAI_API_KEY
 content = None
@@ -22,7 +23,7 @@ while correct_json is False:
     model="gpt-4",
     messages=[
         {"role": "system", "content": "Nutritional Diet"},
-        {"role": "user", "content": "I want to make a recipe, but it is low in " + nutri +", please replace one or more ingredients so that the "+nutri+" amount increases. Return the whole receipe with all ingredients as new json object and the json object has to have correct syntax, thus the response should start with [{\"index\": 1,... and end with }] :" + json.dumps(content)}        ])
+        {"role": "user", "content": "I want to make a recipe, but it is low in " + nutri +", please replace one or more ingredients so that the "+nutri+" amount increases. Only use inredients from \"" + str(ingredients) +" \" Return the whole receipe with all ingredients as new json object and the json object has to have correct syntax, thus the response should start with [{\"index\": 1,... and end with }] :" + json.dumps(content)}        ])
     #    json.dump(str(completion.choices[0].message.content), json_file, indent=1)
     response = str(completion.choices[0].message.content)
     try:

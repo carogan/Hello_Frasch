@@ -1,11 +1,14 @@
 import json
 from nutriCount import ingredient_nutrition_dict
 
+
 content = None
 with open('backend/mockedRecipes_Without_Nutrions.json','r') as f:
    content = json.load(f)
 
 nutrients = ingredient_nutrition_dict
+
+
 
 for entry in content:
     ingredients = entry['recipe']['ingredients']
