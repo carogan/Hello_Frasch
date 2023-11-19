@@ -75,6 +75,4 @@ food_items = {
 
 }
 
-api_key = "36eBehLa4oHWUAFzCjY6YR20fD6J7o0WHPBeGrEB"
-
 fetch_and_save_food_data(food_items, api_key)
