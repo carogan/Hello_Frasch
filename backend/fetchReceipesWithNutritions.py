@@ -1,18 +1,11 @@
 import json
 from nutriCount import ingredient_nutrition_dict
 
-def format_string(input_string):
-    # Großbuchstaben in Kleinbuchstaben umwandeln und Unterstriche durch Leerzeichen ersetzen
-    formatted_string = input_string.lower().replace('_', ' ')
-    return formatted_string
-
 content = None
 with open('backend/mockedRecipes_Without_Nutrions.json','r') as f:
    content = json.load(f)
 
 nutrients = ingredient_nutrition_dict
-
-
 
 for entry in content:
     ingredients = entry['recipe']['ingredients']

@@ -1,0 +1,402 @@
+[
+    {
+        "index": 1,
+        "recipe": {
+            "id": "652e8f460adad327d2408cc1",
+            "name": "Moo Shu Pork Bowls with Cabbage, Scallions & Iron-Rich Spinach",
+            "headline": "Avocado and plum dressing",
+            "prepTime": "PT25M",
+            "image": "https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_30,w_2600/hellofresh_s3/image/652e8f460adad327d2408cc1-c2616e77.jpeg",
+            "websiteURL": "https://www.hellofresh.com/recipes/moo-shu-pork-bowls-652e8f460adad327d2408cc1",
+            "seasonalEmoji": "/user.png",
+            "tags": [
+                {
+                    "name": "Easy Prep"
+                },
+                {
+                    "name": "Quick"
+                }
+            ],
+            "nutrition": {
+                "calories": 760,
+                "carbohydrate": 81,
+                "protein": 29,
+                "Vitamin A": {
+                    "value": 85.37278,
+                    "unit": "mcg"
+                },
+                "Vitamin B6": {
+                    "value": 0.0,
+                    "unit": "mg"
+                },
+                "Vitamin B9": {
+                    "value": 0.0,
+                    "unit": "mcg"
+                },
+                "Vitamin B12": {
+                    "value": 1.5308730000000002,
+                    "unit": "mcg"
+                },
+                "Vitamin C": {
+                    "value": 89.825325,
+                    "unit": "mg"
+                },
+                "Vitamin D": {
+                    "value": 2.417475,
+                    "unit": "mcg"
+                },
+                "Vitamin E": {
+                    "value": 1.1623773,
+                    "unit": "mg"
+                },
+                "Vitamin K": {
+                    "value": 105.90803599999998,
+                    "unit": "mcg"
+                },
+                "Calcium": {
+                    "value": 299.868,
+                    "unit": "mg"
+                },
+                "Magnesium": {
+                    "value": 159.65248,
+                    "unit": "mg"
+                },
+                "Potassium": {
+                    "value": 1572.58904,
+                    "unit": "mg"
+                },
+                "Selenium": {
+                    "value": 113.897618,
+                    "unit": "mcg"
+                },
+                "Zinc": {
+                    "value": 11.113365100000001,
+                    "unit": "mg"
+                },
+                "Iron": {
+                    "value": 13.712369500000001,
+                    "unit": "mg"
+                }
+            },
+            "ingredients": [
+                {
+                    "name": "scallions",
+                    "type": "scallions",
+                    "imageLink": "not found",
+                    "amount_units": "2",
+                    "amount_gram": "30",
+                    "amount_per_100_gramm": 0.3,
+                    "Calcium": {
+                        "value": 72.0,
+                        "unit": "mg"
+                    },
+                    "Iron": {
+                        "value": 1.48,
+                        "unit": "mg"
+                    },
+                    "Magnesium": {
+                        "value": 20.0,
+                        "unit": "mg"
+                    },
+                    "Potassium": {
+                        "value": 276.0,
+                        "unit": "mg"
+                    },
+                    "Zinc": {
+                        "value": 0.39,
+                        "unit": "mg"
+                    },
+                    "Selenium": {
+                        "value": 0.6,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin C": {
+                        "value": 18.8,
+                        "unit": "mg"
+                    },
+                    "Vitamin B12": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin A": {
+                        "value": 50.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin E": {
+                        "value": 0.55,
+                        "unit": "mg"
+                    },
+                    "Vitamin D": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin K": {
+                        "value": 207.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin B6": {
+                        "value": 0.0,
+                        "unit": "mg"
+                    },
+                    "Vitamin B9": {
+                        "value": 0.0,
+                        "unit": "mcg"
+                    }
+                },
+                {
+                    "name": "lime",
+                    "type": "lime",
+                    "imageLink": "not found",
+                    "amount_units": "1",
+                    "amount_gram": "60",
+                    "amount_per_100_gramm": 0.6,
+                    "Calcium": {
+                        "value": 33.0,
+                        "unit": "mg"
+                    },
+                    "Iron": {
+                        "value": 0.6,
+                        "unit": "mg"
+                    },
+                    "Magnesium": {
+                        "value": 6.0,
+                        "unit": "mg"
+                    },
+                    "Potassium": {
+                        "value": 102.0,
+                        "unit": "mg"
+                    },
+                    "Zinc": {
+                        "value": 0.11,
+                        "unit": "mg"
+                    },
+                    "Selenium": {
+                        "value": 0.4,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin C": {
+                        "value": 29.1,
+                        "unit": "mg"
+                    },
+                    "Vitamin B12": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin A": {
+                        "value": 2.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin E": {
+                        "value": 0.22,
+                        "unit": "mg"
+                    },
+                    "Vitamin D": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin K": {
+                        "value": 0.6,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin B6": {
+                        "value": 0.0,
+                        "unit": "mg"
+                    },
+                    "Vitamin B9": {
+                        "value": 0.0,
+                        "unit": "mcg"
+                    }
+                },
+                {
+                    "name": "ground_pork",
+                    "type": "ground-pork",
+                    "imageLink": "not found",
+                    "amount_ounce": "10",
+                    "amount_per_100_gramm": 2.83495,
+                    "Calcium": {
+                        "value": 22.0,
+                        "unit": "mg"
+                    },
+                    "Iron": {
+                        "value": 1.29,
+                        "unit": "mg"
+                    },
+                    "Magnesium": {
+                        "value": 24.0,
+                        "unit": "mg"
+                    },
+                    "Potassium": {
+                        "value": 362.0,
+                        "unit": "mg"
+                    },
+                    "Zinc": {
+                        "value": 3.21,
+                        "unit": "mg"
+                    },
+                    "Selenium": {
+                        "value": 35.4,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin C": {
+                        "value": 0.7,
+                        "unit": "mg"
+                    },
+                    "Vitamin B12": {
+                        "value": 0.54,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin A": {
+                        "value": 2.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin E": {
+                        "value": 0.21,
+                        "unit": "mg"
+                    },
+                    "Vitamin D": {
+                        "value": 0.5,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin K": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin B6": {
+                        "value": 0.0,
+                        "unit": "mg"
+                    },
+                    "Vitamin B9": {
+                        "value": 0.0,
+                        "unit": "mcg"
+                    }
+                },
+                {
+                    "name": "spinach",
+                    "type": "spinach",
+                    "imageLink": "not found",
+                    "amount_ounce": "2",
+                    "amount_per_100_gramm": 0.8,
+                    "Calcium": {
+                        "value": 99.0,
+                        "unit": "mg"
+                    },
+                    "Iron": {
+                        "value": 2.71,
+                        "unit": "mg"
+                    },
+                    "Magnesium": {
+                        "value": 79.0,
+                        "unit": "mg"
+                    },
+                    "Potassium": {
+                        "value": 558.0,
+                        "unit": "mg"
+                    },
+                    "Zinc": {
+                        "value": 0.53,
+                        "unit": "mg"
+                    },
+                    "Selenium": {
+                        "value": 1.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin C": {
+                        "value": 28.1,
+                        "unit": "mg"
+                    },
+                    "Vitamin B12": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin A": {
+                        "value": 469.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin E": {
+                        "value": 2.03,
+                        "unit": "mg"
+                    },
+                    "Vitamin D": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin K": {
+                        "value": 482.9,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin B6": {
+                        "value": 0.2,
+                        "unit": "mg"
+                    },
+                    "Vitamin B9": {
+                        "value": 194.0,
+                        "unit": "mcg"
+                    }
+                },
+                {
+                    "name": "jasmine_rice",
+                    "type": "jasmine-rice",
+                    "imageLink": "not found",
+                    "amount_cup": "0.5",
+                    "amount_per_100_gramm": 1.0,
+                    "Calcium": {
+                        "value": 10.0,
+                        "unit": "mg"
+                    },
+                    "Iron": {
+                        "value": 1.19,
+                        "unit": "mg"
+                    },
+                    "Magnesium": {
+                        "value": 12.0,
+                        "unit": "mg"
+                    },
+                    "Potassium": {
+                        "value": 35.0,
+                        "unit": "mg"
+                    },
+                    "Zinc": {
+                        "value": 0.49,
+                        "unit": "mg"
+                    },
+                    "Selenium": {
+                        "value": 7.5,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin A": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin E": {
+                        "value": 0.04,
+                        "unit": "mg"
+                    },
+                    "Vitamin D": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin C": {
+                        "value": 0.0,
+                        "unit": "mg"
+                    },
+                    "Vitamin B12": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin K": {
+                        "value": 0.0,
+                        "unit": "\u00b5g"
+                    },
+                    "Vitamin B6": {
+                        "value": 0.0,
+                        "unit": "mg"
+                    },
+                    "Vitamin B9": {
+                        "value": 0.0,
+                        "unit": "mcg"
+                    }
+                }
+            ]
+        }
+    }
+]
