@@ -208,7 +208,7 @@ export default {
                 this.nutrientSums.vitaminA += recipe.recipe.nutrition["Vitamin A"].value || 1; // todo change
                 this.nutrientSums.vitaminK += recipe.recipe.nutrition["Vitamin K"].value || 1; // todo change
                 this.nutrientSums.iron += recipe.recipe.nutrition["Iron"].value || 1; // todo change
-                this.nutrientSums.zink += recipe.recipe.nutrition["Calcium"].value || 1; // todo change
+                this.nutrientSums.calcium += recipe.recipe.nutrition["Calcium"].value || 1; // todo change
                 // Add other nutrients as needed
             });
         },
@@ -231,11 +231,11 @@ export default {
         },
         calculateFulfillmentPercentage() {
             // Replace these values with your expected daily consumption
-            const expectedVitaminC = 400*3; // Example value in mcg daily
-            const expectedVitaminA = 2.4*3; // Example value in mcg
+            const expectedVitaminC = 90*3; // Example value in mg daily
+            const expectedVitaminA = 900*3; // Example value in mcg
             const expectedVitaminK = 120*3; // Example value in mcg
             const expectedIron = 8*3; // Example value in mg
-            const expectedCalcium = 11*3; // Example value in mg
+            const expectedCalcium = 1000*3; // Example value in mg
 
             const percentageVitaminC = ((this.nutrientSums.vitaminC*0.5) / expectedVitaminC) * 100;//0.5 because 2 servings
             const precentageVitaminA = ((this.nutrientSums.vitaminA*0.5) / expectedVitaminA) * 100;
