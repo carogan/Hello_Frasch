@@ -818,9 +818,11 @@
     "startDate": "1/1/2019",
     "endDate": "12/31/2020",
     "wweiaFoodCategory": {
-        "wweiaFoodCategoryDescription": "Olives, pickles, pickled vegetables",
-        "wweiaFoodCategoryCode": 2650903
+        "wweiaFoodCategoryCode": 2650903,
+        "wweiaFoodCategoryDescription": "Olives, pickles, pickled vegetables"
     },
+    "fdcId": 2345616,
+    "dataType": "Survey (FNDDS)",
     "foodPortions": [
         {
             "id": 286947,
@@ -873,7 +875,5 @@
             "amount": 100,
             "sequenceNumber": 1
         }
-    ],
-    "dataType": "Survey (FNDDS)",
-    "fdcId": 2345616
+    ]
 }

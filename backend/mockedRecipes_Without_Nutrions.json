@@ -615,7 +615,7 @@
                   "name": "brioche_buns",
                   "type": "brioche_buns",
                   "imageLink": "not found",
-                  "amount_grams": "170"
+                  "amount_gram": "170"
                 }
               ]
             }

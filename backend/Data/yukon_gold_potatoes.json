@@ -1,0 +1,455 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2500352,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2251779,
+    "description": "YUKON GOLD POTATOES",
+    "publicationDate": "4/1/2022",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27655075,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655067,
+            "amount": 17.57
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655065,
+            "amount": 2.03
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655071,
+            "amount": 14.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655070,
+            "amount": 1.4
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27655078,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655072,
+            "amount": 0.73
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655073,
+            "amount": 419.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655079,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27655066,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1175,
+                "number": "415",
+                "name": "Vitamin B-6",
+                "rank": 6800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655077,
+            "amount": 0.135
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27655074,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655068,
+            "amount": 74.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655069,
+            "amount": 0.68
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1162,
+                "number": "401",
+                "name": "Vitamin C, total ascorbic acid",
+                "rank": 6300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 27655076,
+            "amount": 18.2
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 27655080,
+            "amount": 0.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "shortDescription": "",
+    "modifiedDate": "7/28/2020",
+    "availableDate": "7/28/2020",
+    "brandOwner": "Nash Finch Company",
+    "brandName": "OPEN ACRES",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+    "gtinUpc": "884853630290",
+    "householdServingFullText": "5.3 ONZ",
+    "ingredients": "GOLD POTATOES",
+    "marketCountry": "United States",
+    "servingSize": 148.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "5 lbs/2.27 kg",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2251779,
+            "description": "YUKON GOLD POTATOES",
+            "publicationDate": "4/1/2022",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "shortDescription": "",
+            "modifiedDate": "7/28/2020",
+            "availableDate": "7/28/2020",
+            "brandOwner": "Nash Finch Company",
+            "brandName": "OPEN ACRES",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+            "gtinUpc": "884853630290",
+            "householdServingFullText": "5.3 ONZ",
+            "ingredients": "GOLD POTATOES",
+            "marketCountry": "United States",
+            "servingSize": 148.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "5 lbs/2.27 kg"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2140991,
+            "description": "YUKON GOLD POTATOES",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/28/2020",
+            "availableDate": "7/28/2020",
+            "brandOwner": "Nash Finch Company",
+            "brandName": "OPEN ACRES",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+            "gtinUpc": "884853630290",
+            "ingredients": "GOLD POTATOES",
+            "marketCountry": "United States",
+            "servingSize": 148.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "5 lbs"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1692312,
+            "description": "YUKON GOLD POTATOES",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/28/2020",
+            "availableDate": "7/28/2020",
+            "brandOwner": "Nash Finch Company",
+            "brandName": "OPEN ACRES",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+            "gtinUpc": "884853630290",
+            "ingredients": "GOLD POTATOES",
+            "marketCountry": "United States",
+            "servingSize": 148.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1400047,
+            "description": "YUKON GOLD POTATOES",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "7/28/2020",
+            "availableDate": "7/28/2020",
+            "brandOwner": "Nash Finch Company",
+            "brandName": "OPEN ACRES",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+            "gtinUpc": "884853630290",
+            "ingredients": "GOLD POTATOES",
+            "marketCountry": "United States",
+            "servingSize": 148.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 802019,
+            "description": "YUKON GOLD POTATOES",
+            "publicationDate": "4/1/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "2/26/2020",
+            "availableDate": "2/26/2020",
+            "brandOwner": "Nash Finch Company",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Pre-Packaged Fruit & Vegetables",
+            "gtinUpc": "884853630290",
+            "householdServingFullText": "5.3 ONZ",
+            "ingredients": "GOLD POTATOES",
+            "marketCountry": "United States",
+            "servingSize": 148.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 0.0
+        },
+        "carbohydrates": {
+            "value": 26.0
+        },
+        "fiber": {
+            "value": 2.07
+        },
+        "sugars": {
+            "value": 1.01
+        },
+        "protein": {
+            "value": 3.0
+        },
+        "calcium": {
+            "value": 20.7
+        },
+        "iron": {
+            "value": 1.08
+        },
+        "potassium": {
+            "value": 620
+        },
+        "calories": {
+            "value": 110
+        }
+    }
+}

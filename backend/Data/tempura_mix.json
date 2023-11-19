@@ -1,0 +1,240 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 2230455,
+            "value": 9,
+            "name": "Added Package Weight"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 2034431,
+    "description": "TEMPURA SEAFOOD BATTER MIX, TEMPURA",
+    "publicationDate": "10/28/2021",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25637142,
+            "amount": 7.14
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 25637143,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25637147,
+            "amount": 536.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 25637146,
+            "amount": 1.29
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25637145,
+            "amount": 357.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 25637144,
+            "amount": 78.57
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "12/1/2020",
+    "availableDate": "12/1/2020",
+    "brandOwner": "McCormick & Company, Inc.",
+    "brandName": "MCCORMICK",
+    "subbrandName": "GOLDEN DIPT",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Bread & Muffin Mixes",
+    "gtinUpc": "041234701325",
+    "ingredients": "ENRICHED WHEAT FLOUR (FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, AND FOLIC ACID), RICE FLOUR, CORN STARCH, AND LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, AND MONOCALCIUM PHOSPHATE).",
+    "marketCountry": "United States",
+    "servingSize": 28.0,
+    "servingSizeUnit": "g",
+    "packageWeight": "8 oz/226 g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 2034431,
+            "description": "TEMPURA SEAFOOD BATTER MIX, TEMPURA",
+            "publicationDate": "10/28/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "subbrandName": "GOLDEN DIPT",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Bread & Muffin Mixes",
+            "gtinUpc": "041234701325",
+            "ingredients": "ENRICHED WHEAT FLOUR (FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, AND FOLIC ACID), RICE FLOUR, CORN STARCH, AND LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, AND MONOCALCIUM PHOSPHATE).",
+            "marketCountry": "United States",
+            "servingSize": 28.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "8 oz/226 g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1504775,
+            "description": "TEMPURA SEAFOOD BATTER MIX, TEMPURA",
+            "publicationDate": "3/19/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Bread & Muffin Mixes",
+            "gtinUpc": "041234701325",
+            "ingredients": "ENRICHED WHEAT FLOUR (FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, AND FOLIC ACID), RICE FLOUR, CORN STARCH, AND LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, AND MONOCALCIUM PHOSPHATE).",
+            "marketCountry": "United States",
+            "servingSize": 28.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1212719,
+            "description": "TEMPURA SEAFOOD BATTER MIX, TEMPURA",
+            "publicationDate": "2/26/2021",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "12/1/2020",
+            "availableDate": "12/1/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "brandName": "MCCORMICK",
+            "subbrandName": "",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Bread & Muffin Mixes",
+            "gtinUpc": "041234701325",
+            "ingredients": "ENRICHED WHEAT FLOUR (FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, AND FOLIC ACID), RICE FLOUR, CORN STARCH, AND LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, AND MONOCALCIUM PHOSPHATE).",
+            "marketCountry": "United States",
+            "servingSize": 28.0,
+            "servingSizeUnit": "g",
+            "packageWeight": "",
+            "notaSignificantSourceOf": ""
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1140264,
+            "description": "TEMPURA SEAFOOD BATTER MIX, TEMPURA",
+            "publicationDate": "11/30/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "10/12/2020",
+            "availableDate": "10/12/2020",
+            "brandOwner": "McCormick & Company, Inc.",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Bread & Muffin Mixes",
+            "gtinUpc": "041234701325",
+            "ingredients": "ENRICHED WHEAT FLOUR (FLOUR, NIACIN, IRON, THIAMINE MONONITRATE, RIBOFLAVIN, AND FOLIC ACID), RICE FLOUR, CORN STARCH, AND LEAVENING (SODIUM ACID PYROPHOSPHATE, SODIUM BICARBONATE, AND MONOCALCIUM PHOSPHATE).",
+            "marketCountry": "United States",
+            "servingSize": 28.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 150
+        },
+        "carbohydrates": {
+            "value": 22.0
+        },
+        "protein": {
+            "value": 2.0
+        },
+        "iron": {
+            "value": 0.361
+        },
+        "calories": {
+            "value": 100
+        }
+    }
+}

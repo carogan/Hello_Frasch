@@ -1,0 +1,374 @@
+{
+    "discontinuedDate": "",
+    "foodComponents": [],
+    "foodAttributes": [
+        {
+            "id": 1038818,
+            "value": 5,
+            "name": "Nutrient Added"
+        },
+        {
+            "id": 1038819,
+            "value": 4,
+            "name": "Nutrient Updated"
+        }
+    ],
+    "foodPortions": [],
+    "fdcId": 1124666,
+    "description": "BRIOCHE BUNS",
+    "publicationDate": "11/13/2020",
+    "foodNutrients": [
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 2000,
+                "number": "269",
+                "name": "Sugars, total including NLEA",
+                "rank": 1510,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636977,
+            "amount": 12.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1257,
+                "number": "605",
+                "name": "Fatty acids, total trans",
+                "rank": 15400,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636986,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1003,
+                "number": "203",
+                "name": "Protein",
+                "rank": 600,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636973,
+            "amount": 10.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1235,
+                "number": "539",
+                "name": "Sugars, added",
+                "rank": 1540,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636984,
+            "amount": 6.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1005,
+                "number": "205",
+                "name": "Carbohydrate, by difference",
+                "rank": 1110,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636975,
+            "amount": 52.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1253,
+                "number": "601",
+                "name": "Cholesterol",
+                "rank": 15700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636985,
+            "amount": 40.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1008,
+                "number": "208",
+                "name": "Energy",
+                "rank": 300,
+                "unitName": "kcal"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636976,
+            "amount": 320.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1079,
+                "number": "291",
+                "name": "Fiber, total dietary",
+                "rank": 1200,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636978,
+            "amount": 2.8
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1004,
+                "number": "204",
+                "name": "Total lipid (fat)",
+                "rank": 800,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636974,
+            "amount": 7.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1087,
+                "number": "301",
+                "name": "Calcium, Ca",
+                "rank": 5300,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636979,
+            "amount": 40.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1258,
+                "number": "606",
+                "name": "Fatty acids, total saturated",
+                "rank": 9700,
+                "unitName": "g"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636987,
+            "amount": 2.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1110,
+                "number": "324",
+                "name": "Vitamin D (D2 + D3), International Units",
+                "rank": 8650,
+                "unitName": "IU"
+            },
+            "foodNutrientDerivation": {
+                "id": 75,
+                "code": "LCCD",
+                "description": "Calculated from a daily value percentage per serving size measure"
+            },
+            "id": 13636983,
+            "amount": 0.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1093,
+                "number": "307",
+                "name": "Sodium, Na",
+                "rank": 5800,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636982,
+            "amount": 480.0
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1089,
+                "number": "303",
+                "name": "Iron, Fe",
+                "rank": 5400,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636980,
+            "amount": 0.8
+        },
+        {
+            "type": "FoodNutrient",
+            "nutrient": {
+                "id": 1092,
+                "number": "306",
+                "name": "Potassium, K",
+                "rank": 5700,
+                "unitName": "mg"
+            },
+            "foodNutrientDerivation": {
+                "id": 70,
+                "code": "LCCS",
+                "description": "Calculated from value per serving size measure"
+            },
+            "id": 13636981,
+            "amount": 130.0
+        }
+    ],
+    "dataType": "Branded",
+    "foodClass": "Branded",
+    "modifiedDate": "4/8/2020",
+    "availableDate": "4/8/2020",
+    "brandOwner": "SPECIALLY SELECTED",
+    "dataSource": "LI",
+    "brandedFoodCategory": "Breads & Buns",
+    "gtinUpc": "4099100061758",
+    "ingredients": "WHEAT FLOUR, FRESH WHOLE EGGS, WATER, SUGAR, RAPESEED VEGETABLE OIL, INVERT SUGAR SYRUP YEAST, BUTTER, SKIM MILK POWDER, SALT, WHEAT GLUTEN, NATURAL FLAVORING, EMULSIFIER (MONO AND DIGLYCERIDES OF FATTY ACIDS), MILK PROTEIN, DEACTIVATED YEAST, MALTED RYE FLOUR, COLOR (BETA CAROTENE).",
+    "marketCountry": "United States",
+    "servingSize": 50.0,
+    "servingSizeUnit": "g",
+    "foodUpdateLog": [
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 1124666,
+            "description": "BRIOCHE BUNS",
+            "publicationDate": "11/13/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "SPECIALLY SELECTED",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "4099100061758",
+            "ingredients": "WHEAT FLOUR, FRESH WHOLE EGGS, WATER, SUGAR, RAPESEED VEGETABLE OIL, INVERT SUGAR SYRUP YEAST, BUTTER, SKIM MILK POWDER, SALT, WHEAT GLUTEN, NATURAL FLAVORING, EMULSIFIER (MONO AND DIGLYCERIDES OF FATTY ACIDS), MILK PROTEIN, DEACTIVATED YEAST, MALTED RYE FLOUR, COLOR (BETA CAROTENE).",
+            "marketCountry": "United States",
+            "servingSize": 50.0,
+            "servingSizeUnit": "g"
+        },
+        {
+            "discontinuedDate": "",
+            "foodAttributes": [],
+            "fdcId": 906572,
+            "description": "BRIOCHE BUNS",
+            "publicationDate": "5/28/2020",
+            "dataType": "Branded",
+            "foodClass": "Branded",
+            "modifiedDate": "4/8/2020",
+            "availableDate": "4/8/2020",
+            "brandOwner": "SPECIALLY SELECTED",
+            "dataSource": "LI",
+            "brandedFoodCategory": "Breads & Buns",
+            "gtinUpc": "4099100061758",
+            "householdServingFullText": "1 BURGER BUN",
+            "ingredients": "WHEAT FLOUR, FRESH WHOLE EGGS, WATER, SUGAR, RAPESEED VEGETABLE OIL, INVERT SUGAR SYRUP YEAST, BUTTER, SKIM MILK POWDER, SALT, WHEAT GLUTEN, NATURAL FLAVORING, EMULSIFIER (MONO AND DIGLYCERIDES OF FATTY ACIDS), MILK PROTEIN, DEACTIVATED YEAST, MALTED RYE FLOUR, COLOR (BETA CAROTENE).",
+            "marketCountry": "United States",
+            "servingSize": 50.0,
+            "servingSizeUnit": "g"
+        }
+    ],
+    "labelNutrients": {
+        "fat": {
+            "value": 3.5
+        },
+        "saturatedFat": {
+            "value": 1.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 20.0
+        },
+        "sodium": {
+            "value": 240
+        },
+        "carbohydrates": {
+            "value": 26.0
+        },
+        "fiber": {
+            "value": 1.4
+        },
+        "sugars": {
+            "value": 6.0
+        },
+        "protein": {
+            "value": 5.0
+        },
+        "calcium": {
+            "value": 20.0
+        },
+        "iron": {
+            "value": 0.4
+        },
+        "potassium": {
+            "value": 65.0
+        },
+        "addedSugar": {
+            "value": 3.0
+        },
+        "calories": {
+            "value": 160
+        }
+    }
+}
