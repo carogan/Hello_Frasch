@@ -15,9 +15,10 @@
 
 ## HelloFresh Pitch
 
-- Hook: general well-being, immune system
-- Complete and balanced nutrition is important but hard -> who knows where to get Vitamin K from?
-- products like Hello Fresh are here to help and we want to build on them tackle nutrition at its core
+- Hook: Health is complicated, its difficult but its paramount
+- We set out to not only improve the UX but to improve you, the user, in the process and help you lead a healthy and happy live
+- How do we achieve that: As mentioned watching your nutrition is important but tedious -> who knows where to get Vitamin K from?
+- products like Hello Fresh are here to help you with the tedious task of feeding yourself and we want to build on them tackle nutrition at its core
 - Micro nutrients
 - Some examples what vitamin K and B9 are useful for
 - Go into Live demo:
@@ -27,6 +28,6 @@
 - Values are parsed from US Department of Agriculture -> legit bro
 - Scale Up Potential
 - Inferral of dietary preferences based on what meals are declined->based on that a recommended substitution those ingredients to maintain balanced micro nutrient levels
-- Started development, but based on limited recipes currently available the resulting suggestions were pretty disgusting
+- Started development, but based on limited recipes currently available the resulting suggestions were pretty non-traditional
   
-- In a nutshell: HelloFresh, implement this feature or we all die
+- Thank you for you attention we were 
