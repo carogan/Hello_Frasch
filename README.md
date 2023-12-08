@@ -1,5 +1,8 @@
 # Hello Frasch
 
+![grafik](https://github.com/RobinFrasch/Hello_Frasch/assets/104059821/54c49e6b-4c4e-44b8-ae1f-18f04c943e16)
+
+
 ## HelloFresh Pitch
 
 - Hook: Health is complicated, its difficult but its paramount
